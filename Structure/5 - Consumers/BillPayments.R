@@ -639,7 +639,7 @@ BillPayments <- function(input, output, session) {
             y = `Prepayment`,
             label = ifelse(Year == max(Year), percent(`Prepayment`, accuracy = 1), ""),
             hjust = 0.5,
-            vjust = 1,
+            vjust = .5,
             fontface = 2
           ),
           colour = ChartColours[2],
@@ -689,7 +689,7 @@ BillPayments <- function(input, output, session) {
             y = `Credit`,
             label = ifelse(Year == max(Year), percent(`Credit`, accuracy = 1), ""),
             hjust = 0.5,
-            vjust = -0.2,
+            vjust = .5,
             fontface = 2
           ),
           colour = ChartColours[3],
