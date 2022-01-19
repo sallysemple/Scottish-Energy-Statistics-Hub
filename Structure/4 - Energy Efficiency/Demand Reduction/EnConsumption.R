@@ -1258,7 +1258,7 @@ EnergyConsumption <- function(input, output, session) {
   EnConsumptionLA <- read_csv("Processed Data/Output/Consumption/TotalFinalConsumption.csv")
   
   if(ExcludeMostRecentYear == 1){
-    EnConsumptionLA <- EnConsumptionLA[which(EnConsumptionLA$Year < max(Data$Year)),]
+    EnConsumptionLA <- EnConsumptionLA[which(EnConsumptionLA$Year < max(EnConsumptionLA$Year)),]
   }
   
   Year <- max(EnConsumptionLA$Year)
