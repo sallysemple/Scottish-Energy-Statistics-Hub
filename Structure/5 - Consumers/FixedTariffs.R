@@ -67,7 +67,7 @@ FixedTariffsOutput <- function(id) {
     fluidRow(
       column(2, HTML("<p><strong>Last Updated:</strong></p>")),
       column(2,
-             UpdatedLookup(c("BEISPaymentMethodElec", "BEISPaymentMethodGas"))),
+             UpdatedLookup(c("BEISRegionalPaymentMethodElec", "BEISRegionalPaymentMethodGas"))),
       column(1, align = "right",
              HTML("<p><strong>Reason:</strong></p>")),
       column(7, align = "right", 
@@ -77,12 +77,12 @@ FixedTariffsOutput <- function(id) {
     fluidRow(
       column(2, HTML("<p><strong>Update Expected:</strong></p>")),
       column(2,
-             DateLookup(c("BEISPaymentMethodElec", "BEISPaymentMethodGas"))),
+             DateLookup(c("BEISRegionalPaymentMethodElec", "BEISRegionalPaymentMethodGas"))),
       column(1, align = "right",
              HTML("<p><strong>Sources:</strong></p>")),
       column(7, align = "right",
-        SourceLookup("BEISPaymentMethodElec"),
-        SourceLookup("BEISPaymentMethodGas")
+        SourceLookup("BEISRegionalPaymentMethodElec"),
+        SourceLookup("BEISRegionalPaymentMethodGas")
         
       )
     )
@@ -105,8 +105,7 @@ FixedTariffs <- function(input, output, session) {
   
   output$ElecPaymentsSubtitle <- renderText({
     
-    Data <- read_delim("Processed Data/Output/Energy Bills/FixedTariffElectricity.txt", 
-                       "\t", escape_double = FALSE, trim_ws = TRUE)
+    Data <- read_csv("Processed Data/Output/Energy Bills/ElectricityFixedTariff.csv")
     
     
     
@@ -123,8 +122,7 @@ FixedTariffs <- function(input, output, session) {
   })
   
   output$ElecPaymentsPlot <- renderPlotly  ({
-    Data <- read_delim("Processed Data/Output/Energy Bills/FixedTariffElectricity.txt", 
-                       "\t", escape_double = FALSE, trim_ws = TRUE)
+    Data <- read_csv("Processed Data/Output/Energy Bills/ElectricityFixedTariff.csv")
     
     
     
@@ -278,17 +276,22 @@ FixedTariffs <- function(input, output, session) {
   
   
   output$ElecPaymentsTable = renderDataTable({
-    Data  <- read_delim("Processed Data/Output/Energy Bills/FixedTariffElectricity.txt", 
-                                                 "\t", escape_double = FALSE, trim_ws = TRUE)
+    Data <- read_csv("Processed Data/Output/Energy Bills/ElectricityFixedTariff.csv")
+    
     Data$Quarter <- ymd(Data$Quarter)
     
     Data$Quarter <- as.yearqtr(Data$Quarter)
     
     Data$Quarter <- format(Data$Quarter, "%Y Q%q")
-    ElecPayments <- Data
+    ElecPayments <- select(Data,
+                          Quarter,
+                          "North Scotland",
+                          "South Scotland",
+                          "Great Britain"
+    )
     
     datatable(
-      ElecPayments[c(1,3,4,2)],
+      ElecPayments,
       extensions = 'Buttons',
      # container = sketch,
       rownames = FALSE,
@@ -566,10 +569,9 @@ FixedTariffs <- function(input, output, session) {
   output$ElecPayments.png <- downloadHandler(
     filename = "ElecPayments.png",
     content = function(file) {
-      ElectricityBillPaymentMethods  <- read_delim("Processed Data/Output/Energy Bills/FixedTariffElectricity.txt", 
-                                                   "\t", escape_double = FALSE, trim_ws = TRUE)
+      ElectricityBillPaymentMethods <- read_csv("Processed Data/Output/Energy Bills/ElectricityFixedTariff.csv")
       
-      names(ElectricityBillPaymentMethods) <- c("Year", "North Scotland", "South Scotland", "Great Britain")
+      names(ElectricityBillPaymentMethods)[1] <- "Year"
       
       ElectricityBillPaymentMethods$Year <- ymd(ElectricityBillPaymentMethods$Year)
       
