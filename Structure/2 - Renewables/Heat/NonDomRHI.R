@@ -586,7 +586,7 @@ NonDomRHI <- function(input, output, session) {
   })
   
   output$SubtitleYearText2 <- renderUI({
-    column(10, h3(paste("Number of full accreditations on/off the gas grid by aggregated rural/urban classification, Non-domestic -", "November 2011 to December 2020") , style = "color: #39ab2c;  font-weight:bold"))
+    column(10, h3(paste("Number of full accreditations on/off the gas grid by aggregated rural/urban classification, Non-domestic -", "November 2011 to December 2021") , style = "color: #39ab2c;  font-weight:bold"))
     
   })
   
@@ -606,17 +606,17 @@ NonDomRHI <- function(input, output, session) {
         searching = TRUE,
         fixedColumns = FALSE,
         autoWidth = TRUE,
-        title = paste("Number of full accreditations on/off the gas grid by aggregated rural/urban classification, Non-domestic,", "November 2011 to December 2020"),
+        title = paste("Number of full accreditations on/off the gas grid by aggregated rural/urban classification, Non-domestic,", "November 2011 to December 2021"),
         dom = 'ltBp',
         buttons = list(
           list(extend = 'copy'),
           list(
             extend = 'excel',
-            title = paste("Number of full accreditations on/off the gas grid by aggregated rural/urban classification, Non-domestic", "November 2011 to December 2020"),
+            title = paste("Number of full accreditations on/off the gas grid by aggregated rural/urban classification, Non-domestic", "November 2011 to December 2021"),
             header = TRUE
           ),
           list(extend = 'csv',
-               title = paste("Number of full accreditations on/off the gas grid by aggregated rural/urban classification, Non-domestic", "November 2011 to December 2020"))
+               title = paste("Number of full accreditations on/off the gas grid by aggregated rural/urban classification, Non-domestic", "November 2011 to December 2021"))
         ),
         
         # customize the length menu
@@ -1037,7 +1037,7 @@ output$NonDomRHIInstallationCap.png <- downloadHandler(
 
 output$NonDomRHIUrbanRuralSubtitle <- renderText({
   
-  paste("Scotland,","November 2011 to December 2020")
+  paste("Scotland,","November 2011 to December 2021")
 })
 
 output$NonDomRHIUrbanRuralPlot <- renderPlotly  ({
@@ -1282,7 +1282,7 @@ output$NonDomRHIUrbanRural.png <- downloadHandler(
     
     DataChart <-
       DataChart +
-      labs(subtitle = paste("Scotland, November 2011 to December 2020")) 
+      labs(subtitle = paste("Scotland, November 2011 to December 2021")) 
     
     DataChart
     
