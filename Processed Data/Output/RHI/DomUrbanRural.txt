@@ -1,5 +1,6 @@
 "Tech"	"Urban On-grid"	"Urban off-grid"	"Rural On-grid"	"Rural off-grid"	"Total Urban"	"Total Rural"	"Total on-grid"	"Total off-grid"	"Total"
-"Ground source heat pump"	81	12	1431	1570	93	3001	1512	1582	3094
-"Biomass systems"	126	67	3235	3522	193	6757	3361	3589	6950
-"Solar thermal"	298	47	784	918	345	1702	1082	965	2047
-"Total"	1260	778	15045	16250	2038	31295	16305	17028	33333
+"Air source heat pump"	755	652	645	9595	1407	10240	1400	10247	11647
+"Ground source heat pump"	81	12	139	1431	93	1570	220	1443	1663
+"Biomass systems"	126	67	287	3235	193	3522	413	3302	3715
+"Solar thermal"	298	47	134	784	345	918	432	831	1263
+"Total"	1260	778	1205	15045	2038	16250	2465	15823	18288
