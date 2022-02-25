@@ -147,7 +147,7 @@ DomesticRHI <- function(input, output, session) {
   
   output$DomesticRHISubtitle <- renderText({
     
-    paste("Scotland, Apr 2014 - June 2021")
+    paste("Scotland, Apr 2014 - January 2022")
   })
   
   output$DomesticRHIPlot <- renderPlotly  ({
