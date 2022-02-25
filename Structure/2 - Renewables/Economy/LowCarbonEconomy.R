@@ -351,17 +351,17 @@ LowCarbonEconomy <- function(input, output, session) {
           fixedColumns = FALSE,
           autoWidth = TRUE,
           ordering = TRUE,
-          title = "Turnover directly supported by the LCRE sector (\u00A3m)",
+          title = "Turnover directly supported by the LCRE sector (\u00A3bn)",
           dom = 'ltBp',
           buttons = list(
             list(extend = 'copy'),
             list(
               extend = 'excel',
-              title = 'Turnover directly supported by the LCRE sector (\u00A3m)',
+              title = 'Turnover directly supported by the LCRE sector (\u00A3bn)',
               header = TRUE
             ),
             list(extend = 'csv',
-                 title = 'Turnover directly supported by the LCRE sector (\u00A3m)')
+                 title = 'Turnover directly supported by the LCRE sector (\u00A3bn)')
           ),
           
           # customize the length menu
