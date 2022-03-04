@@ -57,7 +57,7 @@ DailyDemandOutput <- function(id) {
     ),
     tags$hr(style = "height:3px;border:none;color:;background-color:#5d8be1;"),
     fluidRow(
-    column(10, h3("Data - 12 month rolling average.", style = "color: #5d8be1;  font-weight:bold")),
+    column(10, h3("Data - Daily Demand - 12 month rolling average.", style = "color: #5d8be1;  font-weight:bold")),
     column(2, style = "padding:15px",  actionButton(ns("ToggleTable"), "Show/Hide Table", style = "float:right; "))
     ),
     fluidRow(

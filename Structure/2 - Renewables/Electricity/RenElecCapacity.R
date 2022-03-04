@@ -374,7 +374,7 @@ RenElecCapacity <- function(input, output, session) {
         pageLength = 10
       )
     ) %>%
-      formatRound(2:ncol(RenElecCapFuel), 0) %>% 
+      formatRound(2:ncol(Data), 0) %>% 
       formatStyle(10, fontWeight = "bold")
   })
   
