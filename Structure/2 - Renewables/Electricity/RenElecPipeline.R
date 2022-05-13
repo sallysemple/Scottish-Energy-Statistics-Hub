@@ -18,7 +18,7 @@ RenElecPipelineOutput <- function(id) {
              ),
              column(
                4, style = 'padding:15px;',
-               downloadButton(ns('RenElecPipelineCap.png'), 'Download Graph', style="float:right")
+               downloadButton(ns('RenElecPipelineCap.svg'), 'Download Graph', style="float:right")
              )),
              
              tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"),
@@ -33,7 +33,7 @@ RenElecPipelineOutput <- function(id) {
              ),
              column(
                4, style = 'padding:15px;',
-               downloadButton(ns('RenElecPipeline.png'), 'Download Graph', style="float:right")
+               downloadButton(ns('RenElecPipeline.svg'), 'Download Graph', style="float:right")
              )),
              
              tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"),
@@ -447,8 +447,8 @@ RenElecPipeline <- function(input, output, session) {
   
   
   
-  output$RenElecPipeline.png <- downloadHandler(
-    filename = "RenElecPipeline.png",
+  output$RenElecPipeline.svg <- downloadHandler(
+    filename = "RenElecPipeline.svg",
     content = function(file) {
       
       RenElecPipeline <- read_csv("Processed Data/Output/REPD (Operational Corrections)/PipelineTimeSeries.csv")
@@ -726,8 +726,8 @@ RenElecPipeline <- function(input, output, session) {
     paste("Scotland,", RenElecPipeline$Quarter)
   })
   
-  output$RenElecPipelineCap.png <- downloadHandler(
-    filename = "RenElecPipelineCap.png",
+  output$RenElecPipelineCap.svg <- downloadHandler(
+    filename = "RenElecPipelineCap.svg",
     content = function(file) {
       
       RenElecPipeline <- read_csv("Processed Data/Output/REPD (Operational Corrections)/PipelineTimeSeries.csv")

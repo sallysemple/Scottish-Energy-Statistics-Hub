@@ -40,14 +40,14 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-height="1001"
      id="namedview76"
      showgrid="false"
      inkscape:zoom="1.34056"
-     inkscape:cx="390.0624"
+     inkscape:cx="264.36866"
      inkscape:cy="149.94139"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg74"
      fit-margin-top="5"
@@ -99,7 +99,10 @@
      clip-path="url(#cpOC4yMnw2MTguMTR8MjQ1LjIyfDQ0Ljk3)"
      id="line53"
      inkscape:connector-curvature="0"
-     transform="matrix(0.63850468,0,0,1,-0.24825942,24.043761)" />
+     transform="matrix(0.63850468,0,0,1,-0.24825942,24.043761)"
+     inkscape:export-filename="C:\Users\Energy Stats\Documents\Github\Scottish-Energy-Statistics-Hub\Structure\5 - Consumers\GasNonHomeOutput.png"
+     inkscape:export-xdpi="198.823"
+     inkscape:export-ydpi="198.823" />
   <defs
      id="defs60">
     <clipPath
@@ -127,7 +130,7 @@
          y="-218.56583"
          style="fill:#68c3ea;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
        id="flowPara907-9"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#68c3ea;fill-opacity:1">Scotland, 2010 Q1 - 2021 Q3</flowPara></flowRoot>  <flowRoot
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#68c3ea;fill-opacity:1">Scotland, 2010 Q1 - 2021 Q4</flowPara></flowRoot>  <flowRoot
      xml:space="preserve"
      id="flowRoot901-8-4"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#68c3ea;fill-opacity:1;stroke:none"
@@ -147,7 +150,10 @@
      clip-path="url(#cpOC4yMnw2MTguMTR8MjQ1LjIyfDQ0Ljk3-1)"
      id="line53-3"
      inkscape:connector-curvature="0"
-     transform="matrix(0.63850468,0,0,1,-0.24825942,351.74396)" />
+     transform="matrix(0.63850468,0,0,1,-0.24825942,351.74396)"
+     inkscape:export-filename="C:\Users\Energy Stats\Documents\Github\Scottish-Energy-Statistics-Hub\Structure\5 - Consumers\GasNonHomeOutput.png"
+     inkscape:export-xdpi="198.823"
+     inkscape:export-ydpi="198.823" />
   <flowRoot
      xml:space="preserve"
      id="flowRoot1106"
@@ -314,7 +320,7 @@
              y="133.94826"
              style="fill:#68c3ea;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
            id="flowPara2599-1"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';fill:#68c3ea;fill-opacity:1">2021 Q3</flowPara></flowRoot>    </g>
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';fill:#68c3ea;fill-opacity:1">2021 Q4</flowPara></flowRoot>    </g>
     <g
        inkscape:export-ydpi="195.7464"
        inkscape:export-xdpi="195.7464"
@@ -354,7 +360,7 @@
            id="flowPara2599-0-8"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-align:center;text-anchor:middle;fill:#00aa00;fill-opacity:1">North Scotland</flowPara><flowPara
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-align:center;text-anchor:middle;fill:#00aa00;fill-opacity:1"
-           id="flowPara2649-5">78%</flowPara></flowRoot>    </g>
+           id="flowPara2649-5">72%</flowPara></flowRoot>    </g>
     <g
        inkscape:export-ydpi="195.7464"
        inkscape:export-xdpi="195.7464"
@@ -394,7 +400,7 @@
            id="flowPara2599-0-05"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-align:center;text-anchor:middle;fill:#55ddff;fill-opacity:1">South Scotland</flowPara><flowPara
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-align:center;text-anchor:middle;fill:#55ddff;fill-opacity:1"
-           id="flowPara2649-59">74%</flowPara></flowRoot>    </g>
+           id="flowPara2649-59">70%</flowPara></flowRoot>    </g>
     <g
        inkscape:export-ydpi="195.7464"
        inkscape:export-xdpi="195.7464"
@@ -434,7 +440,7 @@
            id="flowPara2599-0-3"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-align:center;text-anchor:middle;fill:#c83737">Total GB</flowPara><flowPara
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-align:center;text-anchor:middle;fill:#c83737"
-           id="flowPara2649-3">74%</flowPara></flowRoot>    </g>
+           id="flowPara2649-3">71%</flowPara></flowRoot>    </g>
   </g>
   <image
      y="-13.801634"

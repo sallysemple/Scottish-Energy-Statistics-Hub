@@ -18,7 +18,7 @@ RenElecGenOutput <- function(id) {
                ),
                column(
                  4, style = 'padding:15px;',
-                 downloadButton(ns('RenElecQuarterGeneration.png'), 'Download Graph', style="float:right")
+                 downloadButton(ns('RenElecQuarterGeneration.svg'), 'Download Graph', style="float:right")
                )),
                
                tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"),
@@ -32,7 +32,7 @@ RenElecGenOutput <- function(id) {
              ),
              column(
                4, style = 'padding:15px;',
-               downloadButton(ns('RenElecFuelGen.png'), 'Download Graph', style="float:right")
+               downloadButton(ns('RenElecFuelGen.svg'), 'Download Graph', style="float:right")
              )),
              
              tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"),
@@ -46,7 +46,7 @@ RenElecGenOutput <- function(id) {
              ),
              column(
                4, style = 'padding:15px;',
-               downloadButton(ns('ScotRenGen.png'), 'Download Graph', style="float:right")
+               downloadButton(ns('ScotRenGen.svg'), 'Download Graph', style="float:right")
              )),
              
              tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"),
@@ -61,7 +61,7 @@ RenElecGenOutput <- function(id) {
              ),
              column(
                4, style = 'padding:15px;',
-               downloadButton(ns('LAGenMap.png'), 'Download Graph', style="float:right")
+               downloadButton(ns('LAGenMap.svg'), 'Download Graph', style="float:right")
              )),
              fluidRow(column(6,selectInput(ns("YearSelect"), "Year:", c(max(LARenGen$Year):min(LARenGen$Year)), selected = max(LARenGen$Year), multiple = FALSE,
                                            selectize = TRUE, width = NULL, size = NULL) ),
@@ -82,7 +82,7 @@ RenElecGenOutput <- function(id) {
              ),
              column(
                4, style = 'padding:15px;',
-               downloadButton(ns('EUComparison.png'), 'Download Graph', style="float:right")
+               downloadButton(ns('EUComparison.svg'), 'Download Graph', style="float:right")
              )),
              
              tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"),
@@ -452,8 +452,8 @@ RenElecGen <- function(input, output, session) {
     
   })
   
-  output$RenElecFuelGen.png <- downloadHandler(
-    filename = "RenElecFuelGen.png",
+  output$RenElecFuelGen.svg <- downloadHandler(
+    filename = "RenElecFuelGen.svg",
     content = function(file) {
       
       RenElecGenFuel <- read_csv("Processed Data/Output/Renewable Generation/Annual.csv")
@@ -946,8 +946,8 @@ RenElecGen <- function(input, output, session) {
   })
   
   
-  output$ScotRenGen.png <- downloadHandler(
-    filename = "ScotRenGen.png",
+  output$ScotRenGen.svg <- downloadHandler(
+    filename = "ScotRenGen.svg",
     content = function(file) {
       
       Data <- read_csv("Processed Data/Output/Renewable Generation/ScotPropofUKRenGen.csv")
@@ -1446,8 +1446,8 @@ RenElecGen <- function(input, output, session) {
   })
 
   
-  output$EUComparison.png <- downloadHandler(
-    filename = "EUComparison.png",
+  output$EUComparison.svg <- downloadHandler(
+    filename = "EUComparison.svg",
     content = function(file) {
       
       ### Load Packages and Functions
@@ -1963,8 +1963,8 @@ RenElecGen <- function(input, output, session) {
     p
   })
   
-  output$RenElecQuarterGeneration.png <- downloadHandler(
-    filename = "RenElecQuarterGeneration.png",
+  output$RenElecQuarterGeneration.svg <- downloadHandler(
+    filename = "RenElecQuarterGeneration.svg",
     content = function(file) {
       
       ### Load Packages and Functions
@@ -2303,10 +2303,10 @@ RenElecGen <- function(input, output, session) {
   })
   
   
-  output$LAGenMap.png <- downloadHandler(
-    filename = "LAGenMap.png",
+  output$LAGenMap.svg <- downloadHandler(
+    filename = "LAGenMap.svg",
     content = function(file) {
-      writePNG(readPNG("Structure/2 - Renewables/Electricity/LARenGen.png"), file) 
+      writePNG(readPNG("Structure/2 - Renewables/Electricity/LARenGen.svg"), file) 
     }
   )
   
