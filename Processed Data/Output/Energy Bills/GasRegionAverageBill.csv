@@ -44,21 +44,21 @@ Southern,2020,Prepayment,604.061653522889
 West Midlands,2020,Prepayment,581.8810808875845
 Yorkshire,2020,Prepayment,572.8356180056185
 United Kingdom,2020,Prepayment,584.7877917240767
-East Midlands,2021,Prepayment,545.4853419963007
-Eastern,2021,Prepayment,564.7362113983903
-London,2021,Prepayment,597.9782152643281
-Merseyside & North Wales,2021,Prepayment,559.1704338388946
-North East,2021,Prepayment,517.8224079301327
-North Scotland,2021,Prepayment,582.3209152205557
-North West,2021,Prepayment,547.2290383710153
-South East,2021,Prepayment,560.3184928262107
-South Scotland,2021,Prepayment,554.6611403660897
-South Wales,2021,Prepayment,572.0957664307247
-South West,2021,Prepayment,578.1344235304616
-Southern,2021,Prepayment,585.612691695191
-West Midlands,2021,Prepayment,562.008153944945
-Yorkshire,2021,Prepayment,536.5146261451254
-United Kingdom,2021,Prepayment,559.3367410147396
+East Midlands,2021,Prepayment,542
+Eastern,2021,Prepayment,555
+London,2021,Prepayment,582
+Merseyside & North Wales,2021,Prepayment,550
+North East,2021,Prepayment,523
+North Scotland,2021,Prepayment,565
+North West,2021,Prepayment,546
+South East,2021,Prepayment,557
+South Scotland,2021,Prepayment,547
+South Wales,2021,Prepayment,563
+South West,2021,Prepayment,570
+Southern,2021,Prepayment,573
+West Midlands,2021,Prepayment,553
+Yorkshire,2021,Prepayment,535
+United Kingdom,2021,Prepayment,564
 East Midlands,2018,Standard Credit,648.084601149972
 Eastern,2018,Standard Credit,659.0322900281859
 London,2018,Standard Credit,673.909331001693
@@ -104,21 +104,21 @@ Southern,2020,Standard Credit,626.7171969385029
 West Midlands,2020,Standard Credit,604.1237159934425
 Yorkshire,2020,Standard Credit,591.847287681966
 United Kingdom,2020,Standard Credit,606.2376895714575
-East Midlands,2021,Standard Credit,614.996586468614
-Eastern,2021,Standard Credit,626.9459572806564
-London,2021,Standard Credit,645.9793541779095
-Merseyside & North Wales,2021,Standard Credit,636.1214304119372
-North East,2021,Standard Credit,611.6310197402804
-North Scotland,2021,Standard Credit,634.1493625157657
-North West,2021,Standard Credit,627.0117890636357
-South East,2021,Standard Credit,634.2037341692879
-South Scotland,2021,Standard Credit,629.6493561008892
-South Wales,2021,Standard Credit,642.8099786988313
-South West,2021,Standard Credit,651.1061191371839
-Southern,2021,Standard Credit,655.3922024824302
-West Midlands,2021,Standard Credit,632.4955279157709
-Yorkshire,2021,Standard Credit,616.7981038840364
-United Kingdom,2021,Standard Credit,632.5138965400998
+East Midlands,2021,Standard Credit,588
+Eastern,2021,Standard Credit,599
+London,2021,Standard Credit,617
+Merseyside & North Wales,2021,Standard Credit,601
+North East,2021,Standard Credit,585
+North Scotland,2021,Standard Credit,601
+North West,2021,Standard Credit,598
+South East,2021,Standard Credit,607
+South Scotland,2021,Standard Credit,596
+South Wales,2021,Standard Credit,612
+South West,2021,Standard Credit,621
+Southern,2021,Standard Credit,622
+West Midlands,2021,Standard Credit,599
+Yorkshire,2021,Standard Credit,587
+United Kingdom,2021,Standard Credit,600
 East Midlands,2018,Direct Debit,567.0246185000623
 Eastern,2018,Direct Debit,577.204940939462
 London,2018,Direct Debit,606.6783421100384
@@ -164,21 +164,21 @@ Southern,2020,Direct Debit,558.9435990689879
 West Midlands,2020,Direct Debit,535.3093744227609
 Yorkshire,2020,Direct Debit,524.4377066790363
 United Kingdom,2020,Direct Debit,539.531402012427
-East Midlands,2021,Direct Debit,547.0213714529376
-Eastern,2021,Direct Debit,557.687463124344
-London,2021,Direct Debit,581.1111076252557
-Merseyside & North Wales,2021,Direct Debit,570.5201784682367
-North East,2021,Direct Debit,547.5627154715843
-North Scotland,2021,Direct Debit,570.83593402313
-North West,2021,Direct Debit,559.7134658302812
-South East,2021,Direct Debit,567.8929744024664
-South Scotland,2021,Direct Debit,572.5593772380877
-South Wales,2021,Direct Debit,573.2326651432076
-South West,2021,Direct Debit,582.5020002097135
-Southern,2021,Direct Debit,586.5457219064268
-West Midlands,2021,Direct Debit,562.6063350059254
-Yorkshire,2021,Direct Debit,548.5755036759023
-United Kingdom,2021,Direct Debit,565.0136845250264
+East Midlands,2021,Direct Debit,532
+Eastern,2021,Direct Debit,541
+London,2021,Direct Debit,564
+Merseyside & North Wales,2021,Direct Debit,549
+North East,2021,Direct Debit,532
+North Scotland,2021,Direct Debit,548
+North West,2021,Direct Debit,543
+South East,2021,Direct Debit,554
+South Scotland,2021,Direct Debit,547
+South Wales,2021,Direct Debit,557
+South West,2021,Direct Debit,565
+Southern,2021,Direct Debit,565
+West Midlands,2021,Direct Debit,544
+Yorkshire,2021,Direct Debit,533
+United Kingdom,2021,Direct Debit,550
 East Midlands,2018,Total,581.0389761348365
 Eastern,2018,Total,592.088515463284
 London,2018,Total,621.2690407668969
@@ -224,18 +224,18 @@ Southern,2020,Total,573.8421785330553
 West Midlands,2020,Total,553.6267262335479
 Yorkshire,2020,Total,542.827945904897
 United Kingdom,2020,Total,556.8859704484511
-East Midlands,2021,Total,557.1603424478494
-Eastern,2021,Total,570.2608008712261
-London,2021,Total,600.826246489753
-Merseyside & North Wales,2021,Total,578.1688595854746
-North East,2021,Total,551.577722366577
-North Scotland,2021,Total,583.299193887856
-North West,2021,Total,567.6824066579826
-South East,2021,Total,577.3006341565963
-South Scotland,2021,Total,578.5108325155629
-South Wales,2021,Total,584.0516464266153
-South West,2021,Total,592.3757516115277
-Southern,2021,Total,596.8697709059389
-West Midlands,2021,Total,573.998534413915
-Yorkshire,2021,Total,557.3730996148673
-United Kingdom,2021,Total,575.2024159621377
+East Midlands,2021,Total,542
+Eastern,2021,Total,552
+London,2021,Total,581
+Merseyside & North Wales,2021,Total,557
+North East,2021,Total,538
+North Scotland,2021,Total,559
+North West,2021,Total,552
+South East,2021,Total,563
+South Scotland,2021,Total,555
+South Wales,2021,Total,566
+South West,2021,Total,574
+Southern,2021,Total,575
+West Midlands,2021,Total,554
+Yorkshire,2021,Total,542
+United Kingdom,2021,Total,560
