@@ -13,7 +13,7 @@ South West,2018,Prepayment,586.7258033713615
 Southern,2018,Prepayment,591.160469170418
 West Midlands,2018,Prepayment,573.4863782880009
 Yorkshire,2018,Prepayment,560.3764794330804
-United Kingdom,2018,Prepayment,572.8406823527082
+Great Britain,2018,Prepayment,572.8406823527082
 East Midlands,2019,Prepayment,616.2289993645362
 Eastern,2019,Prepayment,624.1976401485797
 London,2019,Prepayment,644.7232123697094
@@ -28,7 +28,7 @@ South West,2019,Prepayment,653.8890519864119
 Southern,2019,Prepayment,651.309307063635
 West Midlands,2019,Prepayment,632.7457171217566
 Yorkshire,2019,Prepayment,619.0043037745189
-United Kingdom,2019,Prepayment,629.5745578935423
+Great Britain,2019,Prepayment,629.5745578935423
 East Midlands,2020,Prepayment,569.3845541499236
 Eastern,2020,Prepayment,576.9603656232091
 London,2020,Prepayment,599.5848669169176
@@ -43,7 +43,7 @@ South West,2020,Prepayment,601.8937700196637
 Southern,2020,Prepayment,604.061653522889
 West Midlands,2020,Prepayment,581.8810808875845
 Yorkshire,2020,Prepayment,572.8356180056185
-United Kingdom,2020,Prepayment,584.7877917240767
+Great Britain,2020,Prepayment,584.7877917240767
 East Midlands,2021,Prepayment,542
 Eastern,2021,Prepayment,555
 London,2021,Prepayment,582
@@ -58,7 +58,7 @@ South West,2021,Prepayment,570
 Southern,2021,Prepayment,573
 West Midlands,2021,Prepayment,553
 Yorkshire,2021,Prepayment,535
-United Kingdom,2021,Prepayment,564
+Great Britain,2021,Prepayment,564
 East Midlands,2018,Standard Credit,648.084601149972
 Eastern,2018,Standard Credit,659.0322900281859
 London,2018,Standard Credit,673.909331001693
@@ -73,7 +73,7 @@ South West,2018,Standard Credit,666.0786676857371
 Southern,2018,Standard Credit,679.1189698270985
 West Midlands,2018,Standard Credit,654.9171709113402
 Yorkshire,2018,Standard Credit,640.6147433595113
-United Kingdom,2018,Standard Credit,658.4704388000795
+Great Britain,2018,Standard Credit,658.4704388000795
 East Midlands,2019,Standard Credit,643.1929938197283
 Eastern,2019,Standard Credit,651.2607458768282
 London,2019,Standard Credit,672.5816220411895
@@ -88,7 +88,7 @@ South West,2019,Standard Credit,682.4746687175146
 Southern,2019,Standard Credit,682.7367408078171
 West Midlands,2019,Standard Credit,659.882046751876
 Yorkshire,2019,Standard Credit,645.2236042267975
-United Kingdom,2019,Standard Credit,658.47834939026
+Great Britain,2019,Standard Credit,658.47834939026
 East Midlands,2020,Standard Credit,589.3688839370183
 Eastern,2020,Standard Credit,596.921696574002
 London,2020,Standard Credit,620.2002314914021
@@ -103,7 +103,7 @@ South West,2020,Standard Credit,624.4947235508594
 Southern,2020,Standard Credit,626.7171969385029
 West Midlands,2020,Standard Credit,604.1237159934425
 Yorkshire,2020,Standard Credit,591.847287681966
-United Kingdom,2020,Standard Credit,606.2376895714575
+Great Britain,2020,Standard Credit,606.2376895714575
 East Midlands,2021,Standard Credit,588
 Eastern,2021,Standard Credit,599
 London,2021,Standard Credit,617
@@ -118,7 +118,7 @@ South West,2021,Standard Credit,621
 Southern,2021,Standard Credit,622
 West Midlands,2021,Standard Credit,599
 Yorkshire,2021,Standard Credit,587
-United Kingdom,2021,Standard Credit,600
+Great Britain,2021,Standard Credit,600
 East Midlands,2018,Direct Debit,567.0246185000623
 Eastern,2018,Direct Debit,577.204940939462
 London,2018,Direct Debit,606.6783421100384
@@ -133,7 +133,7 @@ South West,2018,Direct Debit,597.4913413242915
 Southern,2018,Direct Debit,597.7965147013588
 West Midlands,2018,Direct Debit,572.636232274794
 Yorkshire,2018,Direct Debit,558.0033952025925
-United Kingdom,2018,Direct Debit,579.9710652300472
+Great Britain,2018,Direct Debit,579.9710652300472
 East Midlands,2019,Direct Debit,577.5937791156306
 Eastern,2019,Direct Debit,584.4671075239874
 London,2019,Direct Debit,613.1589769590291
@@ -148,7 +148,7 @@ South West,2019,Direct Debit,615.410328283142
 Southern,2019,Direct Debit,608.1775939449072
 West Midlands,2019,Direct Debit,587.6134025252568
 Yorkshire,2019,Direct Debit,574.4454726966434
-United Kingdom,2019,Direct Debit,591.2847097248367
+Great Britain,2019,Direct Debit,591.2847097248367
 East Midlands,2020,Direct Debit,521.247455247784
 Eastern,2020,Direct Debit,529.1554587294104
 London,2020,Direct Debit,559.7831475205836
@@ -163,7 +163,7 @@ South West,2020,Direct Debit,560.2792361155288
 Southern,2020,Direct Debit,558.9435990689879
 West Midlands,2020,Direct Debit,535.3093744227609
 Yorkshire,2020,Direct Debit,524.4377066790363
-United Kingdom,2020,Direct Debit,539.531402012427
+Great Britain,2020,Direct Debit,539.531402012427
 East Midlands,2021,Direct Debit,532
 Eastern,2021,Direct Debit,541
 London,2021,Direct Debit,564
@@ -178,7 +178,7 @@ South West,2021,Direct Debit,565
 Southern,2021,Direct Debit,565
 West Midlands,2021,Direct Debit,544
 Yorkshire,2021,Direct Debit,533
-United Kingdom,2021,Direct Debit,550
+Great Britain,2021,Direct Debit,550
 East Midlands,2018,Total,581.0389761348365
 Eastern,2018,Total,592.088515463284
 London,2018,Total,621.2690407668969
@@ -193,7 +193,7 @@ South West,2018,Total,608.0522880194115
 Southern,2018,Total,610.7536648008493
 West Midlands,2018,Total,587.8174994285282
 Yorkshire,2018,Total,573.19503618869
-United Kingdom,2018,Total,593.2791094530045
+Great Britain,2018,Total,593.2791094530045
 East Midlands,2019,Total,593.817823783377
 Eastern,2019,Total,602.1312900332127
 London,2019,Total,635.49981971174725
@@ -208,7 +208,7 @@ South West,2019,Total,631.4332126113459
 Southern,2019,Total,624.7726986399459
 West Midlands,2019,Total,607.1222953358358
 Yorkshire,2019,Total,593.3561977072407
-United Kingdom,2019,Total,609.1600499664171
+Great Britain,2019,Total,609.1600499664171
 East Midlands,2020,Total,537.0770307646229
 Eastern,2020,Total,546.108016101567
 London,2020,Total,582.2205898997644
@@ -223,7 +223,7 @@ South West,2020,Total,575.315330222319
 Southern,2020,Total,573.8421785330553
 West Midlands,2020,Total,553.6267262335479
 Yorkshire,2020,Total,542.827945904897
-United Kingdom,2020,Total,556.8859704484511
+Great Britain,2020,Total,556.8859704484511
 East Midlands,2021,Total,542
 Eastern,2021,Total,552
 London,2021,Total,581
@@ -238,4 +238,4 @@ South West,2021,Total,574
 Southern,2021,Total,575
 West Midlands,2021,Total,554
 Yorkshire,2021,Total,542
-United Kingdom,2021,Total,560
+Great Britain,2021,Total,560

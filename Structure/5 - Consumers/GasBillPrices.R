@@ -155,11 +155,11 @@ GasBillPrices <- function(input, output, session) {
                 orientation = 'h',
                 marker = list(color = BarColours[2])
                 ) %>% 
-      add_trace(x = ~ `United Kingdom`, 
+      add_trace(x = ~ `Great Britain`, 
                 type = 'bar', 
-                name = 'United Kingdom',
+                name = 'Great Britain',
                 hoverinfo = "text",
-                text = paste0("United Kingdom: \u00A3",round(Data$`United Kingdom`, digits = 0)),
+                text = paste0("Great Britain: \u00A3",round(Data$`Great Britain`, digits = 0)),
                 orientation = 'h',
                 marker = list(color = BarColours[3])
       ) %>% 
@@ -215,7 +215,7 @@ GasBillPrices <- function(input, output, session) {
                             "Payment Method",
                             "North Scotland",
                             "South Scotland",
-                            "United Kingdom"
+                            "Great Britain"
                             )
     
     datatable(
@@ -488,11 +488,11 @@ GasBillPrices <- function(input, output, session) {
       
       Data <- select(Data,
                      variable,
-                     "United Kingdom",
+                     "Great Britain",
                      "South Scotland",
                      "North Scotland")
       
-      names(Data)[1:2] <- c("Country", "United Kingdom")
+      names(Data)[1:2] <- c("Country", "Great Britain")
       
       AvgGasBills <- Data
       
@@ -535,7 +535,7 @@ GasBillPrices <- function(input, output, session) {
           values = c(
             "North Scotland" = BarColours[1],
             "South Scotland" = BarColours[2],
-            "United Kingdom" = BarColours[3]
+            "Great Britain" = BarColours[3]
           )
         ) +
         geom_bar(position = "dodge",
