@@ -1263,7 +1263,7 @@ RenElecGen <- function(input, output, session) {
       
       EUWind <- EUWind %>% mutate(Countries = replace(Countries, Countries == "U.K.", "Rest of the UK"))
       
-      EUWind <- EUWind[-1:-2,]
+      EUWind <- EUWind[-1:-1,]
       
       EUWind$Countries <- factor(EUWind$Countries, levels = unique(EUWind$Countries)[order(EUWind$Renewables, decreasing = FALSE)])
       
@@ -1333,7 +1333,7 @@ RenElecGen <- function(input, output, session) {
     
     EUComparison <- EUComparison %>% mutate(Countries = replace(Countries, Countries == "U.K.", "Rest of the UK"))
     
-    EUComparison <- EUComparison[-1:-2,]
+    EUComparison <- EUComparison[-1:-1,]
     
     EUComparison$Countries <- factor(EUComparison$Countries, levels = unique(EUComparison$Countries)[order(EUComparison$Renewables, decreasing = FALSE)])
     
@@ -1567,7 +1567,7 @@ RenElecGen <- function(input, output, session) {
           labs(y = "Percentage", caption = sourcecaption) +
           labs(title = plottitle,
                face = "bold",
-               subtitle = 2018) +
+               subtitle = 2020) +
           ### 0 Axis
           
           geom_hline(
@@ -1629,7 +1629,7 @@ RenElecGen <- function(input, output, session) {
       EUComparison <- read_delim("Processed Data/Output/EU Wind Hydro/EUHydro.txt", 
                             "\t", escape_double = FALSE, trim_ws = TRUE)
       
-      EUComparison <- EUComparison[-1:-3,]
+      EUComparison <- EUComparison[-1:-2,]
       
       EUComparison <- EUComparison[,c(1,ncol(EUComparison))]
       
@@ -1673,7 +1673,7 @@ RenElecGen <- function(input, output, session) {
         )) +
         #scale_country()+
         #scale_size(range = c(15,30), guide = FALSE)+
-        ylim(-.84, 1.40) +
+        ylim(-.84, 1.50) +
         geom_bar(stat = "identity") +
         coord_flip() +
         scale_fill_manual("Group",
@@ -1735,7 +1735,7 @@ RenElecGen <- function(input, output, session) {
         labs(y = "Percentage", caption = sourcecaption) +
         labs(title = plottitle,
              face = "bold",
-             subtitle = 2018) +
+             subtitle = 2020) +
         ### 0 Axis
         
         geom_hline(
