@@ -391,7 +391,7 @@ TransportEnConsumption <- function(input, output, session) {
   
   
   output$TransportEnConsumption.png <- downloadHandler(
-    filename = "TransportEnConsumption.png",
+    filename = "TransportEnConsumption.svg",
     content = function(file) {
 
 
