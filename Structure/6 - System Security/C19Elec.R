@@ -234,7 +234,7 @@ C19Elec <- function(input, output, session) {
     
     DailyDemand$Year <-year(DailyDemand$Date)
     
-    DailyDemand <- DailyDemand[which(DailyDemand$Year >= 2013 & DailyDemand$Year < 2021),]
+    DailyDemand <- DailyDemand[which(DailyDemand$Year >= 2013 & DailyDemand$Year <= 2022),]
     
     DailyDemand$Month <-month(DailyDemand$Date)
     
@@ -530,7 +530,7 @@ C19Elec <- function(input, output, session) {
     
     DailyDemand$Year <-year(DailyDemand$Date)
     
-    DailyDemand <- DailyDemand[which(DailyDemand$Year >= 2013 & DailyDemand$Year < 2021),]
+    DailyDemand <- DailyDemand[which(DailyDemand$Year >= 2013 & DailyDemand$Year <= 2022),]
     
     DailyDemand$Month <-month(DailyDemand$Date)
     
@@ -677,7 +677,7 @@ C19Elec <- function(input, output, session) {
   
   
   output$C19Elec.png <- downloadHandler(
-    filename = "C19ElecAverage.png",
+    filename = "C19ElecAverage.svg",
     content = function(file) {
       
       
@@ -700,7 +700,7 @@ C19Elec <- function(input, output, session) {
       
       DailyDemand <- DailyDemand[which(DailyDemand$Year >= 2013),]
       
-      DailyDemand <- DailyDemand[which(DailyDemand$Year < 2021),]
+      DailyDemand <- DailyDemand[which(DailyDemand$Year <= 2022),]
       
       DailyDemand$Month <-month(DailyDemand$Date)
       
@@ -783,7 +783,7 @@ C19Elec <- function(input, output, session) {
   
   
   output$C19Elec2.png <- downloadHandler(
-    filename = "C19ElecAverage.png",
+    filename = "C19ElecAverage.svg",
     content = function(file) {
       
       
@@ -805,7 +805,7 @@ C19Elec <- function(input, output, session) {
       
       DailyDemand$Year <-year(DailyDemand$Date)
       
-      DailyDemand <- DailyDemand[which(DailyDemand$Year >= 2013 & DailyDemand$Year < 2021),]
+      DailyDemand <- DailyDemand[which(DailyDemand$Year >= 2013 & DailyDemand$Year <= 2022),]
       
       DailyDemand$Month <-month(DailyDemand$Date)
       

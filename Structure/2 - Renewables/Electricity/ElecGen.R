@@ -418,7 +418,7 @@ ElecGen <- function(input, output, session) {
   
   
   output$ElecGenLCFF.png <- downloadHandler(
-    filename = "ElecGenLCFF.png",
+    filename = "ElecGenLCFF.svg",
     content = function(file) {
       
       Data <-

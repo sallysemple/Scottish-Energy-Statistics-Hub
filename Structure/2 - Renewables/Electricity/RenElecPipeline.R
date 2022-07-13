@@ -18,7 +18,7 @@ RenElecPipelineOutput <- function(id) {
              ),
              column(
                4, style = 'padding:15px;',
-               downloadButton(ns('RenElecPipelineCap.svg'), 'Download Graph', style="float:right")
+               downloadButton(ns('RenElecPipelineCap.png'), 'Download Graph', style="float:right")
              )),
              
              tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"),
@@ -33,7 +33,7 @@ RenElecPipelineOutput <- function(id) {
              ),
              column(
                4, style = 'padding:15px;',
-               downloadButton(ns('RenElecPipeline.svg'), 'Download Graph', style="float:right")
+               downloadButton(ns('RenElecPipeline.png'), 'Download Graph', style="float:right")
              )),
              
              tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"),
@@ -263,7 +263,7 @@ RenElecPipeline <- function(input, output, session) {
           tickformat = "%",
           showgrid = FALSE,
           showticklabels = FALSE,
-          range = c(0,12000),
+          range = c(0,13000),
           zeroline = FALSE,
           zerolinecolor = ChartColours[1],
           zerolinewidth = 2,
@@ -447,8 +447,8 @@ RenElecPipeline <- function(input, output, session) {
   
   
   
-  output$RenElecPipeline.svg <- downloadHandler(
-    filename = "RenElecPipeline.svg",
+  output$RenElecPipeline.png <- downloadHandler(
+    filename = "RenElecPipeline.png",
     content = function(file) {
       
       RenElecPipeline <- read_csv("Processed Data/Output/REPD (Operational Corrections)/PipelineTimeSeries.csv")
@@ -705,7 +705,7 @@ RenElecPipeline <- function(input, output, session) {
           tickformat = "%",
           showgrid = FALSE,
           showticklabels = FALSE,
-          range = c(0,17000),
+          range = c(0,18000),
           zeroline = FALSE,
           zerolinecolor = ChartColours[1],
           zerolinewidth = 2,
@@ -726,8 +726,8 @@ RenElecPipeline <- function(input, output, session) {
     paste("Scotland,", RenElecPipeline$Quarter)
   })
   
-  output$RenElecPipelineCap.svg <- downloadHandler(
-    filename = "RenElecPipelineCap.svg",
+  output$RenElecPipelineCap.png <- downloadHandler(
+    filename = "RenElecPipelineCap.png",
     content = function(file) {
       
       RenElecPipeline <- read_csv("Processed Data/Output/REPD (Operational Corrections)/PipelineTimeSeries.csv")
@@ -888,7 +888,7 @@ RenElecPipeline <- function(input, output, session) {
       ggsave(
         file,
         plot = PipelineTotalChart,
-        width = 17.5,
+        width = 18.5,
         height = 8,
         units = "cm",
         dpi = 300

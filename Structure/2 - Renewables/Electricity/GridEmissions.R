@@ -363,7 +363,7 @@ GridEmissions <- function(input, output, session) {
   
   
   output$GridEmissions.png <- downloadHandler(
-    filename = "GridEmissions.png",
+    filename = "GridEmissions.svg",
     content = function(file) {
       
       Data <- read_excel("Structure/CurrentWorking.xlsx", 
