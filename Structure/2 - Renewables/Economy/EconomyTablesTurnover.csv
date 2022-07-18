@@ -1,36 +1,36 @@
-﻿,2014,2015,2016,2017,2018,2019
-Direct Activity,5.85,5.53,5.94,5.93,6.25,5.69
-% of UK Direct activity,0.133937459,0.137319962,0.143516226,0.134627398,0.136463883,0.133733567
-,,,,,,
-,,,,,,
-Renewable sector,2.75,c,c,c,3.21,c
-Low carbon,3.1,c,c,c,3.04,c
-,,,,,,
-Low carbon electricity,3.03,3.39,3.57,3.43,3.54,3.21
-Offshore wind,0.1,c,c,c,0.26,0.47
-Onshore wind,1.66,c,1.57,1.41,2.01,1.3
-Solar photovoltaic,0.05,0.07,0.11,0.03,0.07,c
-Hydropower,0.38,0.28,0.32,0.55,0.36,0.48
-Other renewable electricity,0.03,0.01,0,0.01,0.01,0
-Carbon capture and storage,0.01,c,c,~,0,0
-Nuclear,0.8,c,c,c,0.83,c
-,,,,,,
-Low carbon heat,0.17,0.17,0.34,0.22,0.26,0.21
-Renewable heat,0.14,0.11,0.22,0.18,0.2,0.19
-Renewable combined heat and power,0.03,0.06,0.12,0.03,0.06,0.03
-,0,0,0,0,0,0
-Energy from waste and biomass,0.37,c,c,0.29,0.24,0.34
-Bioenergy (electricity generation only),c,c,c,c,c,0.3
-Alternative fuels,c,c,c,c,c,0.04
-,,,,,,
-Energy efficient products,2.14,1.39,1.6,1.84,2.07,1.77
-Energy efficient lighting,0.14,0.08,0.15,0.13,0.26,0.18
-Other energy efficient products,1.88,1.11,1.23,1.5,1.65,1.33
-"Energy monitoring, saving or control systems",0.12,0.19,0.22,0.21,0.15,0.27
-,,,,,,
-Low carbon services,c,0.17,0.18,c,c,0.08
-Low carbon financial and advisory services,c,0.17,0.18,c,c,0.08
-,,,,,,
-"Low emission vehicles, infrastructure, fuels cells and energy storage",c,c,c,c,c,0.08
-Low emission vehicles and infrastructure ,c,c,c,c,0.06,0.05
-Fuels cells and energy storage,c,c,c,c,c,0.03
+﻿,2014,2015,2016,2017,2018,2019,2020
+Direct Activity,5.853,5.525,5.9415,5.9265,6.2375,5.67,5.51
+% of UK Direct activity,0.000133937,0.00013732,0.000143516,0.000134627,0.000134607,0.000128709,0.000133496
+,,,,,,,
+,,,,,,,
+Renewable sector,2.7535,c,c,c,3.218,c,c
+Low carbon,3.0995,c,c,c,3.0195,c,c
+,,,,,,,
+Low carbon electricity,3.0255,3.3885,3.5685,3.4325,3.5465,3.173,3.4895
+Offshore wind,0.095,c,c,c,0.2625,0.6025,0.6165
+Onshore wind,1.6575,c,1.5715,1.414,2.0085,1.2975,0.6165
+Solar photovoltaic,0.0515,0.072,0.107,0.0325,0.0685,c,0.0725
+Hydropower,0.379,0.282,0.32,0.5525,0.363,0.4905,0.6075
+Other renewable electricity,0.029,0.013,0.003,0.014,0.0145,0.003,0.007
+Carbon capture and storage,0.0105,c,c,~,0,0.004,0.0055
+Nuclear,0.803,c,c,c,0.829,c,0.842
+,,,,,,,
+Low carbon heat,0.1715,0.1685,0.3425,0.2165,0.2475,0.21,0.242
+Renewable heat,0.143,0.106,0.224,0.1845,0.1985,0.185,0.2155
+Renewable combined heat and power,0.029,0.0625,0.1185,0.032,0.0595,0.025,0.0265
+,,,,,,,
+Energy from waste and biomass,0.3695,c,c,0.2935,0.243,0.3495,0.191
+Bioenergy (electricity generation only),c,c,c,c,c,0.312,0.175
+Alternative fuels,c,c,c,c,c,0.0375,0.016
+,0,0,0,0,0,0,0
+Energy efficient products,2.143,1.387,1.5995,1.844,2.064,1.7815,1.4235
+Energy efficient lighting,0.142,0.083,0.1475,0.1295,0.2615,0.162,0.119
+Other energy efficient products,1.8825,1.111,1.2305,1.5035,1.648,1.381,1.148
+"Energy monitoring, saving or control systems",0.1185,0.193,0.2215,0.2115,0.1545,0.2385,0.1565
+,0,0,0,0,0,0,0
+Low carbon services,c,0.1745,0.176,c,c,0.072,0.11
+Low carbon financial and advisory services,c,0.1745,0.176,c,c,0.072,0.11
+,0,0,0,0,0,0,0
+"Low emission vehicles, infrastructure, fuels cells and energy storage",c,c,c,c,c,0.0835,0.05
+Low emission vehicles and infrastructure ,c,c,c,c,0.063,0.054,0.045
+Fuels cells and energy storage,c,c,c,c,c,0.0295,0.005
