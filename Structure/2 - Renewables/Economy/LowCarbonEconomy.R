@@ -295,7 +295,7 @@ LowCarbonEconomy <- function(input, output, session) {
         # container = sketch,
         rownames = FALSE,
         options = list(
-          columnDefs = list(list(className = 'dt-right', targets = 1:6)),
+          columnDefs = list(list(className = 'dt-right', targets = 1:7)),
           paging = TRUE,
           pageLength = -1,
           searching = TRUE,
@@ -344,7 +344,7 @@ LowCarbonEconomy <- function(input, output, session) {
         # container = sketch,
         rownames = FALSE,
         options = list(
-          columnDefs = list(list(className = 'dt-right', targets = 1:6)),
+          columnDefs = list(list(className = 'dt-right', targets = 1:7)),
           paging = TRUE,
           pageLength = -1,
           searching = TRUE,
@@ -395,7 +395,7 @@ LowCarbonEconomy <- function(input, output, session) {
         # container = sketch,
         rownames = FALSE,
         options = list(
-          columnDefs = list(list(className = 'dt-right', targets = 1:6)),
+          columnDefs = list(list(className = 'dt-right', targets = 1:7)),
           paging = TRUE,
           pageLength = -1,
           searching = TRUE,
@@ -445,7 +445,7 @@ LowCarbonEconomy <- function(input, output, session) {
         # container = sketch,
         rownames = FALSE,
         options = list(
-          columnDefs = list(list(className = 'dt-right', targets = 1:6)),
+          columnDefs = list(list(className = 'dt-right', targets = 1:7)),
           paging = TRUE,
           pageLength = -1,
           searching = TRUE,
