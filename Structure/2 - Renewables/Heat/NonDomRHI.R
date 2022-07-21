@@ -153,7 +153,7 @@ NonDomRHI <- function(input, output, session) {
   
   output$NonDomRHISubtitle <- renderText({
     
-    paste("Scotland, Nov 2011 - June 2021")
+    paste("Scotland, Nov 2011 - May 2022")
   })
   
   output$NonDomRHIPlot <- renderPlotly  ({
@@ -463,17 +463,17 @@ NonDomRHI <- function(input, output, session) {
         fixedColumns = FALSE,
         autoWidth = TRUE,
         ordering = TRUE,
-        title = "Non-domestic RHI heat generated, installed capacity and number of installations receiving payment by tariff, Scotland, Nov 2011 - June 2021",
+        title = "Non-domestic RHI heat generated, installed capacity and number of installations receiving payment by tariff, Scotland, Nov 2011 - May 2022",
         dom = 'ltBp',
         buttons = list(
           list(extend = 'copy'),
           list(
             extend = 'excel',
-            title = "Non-domestic RHI heat generated, installed capacity and number of installations receiving payment by tariff, Scotland, Nov 2011 - June 2021",
+            title = "Non-domestic RHI heat generated, installed capacity and number of installations receiving payment by tariff, Scotland, Nov 2011 - May 2022",
             header = TRUE
           ),
           list(extend = 'csv',
-               title = "Non-domestic RHI heat generated, installed capacity and number of installations receiving payment by tariff, Scotland, Nov 2011 - June 2021")
+               title = "Non-domestic RHI heat generated, installed capacity and number of installations receiving payment by tariff, Scotland, Nov 2011 - May 2022")
         ),
         
         # customize the length menu
