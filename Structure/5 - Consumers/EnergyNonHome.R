@@ -238,7 +238,7 @@ EnergyNonHome <- function(input, output, session) {
         pageLength = 10
       )
     ) %>%
-      formatPercentage(2:5, 1)
+      formatPercentage(2:5, 0)
   })
   
   output$ElecNonHomeTimeSeriesTable = renderDataTable({
@@ -291,7 +291,7 @@ EnergyNonHome <- function(input, output, session) {
         pageLength = 10
       )
     ) %>%
-      formatPercentage(2:4, 1)
+      formatPercentage(2:4, 0)
   })
   
   
@@ -416,7 +416,7 @@ EnergyNonHome <- function(input, output, session) {
         pageLength = 10
       )
     ) %>%
-      formatPercentage(2:5, 1)
+    formatPercentage(2:5, 0)
   })
   
   output$GasNonHomeTimeSeriesTable = renderDataTable({
@@ -467,7 +467,7 @@ EnergyNonHome <- function(input, output, session) {
         pageLength = 10
       )
     ) %>%
-      formatPercentage(2:4, 1)
+      formatPercentage(2:4, 0)
   })
   
   observeEvent(input$ToggleTable3, {

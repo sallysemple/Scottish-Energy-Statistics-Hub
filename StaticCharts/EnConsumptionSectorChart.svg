@@ -15,7 +15,7 @@
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    width="319.88266"
    height="419.77661"
-   inkscape:export-filename="C:\Users\ische\Documents\Github\Scottish-Energy-Statistics-Hub\Structure\1 - Whole System\EnConsumptionSectorChart.png"
+   inkscape:export-filename="C:\Users\Energy Stats\Documents\Github\Scottish-Energy-Statistics-Hub\Structure\1 - Whole System\EnConsumptionSectorChart.png"
    inkscape:export-xdpi="299.50983"
    inkscape:export-ydpi="299.50983">
   <metadata
@@ -39,17 +39,17 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="2560"
-     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
      id="namedview76"
      showgrid="false"
-     inkscape:zoom="2.68112"
-     inkscape:cx="-12.449468"
-     inkscape:cy="198.33186"
-     inkscape:window-x="2552"
-     inkscape:window-y="-8"
+     inkscape:zoom="1.5208438"
+     inkscape:cx="5.5810159"
+     inkscape:cy="246.62636"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g1306"
+     inkscape:current-layer="g4896"
      fit-margin-top="5"
      fit-margin-left="5"
      fit-margin-right="5"
@@ -159,62 +159,77 @@
        id="line53"
        clip-path="url(#cpOC4yMnw2MTguMTR8MjQ1LjIyfDQ0Ljk3)"
        d="m 8.2207031,43.369141 v 3.201171 H 618.14062 v -3.201171 z"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#1a5d38;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.20000005;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#1a5d38;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.20000005;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="C:\Users\Energy Stats\Documents\Github\Scottish-Energy-Statistics-Hub\Structure\1 - Whole System\EnConsumptionSectorChart.png"
+       inkscape:export-xdpi="299.50983"
+       inkscape:export-ydpi="299.50983" />
+    <path
+       id="path27"
+       style="opacity:1;fill:#fc9272;fill-opacity:1;stroke:#ffffff;stroke-width:0.74445885;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
+       d="M 159.99318,222.44669 V 75.043845 a 147.40285,147.40285 0 1 1 -2.9945,294.775275 z"
+       class="surface"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Energy Stats\Documents\Github\Scottish-Energy-Statistics-Hub\Structure\1 - Whole System\EnConsumptionSectorChart.png"
+       inkscape:export-xdpi="299.50983"
+       inkscape:export-ydpi="299.50983" />
     <g
-       transform="translate(-618.25664,-12.295827)"
-       class="trace"
-       style="opacity:1;stroke-linejoin:round"
-       id="g83">
-      <g
-         id="g968"
-         transform="matrix(0.74445883,0,0,0.74445883,499.07776,68.728201)">
-        <path
-           id="path27"
-           style="opacity:1;fill:#fc9272;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
-           d="M 375,223 V 25 a 198,198 0 1 1 -4.02239,395.95914 z"
-           class="surface"
-           inkscape:connector-curvature="0"
-           transform="translate(-4e-6)" />
-        <g
-           id="g53"
-           class="slice">
-          <path
-             id="path41"
-             style="fill:#2b8cbe;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
-             d="M 375,223 177.09281,216.93815 A 198,198 0 0 1 375,25 Z"
-             class="surface"
-             inkscape:connector-curvature="0" />
-        </g>
-        <g
-           id="g67"
-           class="slice">
-          <path
-             id="path55"
-             style="fill:#34d1a3;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
-             d="M 375,223 333.74335,416.65404 A 198,198 0 0 1 177.09281,216.93815 Z"
-             class="surface"
-             inkscape:connector-curvature="0" />
-        </g>
-        <g
-           id="g81"
-           class="slice">
-          <path
-             id="path69"
-             style="fill:#02818a;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
-             d="m 375,223 -4.02239,197.95914 a 198,198 0 0 1 -37.23426,-4.3051 z"
-             class="surface"
-             inkscape:connector-curvature="0" />
-        </g>
-      </g>
-      <g
-         class="slice"
-         id="g39" />
+       style="stroke-linejoin:round"
+       id="g53"
+       class="slice"
+       transform="matrix(0.74445883,0,0,0.74445883,-119.17888,56.432374)"
+       inkscape:export-filename="C:\Users\Energy Stats\Documents\Github\Scottish-Energy-Statistics-Hub\Structure\1 - Whole System\EnConsumptionSectorChart.png"
+       inkscape:export-xdpi="299.50983"
+       inkscape:export-ydpi="299.50983">
+      <path
+         id="path41"
+         style="fill:#2b8cbe;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
+         d="M 375,223 177.09281,216.93815 A 198,198 0 0 1 375,25 Z"
+         class="surface"
+         inkscape:connector-curvature="0" />
     </g>
+    <g
+       style="stroke-linejoin:round"
+       id="g67"
+       class="slice"
+       transform="matrix(0.74445883,0,0,0.74445883,-119.17888,56.432374)"
+       inkscape:export-filename="C:\Users\Energy Stats\Documents\Github\Scottish-Energy-Statistics-Hub\Structure\1 - Whole System\EnConsumptionSectorChart.png"
+       inkscape:export-xdpi="299.50983"
+       inkscape:export-ydpi="299.50983">
+      <path
+         id="path55"
+         style="fill:#34d1a3;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
+         d="M 375,223 333.74335,416.65404 A 198,198 0 0 1 177.09281,216.93815 Z"
+         class="surface"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       style="stroke-linejoin:round"
+       id="g81"
+       class="slice"
+       transform="matrix(0.74445883,0,0,0.74445883,-119.17888,56.432374)"
+       inkscape:export-filename="C:\Users\Energy Stats\Documents\Github\Scottish-Energy-Statistics-Hub\Structure\1 - Whole System\EnConsumptionSectorChart.png"
+       inkscape:export-xdpi="299.50983"
+       inkscape:export-ydpi="299.50983">
+      <path
+         id="path69"
+         style="fill:#02818a;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
+         d="m 375,223 -4.02239,197.95914 a 198,198 0 0 1 -37.23426,-4.3051 z"
+         class="surface"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       style="stroke-linejoin:round"
+       id="g39"
+       class="slice"
+       transform="translate(-618.25664,-12.295827)" />
     <flowRoot
        transform="translate(223.89355,244.55678)"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a5d38;fill-opacity:1;stroke:none"
        id="flowRoot901-8"
-       xml:space="preserve"><flowRegion
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Energy Stats\Documents\Github\Scottish-Energy-Statistics-Hub\Structure\1 - Whole System\EnConsumptionSectorChart.png"
+       inkscape:export-xdpi="299.50983"
+       inkscape:export-ydpi="299.50983"><flowRegion
          style="fill:#1a5d38;fill-opacity:1"
          id="flowRegion903-3"><rect
            style="fill:#1a5d38;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
@@ -224,11 +239,14 @@
            width="483.75308"
            id="rect905-1" /></flowRegion><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#1a5d38;fill-opacity:1"
-         id="flowPara907-9">2019</flowPara></flowRoot>    <flowRoot
+         id="flowPara907-9">2020</flowPara></flowRoot>    <flowRoot
        transform="translate(45.124957,596.64747)"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a5d38;fill-opacity:1;stroke:none"
        id="flowRoot901-8-4"
-       xml:space="preserve"><flowRegion
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Energy Stats\Documents\Github\Scottish-Energy-Statistics-Hub\Structure\1 - Whole System\EnConsumptionSectorChart.png"
+       inkscape:export-xdpi="299.50983"
+       inkscape:export-ydpi="299.50983"><flowRegion
          style="fill:#1a5d38;fill-opacity:1"
          id="flowRegion903-3-8"><rect
            style="fill:#1a5d38;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
@@ -244,12 +262,18 @@
        id="line53-3"
        clip-path="url(#cpOC4yMnw2MTguMTR8MjQ1LjIyfDQ0Ljk3-1)"
        d="m 8.2207031,43.369141 v 3.201171 H 618.14062 v -3.201171 z"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#1a5d38;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.20000005;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#1a5d38;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.20000005;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="C:\Users\Energy Stats\Documents\Github\Scottish-Energy-Statistics-Hub\Structure\1 - Whole System\EnConsumptionSectorChart.png"
+       inkscape:export-xdpi="299.50983"
+       inkscape:export-ydpi="299.50983" />
     <flowRoot
        transform="translate(-1750.4811,228.7659)"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';letter-spacing:0px;word-spacing:0px;fill:#1a5d38;fill-opacity:1;stroke:none"
        id="flowRoot4835"
-       xml:space="preserve"><flowRegion
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Energy Stats\Documents\Github\Scottish-Energy-Statistics-Hub\Structure\1 - Whole System\EnConsumptionSectorChart.png"
+       inkscape:export-xdpi="299.50983"
+       inkscape:export-ydpi="299.50983"><flowRegion
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#1a5d38;fill-opacity:1"
          id="flowRegion4837"><rect
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#1a5d38;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
@@ -295,166 +319,172 @@
        id="g885"
        transform="translate(-750.13381,-193.12357)" />
     <g
-       class="pielayer"
-       id="g945"
-       transform="matrix(0.6325297,0,0,0.6325297,-84.111567,54.296435)">
+       id="g943"
+       style="opacity:1;stroke-linejoin:round"
+       class="trace"
+       transform="matrix(0.6325297,0,0,0.6325297,-83.454037,53.638905)"
+       inkscape:export-filename="C:\Users\Energy Stats\Documents\Github\Scottish-Energy-Statistics-Hub\Structure\1 - Whole System\EnConsumptionSectorChart.png"
+       inkscape:export-xdpi="299.50983"
+       inkscape:export-ydpi="299.50983">
       <g
-         class="trace"
-         style="opacity:1;stroke-linejoin:round"
-         id="g943">
+         transform="matrix(1.1669625,0,0,1.1669625,-54.589849,3.6578162)"
+         id="g1306">
         <g
-           id="g1306"
-           transform="matrix(1.1669625,0,0,1.1669625,-54.589849,3.6578162)">
-          <g
-             style="fill:#ffffff"
+           transform="matrix(1.2376399,0,0,1.2376399,-289.39186,-72.038176)"
+           id="g897"
+           class="slicetext"
+           style="fill:#ffffff">
+          <text
+             id="text895"
+             style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+             y="230.12041"
+             x="600.40009"
              class="slicetext"
-             id="g897"
-             transform="matrix(1.2376399,0,0,1.2376399,-289.39186,-72.038176)">
-            <text
-               data-notex="1"
-               class="slicetext"
-               x="600.40009"
+             data-notex="1">
+            <tspan
+               id="tspan891"
                y="230.12041"
-               style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
-               id="text895">
+               x="600.40009"
+               dy="0"
+               class="line"
+               style="fill:#ffffff">
               <tspan
-                 style="fill:#ffffff"
-                 class="line"
-                 dy="0"
-                 x="600.40009"
-                 y="230.12041"
-                 id="tspan891">
-                <tspan
-                   style="font-weight:bold;fill:#ffffff"
-                   id="tspan889">Heat</tspan>
-              </tspan>
-              <tspan
-                 style="fill:#ffffff"
-                 class="line"
-                 dy="15.599999"
-                 x="600.40009"
-                 y="230.12041"
-                 id="tspan893">50.2%</tspan>
-            </text>
-          </g>
-          <g
-             style="fill:#ffffff"
-             transform="matrix(1.2376399,0,0,1.2376399,51.476843,54.61336)"
+                 id="tspan889"
+                 style="font-weight:bold;fill:#ffffff">Heat</tspan>
+            </tspan>
+            <tspan
+               id="tspan893"
+               y="230.12041"
+               x="600.40009"
+               dy="15.599999"
+               class="line"
+               style="fill:#ffffff">51.8%</tspan>
+          </text>
+        </g>
+        <g
+           id="g911"
+           class="slicetext"
+           transform="matrix(1.2376399,0,0,1.2376399,51.476843,54.61336)"
+           style="fill:#ffffff">
+          <text
+             transform="translate(197.51576,68.411552)"
+             id="text909"
+             style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+             y="0"
+             x="0"
              class="slicetext"
-             id="g911">
-            <text
-               data-notex="1"
-               class="slicetext"
-               transform="translate(197.51576,68.411552)"
-               x="0"
+             data-notex="1">
+            <tspan
+               id="tspan905"
                y="0"
-               style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
-               id="text909">
-              <tspan
-                 style="fill:#ffffff"
-                 class="line"
-                 dy="0em"
-                 x="0"
-                 y="0"
-                 id="tspan905">
-                <tspan
-                   style="font-weight:bold;fill:#ffffff"
-                   id="tspan903">Transport</tspan>
-              </tspan>
-              <tspan
-                 style="fill:#ffffff"
-                 class="line"
-                 dy="1.3em"
-                 x="0"
-                 y="0"
-                 id="tspan907">24.2%</tspan>
-            </text>
-          </g>
-          <g
-             style="fill:#ffffff"
-             transform="matrix(1.2376399,0,0,1.2376399,66.070223,-144.69051)"
-             class="slicetext"
-             id="g925">
-            <text
-               data-notex="1"
-               class="slicetext"
-               transform="translate(175.59923,344.70957)"
                x="0"
+               dy="0em"
+               class="line"
+               style="fill:#ffffff">
+              <tspan
+                 id="tspan903"
+                 style="font-weight:bold;fill:#ffffff">Transport</tspan>
+            </tspan>
+            <tspan
+               id="tspan907"
                y="0"
-               style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
-               id="text923">
-              <tspan
-                 style="fill:#ffffff"
-                 class="line"
-                 dy="0em"
-                 x="0"
-                 y="0"
-                 id="tspan919">
-                <tspan
-                   style="font-weight:bold;fill:#ffffff"
-                   id="tspan917">Electricity</tspan>
-              </tspan>
-              <tspan
-                 style="fill:#ffffff"
-                 class="line"
-                 dy="1.3em"
-                 x="0"
-                 y="0"
-                 id="tspan921">21.6%</tspan>
-            </text>
-          </g>
-          <g
-             style="fill:#02808a;fill-opacity:1"
-             transform="matrix(1.2376399,0,0,1.2376399,-49.842907,-95.073019)"
-             class="slicetext"
-             id="g939">
-            <text
-               data-notex="1"
-               class="slicetext"
-               transform="translate(314.84688,429.90866)"
                x="0"
+               dy="1.3em"
+               class="line"
+               style="fill:#ffffff">24.5%</tspan>
+            <tspan
                y="0"
-               style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#02808a;fill-opacity:1"
-               id="text937">
-              <tspan
-                 style="fill:#02808a;fill-opacity:1"
-                 class="line"
-                 dy="0em"
-                 x="0"
-                 y="0"
-                 id="tspan933">
-                <tspan
-                   style="font-weight:bold;fill:#02808a;fill-opacity:1"
-                   id="tspan931">Other</tspan>
-              </tspan>
-              <tspan
-                 style="fill:#02808a;fill-opacity:1"
-                 class="line"
-                 x="0"
-                 y="0"
-                 id="tspan935" />
-            </text>
-          </g>
-          <g
-             style="opacity:1;fill:#02818a;fill-opacity:1;stroke-linejoin:round"
-             transform="matrix(1.2376399,0,0,1.2376399,388.94016,-49.743972)"
+               x="0"
+               dy="1.3em"
+               class="line"
+               style="fill:#ffffff"
+               id="tspan4673" />
+          </text>
+        </g>
+        <g
+           id="g925"
+           class="slicetext"
+           transform="matrix(1.2376399,0,0,1.2376399,66.070223,-144.69051)"
+           style="fill:#ffffff">
+          <text
+             transform="translate(175.59923,344.70957)"
+             id="text923"
+             style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#ffffff;fill-opacity:1"
+             y="0"
+             x="0"
              class="slicetext"
-             id="g939-2">
-            <text
-               data-notex="1"
-               class="slicetext"
-               x="-39.524086"
+             data-notex="1">
+            <tspan
+               id="tspan919"
+               y="0"
+               x="0"
+               dy="0em"
+               class="line"
+               style="fill:#ffffff">
+              <tspan
+                 id="tspan917"
+                 style="font-weight:bold;fill:#ffffff">Electricity</tspan>
+            </tspan>
+            <tspan
+               id="tspan921"
+               y="0"
+               x="0"
+               dy="1.3em"
+               class="line"
+               style="fill:#ffffff">21%</tspan>
+          </text>
+        </g>
+        <g
+           id="g939"
+           class="slicetext"
+           transform="matrix(1.2376399,0,0,1.2376399,-49.842907,-95.073019)"
+           style="fill:#02808a;fill-opacity:1">
+          <text
+             id="text937"
+             style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#02808a;fill-opacity:1"
+             y="0"
+             x="0"
+             transform="translate(314.84688,429.90866)"
+             class="slicetext"
+             data-notex="1">
+            <tspan
+               id="tspan933"
+               y="0"
+               x="0"
+               dy="0em"
+               class="line"
+               style="fill:#02808a;fill-opacity:1">
+              <tspan
+                 id="tspan931"
+                 style="font-weight:bold;fill:#02808a;fill-opacity:1">Other</tspan>
+            </tspan>
+            <tspan
+               id="tspan935"
+               y="0"
+               x="0"
+               class="line"
+               style="fill:#02808a;fill-opacity:1" />
+          </text>
+        </g>
+        <g
+           id="g939-2"
+           class="slicetext"
+           transform="matrix(1.2376399,0,0,1.2376399,388.94016,-49.743972)"
+           style="opacity:1;fill:#02818a;fill-opacity:1;stroke-linejoin:round">
+          <text
+             id="text937-9"
+             style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#02818a;fill-opacity:1"
+             y="408.68973"
+             x="-39.524086"
+             class="slicetext"
+             data-notex="1">
+            <tspan
+               id="tspan935-3"
                y="408.68973"
-               style="font-size:12px;font-family:'Open Sans', verdana, arial, sans-serif;text-anchor:middle;white-space:pre;fill:#02818a;fill-opacity:1"
-               id="text937-9">
-              <tspan
-                 style="fill:#02818a;fill-opacity:1"
-                 class="line"
-                 x="-39.524086"
-                 y="408.68973"
-                 id="tspan935-3">4.0%</tspan>
-            </text>
-          </g>
+               x="-39.524086"
+               class="line"
+               style="fill:#02818a;fill-opacity:1">2.64%</tspan>
+          </text>
         </g>
       </g>
     </g>
