@@ -357,7 +357,7 @@ file)
     
     EnConsumptionDomNonDom$NonDomElec <- EnConsumptionDomNonDom$`Electricity - Industrial` + EnConsumptionDomNonDom$`Electricity - Commercial`
     
-    EnConsumptionDomNonDom <- select(EnConsumptionDomNonDom, Year,`Electricity - Domestic`, `Electricity - Industrial & Commercial`, `Consuming Sector - Domestic`, `NonDomElec`)
+    EnConsumptionDomNonDom <- select(EnConsumptionDomNonDom, Year,`Electricity - Domestic`, `Electricity - Industrial & Commercial`, `Consuming Sector - Domestic`, `Consuming Sector - Industry & Commercial`)
     
     HeatConsumptionbyLA <- read_csv("Processed Data/Output/Consumption/HeatConsumptionbyLA.csv")
     
