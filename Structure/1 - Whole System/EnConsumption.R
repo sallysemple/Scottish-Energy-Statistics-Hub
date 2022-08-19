@@ -97,6 +97,10 @@ EnConsumptionOutput <- function(id) {
 
 
 ###### Server ######
+
+###EXCLUDE MOST RECENT YEAR - Might be needed if some fuels are rolling over but not all.
+ExcludeMostRecentYear <- 1
+
 EnConsumption <- function(input, output, session) {
 
   if (exists("PackageHeader") == 0) {
@@ -109,12 +113,21 @@ EnConsumption <- function(input, output, session) {
     
     EnConsumption <- read_csv("Processed Data/Output/Consumption/RenEnTgt.csv")
     
+    if(ExcludeMostRecentYear == 1){
+      EnConsumption <-  EnConsumption[which(EnConsumption$Year < max(EnConsumption$Year)),]
+    }
+    
     paste("Scotland,",max(as.numeric(EnConsumption$Year), na.rm = TRUE))
   })
  
   output$EnConsumptionPlot <- renderPlotly  ({
     
     EnConsumption <- read_csv("Processed Data/Output/Consumption/RenEnTgt.csv")
+    
+    if(ExcludeMostRecentYear == 1){
+      EnConsumption <-  EnConsumption[which(EnConsumption$Year < max(EnConsumption$Year)),]
+    }
+    
     
     EnConsumption$Other <- EnConsumption$`Adjusted Consumption` - EnConsumption$`Gross Electricity Consumption` - EnConsumption$`Heat Consumption` - EnConsumption$`Consuming Sector - Transport`
     
@@ -180,6 +193,10 @@ EnConsumption <- function(input, output, session) {
   output$EnConsumptionTable = renderDataTable({
     
     EnConsumption <- read_csv("Processed Data/Output/Consumption/RenEnTgt.csv")
+    
+    if(ExcludeMostRecentYear == 1){
+      EnConsumption <-  EnConsumption[which(EnConsumption$Year < max(EnConsumption$Year)),]
+    }
     
     EnConsumption$Other <- EnConsumption$`Adjusted Consumption` - EnConsumption$`Gross Electricity Consumption` - EnConsumption$`Heat Consumption` - EnConsumption$`Consuming Sector - Transport`
     
@@ -266,6 +283,10 @@ file)
     
     EnConsumptionDomNonDom <- read_csv("Processed Data/Output/Consumption/TotalFinalConsumption.csv")
     
+    if(ExcludeMostRecentYear == 1){
+      EnConsumptionDomNonDom <-  EnConsumptionDomNonDom[which(EnConsumptionDomNonDom$Year < max(EnConsumptionDomNonDom$Year)),]
+    }
+    
     EnConsumptionDomNonDom <- EnConsumptionDomNonDom[which(EnConsumptionDomNonDom$`LA Code`== "S92000003"),]
     
     EnConsumptionDomNonDom <- select(EnConsumptionDomNonDom, Year, `Consuming Sector - Domestic`, `Consuming Sector - Industry & Commercial`)
@@ -340,6 +361,10 @@ file)
     
     EnConsumptionDomNonDom <- read_csv("Processed Data/Output/Consumption/TotalFinalConsumption.csv")
     
+    if(ExcludeMostRecentYear == 1){
+      EnConsumptionDomNonDom <-  EnConsumptionDomNonDom[which(EnConsumptionDomNonDom$Year < max(EnConsumptionDomNonDom$Year)),]
+    }
+    
     EnConsumptionDomNonDom <- EnConsumptionDomNonDom[which(EnConsumptionDomNonDom$`LA Code`== "S92000003"),]
     
     EnConsumptionDomNonDom <- select(EnConsumptionDomNonDom, Year, `Consuming Sector - Domestic`, `Consuming Sector - Industry & Commercial`)
@@ -353,6 +378,10 @@ file)
     
     EnConsumptionDomNonDom <- read_csv("Processed Data/Output/Consumption/TotalFinalConsumption.csv")
     
+    if(ExcludeMostRecentYear == 1){
+      EnConsumptionDomNonDom <-  EnConsumptionDomNonDom[which(EnConsumptionDomNonDom$Year < max(EnConsumptionDomNonDom$Year)),]
+    }
+    
     EnConsumptionDomNonDom <- EnConsumptionDomNonDom[which(EnConsumptionDomNonDom$`LA Code`== "S92000003"),]
     
     EnConsumptionDomNonDom$NonDomElec <- EnConsumptionDomNonDom$`Electricity - Industrial` + EnConsumptionDomNonDom$`Electricity - Commercial`
@@ -360,6 +389,10 @@ file)
     EnConsumptionDomNonDom <- select(EnConsumptionDomNonDom, Year,`Electricity - Domestic`, `Electricity - Industrial & Commercial`, `Consuming Sector - Domestic`, `Consuming Sector - Industry & Commercial`)
     
     HeatConsumptionbyLA <- read_csv("Processed Data/Output/Consumption/HeatConsumptionbyLA.csv")
+    
+    if(ExcludeMostRecentYear == 1){
+      HeatConsumptionbyLA <-  HeatConsumptionbyLA[which(HeatConsumptionbyLA$Year < max(HeatConsumptionbyLA$Year)),]
+    }
     
     HeatConsumptionbyLA <- HeatConsumptionbyLA[which(HeatConsumptionbyLA$`LA Code`== "S92000003"),]
     
