@@ -18,7 +18,7 @@ RenElecCapacityOutput <- function(id) {
                ),
                column(
                  4, style = 'padding:15px;',
-                 downloadButton(ns('RenElecOperational.svg'), 'Download Graph', style="float:right")
+                 downloadButton(ns('RenElecOperational.png'), 'Download Graph', style="float:right")
                )),
                
                tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"),
@@ -32,7 +32,7 @@ RenElecCapacityOutput <- function(id) {
                ),
                column(
                  4, style = 'padding:15px;',
-                 downloadButton(ns('RenElecOperationalSize.svg'), 'Download Graph', style="float:right")
+                 downloadButton(ns('RenElecOperationalSize.png'), 'Download Graph', style="float:right")
                )),
                
                tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"),
@@ -47,7 +47,7 @@ RenElecCapacityOutput <- function(id) {
                ),
                column(
                  4, style = 'padding:15px;',
-                 downloadButton(ns('RenElecFuel.svg'), 'Download Graph', style="float:right")
+                 downloadButton(ns('RenElecFuel.png'), 'Download Graph', style="float:right")
                )),
                
                tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"),
@@ -61,7 +61,7 @@ RenElecCapacityOutput <- function(id) {
                ),
                column(
                  4, style = 'padding:15px;',
-                 downloadButton(ns('LACapMap.svg'), 'Download Graph', style="float:right")
+                 downloadButton(ns('LACapMap.png'), 'Download Graph', style="float:right")
                )),
                fluidRow(column(6,selectInput(ns("YearSelect"), "Year:", c(max(LARenCap$Year):min(LARenCap$Year)), selected = max(LARenCap$Year), multiple = FALSE,
                                              selectize = TRUE, width = NULL, size = NULL) ),
@@ -709,8 +709,8 @@ RenElecCapacity <- function(input, output, session) {
     
   })
   
-  output$RenElecFuel.svg <- downloadHandler(
-    filename = "RenElecFuel.svg",
+  output$RenElecFuel.png <- downloadHandler(
+    filename = "RenElecFuel.png",
     content = function(file) {
       
       Data <- read_csv("Processed Data/Output/Renewable Capacity/AnnualElecCapacity.csv")
@@ -1038,8 +1038,8 @@ RenElecCapacity <- function(input, output, session) {
     toggle("RenElecPipelineTimeTable")
   })
   
-  output$RenElecOperational.svg <- downloadHandler(
-    filename = "RenElecOperational.svg",
+  output$RenElecOperational.png <- downloadHandler(
+    filename = "RenElecOperational.png",
     content = function(file) {
       
       
@@ -1378,8 +1378,8 @@ RenElecCapacity <- function(input, output, session) {
   })
   
   
-  output$RenElecOperationalSize.svg <- downloadHandler(
-    filename = "RenElecOperationalSize.svg",
+  output$RenElecOperationalSize.png <- downloadHandler(
+    filename = "RenElecOperationalSize.png",
     content = function(file) {
       
       
@@ -1814,8 +1814,8 @@ RenElecCapacity <- function(input, output, session) {
   })
   
   
-  output$RenSites.svg <- downloadHandler(
-    filename = "RenSites.svg",
+  output$RenSites.png <- downloadHandler(
+    filename = "RenSites.png",
     content = function(file) {
       
       ### Load Packages and Functions
@@ -2197,10 +2197,10 @@ RenElecCapacity <- function(input, output, session) {
   })
   
   
-  output$LACapMap.svg <- downloadHandler(
-    filename = "LACapMap.svg",
+  output$LACapMap.png <- downloadHandler(
+    filename = "LACapMap.png",
     content = function(file) {
-      file.copy(("Structure/2 - Renewables/Electricity/LARenCap.svg"), file) 
+      file.copy(("Structure/2 - Renewables/Electricity/LARenCap.png"), file) 
     }
   )
 
