@@ -566,7 +566,7 @@ EnBalance <- function(input, output, session) {
                 y = c(0.1, 0.9)),
               marker = list(colors = c("#254061", "#376092", "#00aa88", "#77933c", "#4f6228", "#184d0f"),
                             line = list(color = '#FFFFFF', width = 2)),
-              text = paste0(Pie1$Label,": ", format(round(Pie1$Value, digits = 0), big.mark = ","), " ktoe\n", percent((Pie1$Value)/ sum(Pie1$Value), .1)),
+              text = paste0(Pie1$Label,": ", format(round(Pie1$Value, digits = 0), big.mark = ","), " ", unit, "\n", percent((Pie1$Value)/ sum(Pie1$Value), .1)),
               sort = T) %>% 
       layout(
         title = list(

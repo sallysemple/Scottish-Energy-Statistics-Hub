@@ -186,7 +186,7 @@ CarbonProd <- function(input, output, session) {
     
     CarbonProdData <- as_tibble(CarbonProdData)
     
-    names(CarbonProdData) <- c("Year", "GVA (\u00A3 million)", "Emissions (Million tonnes of CO2 equivalent)", "Carbon Productivity (\u00A3GVA million per tonne of CO2e)")
+    names(CarbonProdData) <- c("Year", "GVA (\u00A3 million)", "Emissions (Million tonnes of CO2 equivalent)", "Carbon Productivity (\u00A3 million GVA per tonne of CO2e)")
     
     datatable(
       CarbonProdData,
