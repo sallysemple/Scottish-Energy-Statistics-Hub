@@ -134,7 +134,7 @@ EnergyConsumptionOutput <- function(id) {
 EnergyConsumption <- function(input, output, session) {
   
   ###EXCLUDE MOST RECENT YEAR - Might be needed if some fuels are rolling over but not all.
-  ExcludeMostRecentYear <- 1
+  ExcludeMostRecentYear <- 0
   
   
   if (exists("PackageHeader") == 0) {

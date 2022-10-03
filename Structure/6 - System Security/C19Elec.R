@@ -389,43 +389,43 @@ C19Elec <- function(input, output, session) {
     
     p2 <-  plot_ly(DailyDemand,x = ~ Date ) %>% 
 
-      add_trace(data = DailyDemand,
-                x = ~ NewDate,
-                y = ~ `2019`,
-                name = "2019",
-                type = 'scatter',
-                mode = 'lines',
-                legendgroup = "3",
-                text = paste0(
-                  "Demand: ",
-                  round(DailyDemand$`2019`, digits = 1),
-                  " GWh\n", weekdays(ymd(paste0("2019-",substr(DailyDemand$NewDate,6,10)))), " ",
-                  format(ymd(paste0("2019-",substr(DailyDemand$NewDate,6,10))), format="%d %B %Y")
-                ),
-                hoverinfo = 'text',
-                colour = ChartColours[3],
-                line = list(width = 3,
-                            color = ChartColours[3])
-      )  %>% 
-      
-      add_trace(data = DailyDemand,
-                x = ~ NewDate,
-                y = ~ `2020`,
-                name = "2020",
-                type = 'scatter',
-                mode = 'lines',
-                legendgroup = "2",
-                text = paste0(
-                  "Demand: ",
-                  round(DailyDemand$`2020`, digits = 1),
-                  " GWh\n", weekdays(ymd(paste0("2020-",substr(DailyDemand$NewDate,6,10)))), " ",
-                  format(ymd(paste0("2020-",substr(DailyDemand$NewDate,6,10))), format="%d %B %Y")
-                ),
-                hoverinfo = 'text',
-                colour = ChartColours[2],
-                line = list(width = 3,
-                            color = ChartColours[2])
-      )  %>% 
+      # add_trace(data = DailyDemand,
+      #           x = ~ NewDate,
+      #           y = ~ `2019`,
+      #           name = "2019",
+      #           type = 'scatter',
+      #           mode = 'lines',
+      #           legendgroup = "3",
+      #           text = paste0(
+      #             "Demand: ",
+      #             round(DailyDemand$`2019`, digits = 1),
+      #             " GWh\n", weekdays(ymd(paste0("2019-",substr(DailyDemand$NewDate,6,10)))), " ",
+      #             format(ymd(paste0("2019-",substr(DailyDemand$NewDate,6,10))), format="%d %B %Y")
+      #           ),
+      #           hoverinfo = 'text',
+      #           colour = ChartColours[3],
+      #           line = list(width = 3,
+      #                       color = ChartColours[3])
+      # )  %>% 
+      # 
+      # add_trace(data = DailyDemand,
+      #           x = ~ NewDate,
+      #           y = ~ `2020`,
+      #           name = "2020",
+      #           type = 'scatter',
+      #           mode = 'lines',
+      #           legendgroup = "2",
+      #           text = paste0(
+      #             "Demand: ",
+      #             round(DailyDemand$`2020`, digits = 1),
+      #             " GWh\n", weekdays(ymd(paste0("2020-",substr(DailyDemand$NewDate,6,10)))), " ",
+      #             format(ymd(paste0("2020-",substr(DailyDemand$NewDate,6,10))), format="%d %B %Y")
+      #           ),
+      #           hoverinfo = 'text',
+      #           colour = ChartColours[2],
+      #           line = list(width = 3,
+      #                       color = ChartColours[2])
+      # )  %>% 
       add_trace(data = DailyDemand,
                 x = ~ NewDate,
                 y = ~ `2021`,
@@ -445,70 +445,88 @@ C19Elec <- function(input, output, session) {
                             color = ChartColours[1])
       ) %>% 
 
+    add_trace(data = DailyDemand,
+              x = ~ NewDate,
+              y = ~ `2022`,
+              name = "2022",
+              type = 'scatter',
+              mode = 'lines',
+              legendgroup = "1",
+              text = paste0(
+                "Demand: ",
+                round(DailyDemand$`2022`, digits = 1),
+                " GWh\n", weekdays(ymd(paste0("2022-",substr(DailyDemand$NewDate,6,10)))), " ",
+                format(ymd(paste0("2022-",substr(DailyDemand$NewDate,6,10))), format="%d %B %Y")
+              ),
+              hoverinfo = 'text',
+              colour = ChartColours[2],
+              line = list(width = 3,
+                          color = ChartColours[2])
+    ) %>% 
       
-      add_annotations(
-        x = dmy("25/03/2021"),
-        y = 30,
-        text = "<b>24/03/2020</b>\nNational\nLockdown",
-        align = 'left',
-        xanchor = 'left',
-        font = list(color = "#74a9cf",
-                    family = "Century Gothic"),
-        showarrow = FALSE
-      ) %>% 
-      add_annotations(
-        x = dmy("29/05/2021"),
-        y = 30,
-        text = "<b>28/05/2020</b>\nPhased\nRoutemap",
-        align = 'left',
-        xanchor = 'left',
-        font = list(color = "#74a9cf",
-                    family = "Century Gothic"),
-        showarrow = FALSE
-      ) %>% 
-      add_annotations(
-        x = dmy("24/10/2021"),
-        y = 30,
-        text = "<b>24/10/2020</b>\nFive-level\nStrategic\nFramework",
-        align = 'left',
-        xanchor = 'left',
-        font = list(color = "#74a9cf",
-                    family = "Century Gothic"),
-        showarrow = FALSE
-      ) %>% 
-      add_annotations(
-        x = dmy("05/01/2021"),
-        y = 30,
-        text = "<b>04/01/2021</b>\nMainland\nLockdown",
-        align = 'left',
-        xanchor = 'left',
-        font = list(color = "#ef6548",
-                    family = "Century Gothic"),
-        showarrow = FALSE
-      ) %>% 
-      layout(
-        barmode = 'stack',
-        shapes = list( vline1(dmy("24/03/2021")),vline2(dmy("28/05/2021")),vline1(dmy("23/10/2021")),vline3(dmy("04/01/2021"))),
-        bargap = 0.66,
-        legend = list(font = list(color = "#126992"),
-                      orientation = 'h'),
-        hoverlabel = list(font = list(color = "white"),
-                          hovername = 'text'),
-        hovername = 'text',
-        
-        xaxis = list(title = "Date in 2021",
-                     showgrid = FALSE,
-                     tickfont = list(size = 15)),
-        yaxis = list(
-          title = "GWh",
-          tickformat = "",
-          showgrid = TRUE,
-          zeroline = TRUE,
-          zerolinecolor = "#5d8be1",
-          zerolinewidth = 2,
-          rangemode = "tozero"
-        )
-      ) %>% 
+      # add_annotations(
+      #   x = dmy("25/03/2021"),
+      #   y = 30,
+      #   text = "<b>24/03/2020</b>\nNational\nLockdown",
+      #   align = 'left',
+      #   xanchor = 'left',
+      #   font = list(color = "#74a9cf",
+      #               family = "Century Gothic"),
+      #   showarrow = FALSE
+      # ) %>% 
+      # add_annotations(
+      #   x = dmy("29/05/2021"),
+      #   y = 30,
+      #   text = "<b>28/05/2020</b>\nPhased\nRoutemap",
+      #   align = 'left',
+      #   xanchor = 'left',
+      #   font = list(color = "#74a9cf",
+      #               family = "Century Gothic"),
+      #   showarrow = FALSE
+      # ) %>% 
+      # add_annotations(
+      #   x = dmy("24/10/2021"),
+      #   y = 30,
+      #   text = "<b>24/10/2020</b>\nFive-level\nStrategic\nFramework",
+      #   align = 'left',
+      #   xanchor = 'left',
+      #   font = list(color = "#74a9cf",
+      #               family = "Century Gothic"),
+      #   showarrow = FALSE
+      # ) %>% 
+      # add_annotations(
+      #   x = dmy("05/01/2021"),
+      #   y = 30,
+      #   text = "<b>04/01/2021</b>\nMainland\nLockdown",
+      #   align = 'left',
+      #   xanchor = 'left',
+      #   font = list(color = "#ef6548",
+      #               family = "Century Gothic"),
+      #   showarrow = FALSE
+      # ) %>% 
+      # layout(
+      #   barmode = 'stack',
+      #   shapes = list( vline1(dmy("24/03/2021")),vline2(dmy("28/05/2021")),vline1(dmy("23/10/2021")),vline3(dmy("04/01/2021"))),
+      #   bargap = 0.66,
+      #   legend = list(font = list(color = "#126992"),
+      #                 orientation = 'h'),
+      #   hoverlabel = list(font = list(color = "white"),
+      #                     hovername = 'text'),
+      #   hovername = 'text',
+      #   
+      #   xaxis = list(title = "Date in 2021",
+      #                showgrid = FALSE,
+      #                tickfont = list(size = 15)),
+      #   yaxis = list(
+      #     title = "GWh",
+      #     tickformat = "",
+      #     showgrid = TRUE,
+      #     zeroline = TRUE,
+      #     zerolinecolor = "#5d8be1",
+      #     zerolinewidth = 2,
+      #     rangemode = "tozero"
+      #   )
+      #) %>% 
       config(displayModeBar = F)
     p2
     
@@ -923,7 +941,7 @@ output$C19ElecRolling.png <- downloadHandler(
     
     DailyDemand <- DailyDemand %>% group_by(Year) %>% mutate(id = row_number()-1)
     
-    DailyDemand$NewDate <- ymd("2021/01/01") + DailyDemand$id
+    DailyDemand$NewDate <- ymd("2022/01/01") + DailyDemand$id
     
     DailyDemand  <- dcast(DailyDemand, NewDate ~ Year, value.var = 'Electricity')
     
@@ -935,40 +953,41 @@ output$C19ElecRolling.png <- downloadHandler(
     
     DailyDemandChart <- DailyDemand %>%
       ggplot(aes(x = NewDate), family = "Century Gothic") +
-      geom_line(
-        aes(y = `2019`,
-            label = paste0(`2019` * 100, "%")),
-        colour = BarColours[3],
-        size = 1,
-        family = "Century Gothic"
-      ) +
-      annotate(
-        "text",
-        x = mean(DailyDemand$NewDate),
-        y = 80,
-        label = "2019",
-        hjust = 0.5,
-        colour = BarColours[3],
-        fontface = 2,
-        family = "Century Gothic"
-      ) +
-      geom_line(
-        aes(y = `2020`,
-            label = `2020`),
-        colour = BarColours[2],
-        size = 1,
-        family = "Century Gothic"
-      ) +
-      annotate(
-        "text",
-        x = mean(DailyDemand$NewDate),
-        y = 45,
-        label = "2021",
-        hjust = 0.5,
-        colour = BarColours[1],
-        fontface = 2,
-        family = "Century Gothic"
-      ) +
+  
+      # geom_line(
+      #   aes(y = `2019`,
+      #       label = paste0(`2019` * 100, "%")),
+      #   colour = BarColours[3],
+      #   size = 1,
+      #   family = "Century Gothic"
+      # ) +
+      # annotate(
+      #   "text",
+      #   x = mean(DailyDemand$NewDate),
+      #   y = 80,
+      #   label = "2019",
+      #   hjust = 0.5,
+      #   colour = BarColours[3],
+      #   fontface = 2,
+      #   family = "Century Gothic"
+      # ) +
+      # geom_line(
+      #   aes(y = `2020`,
+      #       label = `2020`),
+      #   colour = BarColours[2],
+      #   size = 1,
+      #   family = "Century Gothic"
+      # ) +
+      # annotate(
+      #   "text",
+      #   x = mean(DailyDemand$NewDate),
+      #   y = 45,
+      #   label = "2021",
+      #   hjust = 0.5,
+      #   colour = BarColours[1],
+      #   fontface = 2,
+      #   family = "Century Gothic"
+      # ) +
       geom_line(
         aes(y = `2021`,
             label = `2021`),
@@ -976,13 +995,30 @@ output$C19ElecRolling.png <- downloadHandler(
         size = 1,
         family = "Century Gothic"
       ) +
+      geom_line(
+        aes(y = `2022`,
+            label = `2022`),
+        colour = BarColours[2],
+        size = 1,
+        family = "Century Gothic"
+      ) +
       annotate(
         "text",
         x = mean(DailyDemand$NewDate),
-        y = 50,
-        label = "2020",
+        y = 40,
+        label = "2022",
         hjust = 0.5,
         colour = BarColours[2],
+        fontface = 2,
+        family = "Century Gothic"
+      ) +
+      annotate(
+        "text",
+        x = mean(DailyDemand$NewDate),
+        y = 75,
+        label = "2021",
+        hjust = 0.5,
+        colour = BarColours[1],
         fontface = 2,
         family = "Century Gothic"
       ) +
@@ -991,7 +1027,7 @@ output$C19ElecRolling.png <- downloadHandler(
           x = NewDate,
           y = 0,
           label = ifelse(
-            NewDate == max(NewDate) |
+            NewDate == max(NewDate) | NewDate == mean(NewDate)  | 
               NewDate == min(NewDate),
             format(NewDate, format = "%d %b"),
             ""
@@ -1086,159 +1122,159 @@ output$C19ElecRolling.png <- downloadHandler(
         colour = "grey",
         alpha = 0.4,
         linetype = 2
-      ) +
-      geom_text(
-        aes(
-          x = dmy("24/03/2021"),
-          y = 40,
-          label = "24/03/2020",
-          fontface = 2
-        ),
-        hjust = 0,
-        vjust = -.2,
-        colour = "#74a9cf",
-        family = "Century Gothic",
-        size = 3
-      )+
-      geom_text(
-        aes(
-          x = dmy("24/03/2021"),
-          y = 40,
-          label = "National\nLockdown "
-        ),
-        vjust = 1.1,
-        hjust = 0,
-        colour = "#74a9cf",
-        family = "Century Gothic",
-        size = 3
-      )+
-      annotate(
-        "segment",
-        x = dmy("23/03/2021"),
-        xend = dmy("23/03/2021"),
-        y = -0,
-        yend = 1000,
-        colour = "#74a9cf",
-        alpha = 0.9
-      ) +
+      ) #+
+      # geom_text(
+      #   aes(
+      #     x = dmy("24/03/2021"),
+      #     y = 40,
+      #     label = "24/03/2020",
+      #     fontface = 2
+      #   ),
+      #   hjust = 0,
+      #   vjust = -.2,
+      #   colour = "#74a9cf",
+      #   family = "Century Gothic",
+      #   size = 3
+      # )+
+      # geom_text(
+      #   aes(
+      #     x = dmy("24/03/2021"),
+      #     y = 40,
+      #     label = "National\nLockdown "
+      #   ),
+      #   vjust = 1.1,
+      #   hjust = 0,
+      #   colour = "#74a9cf",
+      #   family = "Century Gothic",
+      #   size = 3
+      # )+
+      # annotate(
+      #   "segment",
+      #   x = dmy("23/03/2021"),
+      #   xend = dmy("23/03/2021"),
+      #   y = -0,
+      #   yend = 1000,
+      #   colour = "#74a9cf",
+      #   alpha = 0.9
+      # ) +
       
       
       
       
       
-      geom_text(
-        aes(
-          x = dmy("29/05/2021"),
-          y = 40,
-          label = "28/05/2020",
-          fontface = 2
-        ),
-        hjust = 0,
-        vjust = -.2,
-        colour = "#74a9cf",
-        family = "Century Gothic",
-        size = 3
-      )+
-      geom_text(
-        aes(
-          x = dmy("29/05/2021"),
-          y = 40,
-          label = "Phased\nRoutemap "
-        ),
-        vjust = 1.1,
-        hjust = 0,
-        colour = "#74a9cf",
-        family = "Century Gothic",
-        size = 3
-      )+
-      annotate(
-        "segment",
-        x = dmy("28/05/2021"),
-        xend = dmy("28/05/2021"),
-        y = 0,
-        yend = 1000,
-        colour = "#74a9cf",
-        alpha = 0.9,
-        linetype = 2
-      ) +
+      # geom_text(
+      #   aes(
+      #     x = dmy("29/05/2021"),
+      #     y = 40,
+      #     label = "28/05/2020",
+      #     fontface = 2
+      #   ),
+      #   hjust = 0,
+      #   vjust = -.2,
+      #   colour = "#74a9cf",
+      #   family = "Century Gothic",
+      #   size = 3
+      # )+
+      # geom_text(
+      #   aes(
+      #     x = dmy("29/05/2021"),
+      #     y = 40,
+      #     label = "Phased\nRoutemap "
+      #   ),
+      #   vjust = 1.1,
+      #   hjust = 0,
+      #   colour = "#74a9cf",
+      #   family = "Century Gothic",
+      #   size = 3
+      # )+
+      # annotate(
+      #   "segment",
+      #   x = dmy("28/05/2021"),
+      #   xend = dmy("28/05/2021"),
+      #   y = 0,
+      #   yend = 1000,
+      #   colour = "#74a9cf",
+      #   alpha = 0.9,
+      #   linetype = 2
+      # ) +
+      # 
+      # 
+      # 
+      # 
+      # 
+      # geom_text(
+      #   aes(
+      #     x = dmy("25/10/2021"),
+      #     y = 40,
+      #     label = "24/10/2020",
+      #     fontface = 2
+      #   ),
+      #   hjust = 0,
+      #   vjust = -.2,
+      #   colour = "#74a9cf",
+      #   family = "Century Gothic",
+      #   size = 3
+      # )+
+      # geom_text(
+      #   aes(
+      #     x = dmy("25/10/2021"),
+      #     y = 40,
+      #     label = "Five-Level\nStrategic Framework "
+      #   ),
+      #   vjust = 1.1,
+      #   hjust = 0,
+      #   colour = "#74a9cf",
+      #   family = "Century Gothic",
+      #   size = 3
+      # )+
+      # annotate(
+      #   "segment",
+      #   x = dmy("24/10/2021"),
+      #   xend = dmy("24/10/2021"),
+      #   y = 0,
+      #   yend = 1000,
+      #   colour = "#74a9cf",
+      #   alpha = 0.9
+      # ) +
+      # 
+      # 
+      # 
+      # 
       
-      
-      
-      
-      
-      geom_text(
-        aes(
-          x = dmy("25/10/2021"),
-          y = 40,
-          label = "24/10/2020",
-          fontface = 2
-        ),
-        hjust = 0,
-        vjust = -.2,
-        colour = "#74a9cf",
-        family = "Century Gothic",
-        size = 3
-      )+
-      geom_text(
-        aes(
-          x = dmy("25/10/2021"),
-          y = 40,
-          label = "Five-Level\nStrategic Framework "
-        ),
-        vjust = 1.1,
-        hjust = 0,
-        colour = "#74a9cf",
-        family = "Century Gothic",
-        size = 3
-      )+
-      annotate(
-        "segment",
-        x = dmy("24/10/2021"),
-        xend = dmy("24/10/2021"),
-        y = 0,
-        yend = 1000,
-        colour = "#74a9cf",
-        alpha = 0.9
-      ) +
-      
-      
-      
-      
-      
-      geom_text(
-        aes(
-          x = dmy("05/01/2021"),
-          y = 40,
-          label = "04/01/2021",
-          fontface = 2
-        ),
-        hjust = 0,
-        vjust = -.2,
-        colour = "#ef6548",
-        family = "Century Gothic",
-        size = 3
-      )+
-      geom_text(
-        aes(
-          x = dmy("05/01/2021"),
-          y = 40,
-          label = "Mainland\nLockdown"
-        ),
-        vjust = 1.1,
-        hjust = 0,
-        colour = "#ef6548",
-        family = "Century Gothic",
-        size = 3
-      )+
-      annotate(
-        "segment",
-        x = dmy("04/01/2021"),
-        xend = dmy("04/01/2021"),
-        y = 0,
-        yend = 1000,
-        colour = "#ef6548",
-        alpha = 0.9
-      ) 
+      # geom_text(
+      #   aes(
+      #     x = dmy("05/01/2021"),
+      #     y = 40,
+      #     label = "04/01/2021",
+      #     fontface = 2
+      #   ),
+      #   hjust = 0,
+      #   vjust = -.2,
+      #   colour = "#ef6548",
+      #   family = "Century Gothic",
+      #   size = 3
+      # )+
+      # geom_text(
+      #   aes(
+      #     x = dmy("05/01/2021"),
+      #     y = 40,
+      #     label = "Mainland\nLockdown"
+      #   ),
+      #   vjust = 1.1,
+      #   hjust = 0,
+      #   colour = "#ef6548",
+      #   family = "Century Gothic",
+      #   size = 3
+      # )+
+      # annotate(
+      #   "segment",
+      #   x = dmy("04/01/2021"),
+      #   xend = dmy("04/01/2021"),
+      #   y = 0,
+      #   yend = 1000,
+      #   colour = "#ef6548",
+      #   alpha = 0.9
+      #) 
     
     
     DailyDemandChart

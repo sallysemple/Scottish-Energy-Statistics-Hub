@@ -391,7 +391,7 @@ EnProd <- function(input, output, session) {
   
   
   output$EnProd.png <- downloadHandler(
-    filename = "EnProd.png",
+    filename = "EnProd.svg",
     content = function(file) {
 
       EnProd <- read_csv("Processed Data/Output/GVA/EnProductivity.csv")[c(1,6)]
@@ -645,7 +645,7 @@ EnProd <- function(input, output, session) {
   )
   
   output$EnProdHist.png <- downloadHandler(
-    filename = "EnProdHist.png",
+    filename = "EnProdHist.svg",
     content = function(file) {
       
       EnProdHist <- read_csv("Processed Data/Output/GVA/EnProductivity.csv")[c(1,7)]

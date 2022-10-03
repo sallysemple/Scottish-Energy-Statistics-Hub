@@ -99,7 +99,7 @@ EnConsumptionOutput <- function(id) {
 ###### Server ######
 
 ###EXCLUDE MOST RECENT YEAR - Might be needed if some fuels are rolling over but not all.
-ExcludeMostRecentYear <- 1
+ExcludeMostRecentYear <- 0
 
 EnConsumption <- function(input, output, session) {
 

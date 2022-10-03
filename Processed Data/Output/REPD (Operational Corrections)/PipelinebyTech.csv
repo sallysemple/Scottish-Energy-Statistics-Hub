@@ -1,8 +1,7 @@
-,Type,In Planning,Awaiting Construction,Under Construction,Total
-4,Small Hydro,0.55,19.5,6.04,26.09
-3,Shoreline wave / tidal,220,130.4,0,350.4
-1,Bioenergy and Waste,322,120.71,91.3,534.01
-5,Solar Photovoltaics,240.259,320.89376,43.128,604.28076
-6,Wind Offshore,0,1889.9,1935,3824.9
-7,Wind Onshore,4845.4,4971.3,1174.6,10991.3
-,Total,5628.209,7452.70376,3250.068,16330.98076
+"","Type","In Planning","Awaiting Construction","Under Construction","Total"
+"4","Small Hydro",0.55,19.5,6.04,26.09
+"3","Shoreline wave / tidal",220,130.4,0,350.4
+"1","Bioenergy and Waste",307.7,108.71,94.8,511.21
+"5","Solar Photovoltaics",352.451,367.41876,47.318,767.18776
+"6","Wind Offshore",0,1880,1935,3815
+"7","Wind Onshore",5532.8,4559.4,1165.6,11257.8

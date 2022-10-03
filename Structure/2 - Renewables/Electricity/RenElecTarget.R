@@ -38,7 +38,6 @@ RenElecTargetOutput <- function(id) {
              tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"),
              #dygraphOutput(ns("GrossConsumptionPlot")),
              plotlyOutput(ns("GrossConsumptionPlot"), height = "500px")%>% withSpinner(color="#39ab2c"),
-             HTML("<blockquote><p>*2019 figures used here as they are final.</p></blockquote>"),
              tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"))),
     fluidRow(
     column(10,h3("Commentary", style = "color: #39ab2c;  font-weight:bold")),
@@ -363,7 +362,7 @@ RenElecTarget <- function(input, output, session) {
   
   
   output$RenElecTarget.svg <- downloadHandler(
-    filename = "RenElecTarget.svg",
+    filename = "RenElecTarget.png",
     content = function(file) {
 
       RenElec <- read_csv("Processed Data/Output/Renewable Generation/RenElecTgt.csv")[c(1,4)]
@@ -872,7 +871,7 @@ RenElecTarget <- function(input, output, session) {
   })
   
   output$GrossConsumption.svg <- downloadHandler(
-    filename = "GrossConsumption.svg",
+    filename = "GrossConsumption.png",
     content = function(file) {
       
       GrossConsumption <- tibble(Type = c("Consumption", "Exports", "Generation"),
@@ -905,7 +904,7 @@ RenElecTarget <- function(input, output, session) {
       
       GrossConsumptionPlotData$Type <- as.numeric(rownames(GrossConsumptionPlotData))
       
-      GrossConsumptionYear <- 2019
+      GrossConsumptionYear <- 2020
       
       ChartColours <- c("#39ab2c", "#FF8500", "#74c476")
       BarColours <-
