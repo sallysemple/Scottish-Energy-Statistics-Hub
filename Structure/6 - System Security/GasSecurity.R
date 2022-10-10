@@ -468,7 +468,7 @@ GasSecurity <- function(input, output, session) {
   StFergusFlowRolling <- read_delim("Processed Data/Output/Gas Distribution/StFergusFlowRolling.txt", 
                                     "\t", escape_double = FALSE, trim_ws = TRUE)
   
-  names(StFergusFlowRolling) <- c("Date", "Average Daily Scottish Demand (GWh)","Average % Scottish demand from St. Fergus", "Average Daily Transfers to N.I. (GWh)","Average % N.I. transfers from St. Fergus" , "Average Daily Transfers to England (GWh)","Average % Englannd transfers from St. Fergus" , "Average Daily ST. Fergus (GWh)", "Average Daily UK Demand (GWh)", "Average Proportion of U.K. gas supply from ST. Fergus" )
+  names(StFergusFlowRolling) <- c("Date", "Average Daily Scottish Demand (GWh)","Average % Scottish demand from St. Fergus", "Average Daily Transfers to N.I. (GWh)","Average % N.I. transfers from St. Fergus" , "Average Daily Transfers to England (GWh)","Average % England transfers from St. Fergus" , "Average Daily ST. Fergus (GWh)", "Average Daily UK Demand (GWh)", "Average Proportion of U.K. gas supply from ST. Fergus" )
   
   StFergusFlowRolling$Date <- as.Date(StFergusFlowRolling$Date, format = "%d/%m/%Y")
   
