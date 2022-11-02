@@ -114,7 +114,7 @@ MarketStructure <- function(input, output, session) {
   
   output$MarketStructureSubtitle <- renderText({
     
-    paste("Scotland, December 2019")
+    paste("Scotland, March 2022")
   })
   
   output$MarketStructurePlot <- renderPlotly({
@@ -386,7 +386,7 @@ MarketStructure <- function(input, output, session) {
       
       MarketStructureStaticChart <-
         MarketStructureStaticChart +
-        labs(subtitle = "Scotland, December 2019") +
+        labs(subtitle = "Scotland, March 2022") +
         ylim(-0.1,1) +
         scale_x_discrete(limits = rev(levels(MarketStructureStatic$Region)))+
         coord_flip()
