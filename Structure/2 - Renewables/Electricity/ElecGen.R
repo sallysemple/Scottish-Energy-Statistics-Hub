@@ -132,7 +132,7 @@ ElecGen <- function(input, output, session) {
   
   output$ElecGenLCFFSubtitle <- renderText({
     
-    Data <- read_csv("Processed Data/Output/Electricity Generation/ScotlandFuelElecGenProportion.csv")[c(1,9,13)]
+    Data <- read_csv("Processed Data/Output/Electricity Generation/ScotlandFuelElecGenProportion.csv")[c(1,10,14)]
     
     names(Data) <- c("Year", "Low Carbon", "Fossil Fuels")
     
@@ -146,18 +146,18 @@ ElecGen <- function(input, output, session) {
   
   output$ElecGenLCFFPlot <- renderPlotly  ({
     
-    Data <- read_csv("Processed Data/Output/Electricity Generation/ScotlandFuelElecGenProportion.csv")[c(1,9,13,14)]
+    Data <- read_csv("Processed Data/Output/Electricity Generation/ScotlandFuelElecGenProportion.csv")[c(1,10,14)]
     
-    names(Data) <- c("Year", "Low Carbon", "Fossil Fuels", "Pumped hydro")
+    names(Data) <- c("Year", "Low Carbon", "Fossil Fuels")
     
     Data %<>% lapply(function(x)
       as.numeric(as.character(x)))
     
     ElecFuelLowCarbon <- as_tibble(Data)
     
-    ElecFuelLowCarbon[which(ElecFuelLowCarbon$Year >= 2017),]$`Low Carbon` <- ElecFuelLowCarbon[which(ElecFuelLowCarbon$Year >= 2017),]$`Low Carbon` + ElecFuelLowCarbon[which(ElecFuelLowCarbon$Year >= 2017),]$`Pumped hydro`
+    ElecFuelLowCarbon[which(ElecFuelLowCarbon$Year >= 2017),]$`Low Carbon` <- ElecFuelLowCarbon[which(ElecFuelLowCarbon$Year >= 2017),]$`Low Carbon`
     
-    ElecFuelLowCarbon$`Pumped hydro`<- NULL
+  
     
     ElecFuelLowCarbon$Year <- paste0("01/01/", ElecFuelLowCarbon$Year)
     
@@ -422,18 +422,18 @@ ElecGen <- function(input, output, session) {
     content = function(file) {
       
       Data <-
-        read_csv("Processed Data/Output/Electricity Generation/ScotlandFuelElecGenProportion.csv")[c(1,9,13,14)]
+        read_csv("Processed Data/Output/Electricity Generation/ScotlandFuelElecGenProportion.csv")[c(1,10,14)]
       
-      names(Data) <- c("Year", "Low Carbon", "Fossil Fuels", "Pumped hydro")
+      names(Data) <- c("Year", "Low Carbon", "Fossil Fuels")
       
       Data %<>% lapply(function(x)
         as.numeric(as.character(x)))
       
       ElecFuelLowCarbon <- as_tibble(Data)
       
-      ElecFuelLowCarbon[which(ElecFuelLowCarbon$Year >= 2017),]$`Low Carbon` <- ElecFuelLowCarbon[which(ElecFuelLowCarbon$Year >= 2017),]$`Low Carbon` + ElecFuelLowCarbon[which(ElecFuelLowCarbon$Year >= 2017),]$`Pumped hydro`
+      ElecFuelLowCarbon[which(ElecFuelLowCarbon$Year >= 2017),]$`Low Carbon` <- ElecFuelLowCarbon[which(ElecFuelLowCarbon$Year >= 2017),]$`Low Carbon` 
       
-      ElecFuelLowCarbon$`Pumped hydro`<- NULL
+     
       
       ### variables
       ChartColours <- c("#39ab2c", "#1a9850", "#f46d43", "#39ab2c")
@@ -1819,6 +1819,8 @@ ElecGen <- function(input, output, session) {
                                 "Renewables (%)",
                                 "Nuclear (GWh)",
                                 "Nuclear (%)",
+                                "Pumped hydro (GWh)",
+                                "Pumped hydro (%)",
                                 "Low Carbon (GWh)",
                                 "Low Carbon (%)",
                                 "Fossil Fuels (GWh)",

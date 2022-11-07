@@ -258,12 +258,12 @@ LocalRenewables <- function(input, output, session) {
   
   print("EnEconomy.R")
   
-  QuarterSubtitle <- "Scotland, June 2020"
+  QuarterSubtitle <- "Scotland, June 2021"
   ###### Energy Sector Emplyment ######
   
   output$CommunityCapacitySubtitle <- renderText({
       
-      paste("Scotland, 2020")
+      paste("Scotland, 2021")
   })
   
   output$CommunityCapacityPlot <- renderPlotly  ({
@@ -1094,7 +1094,7 @@ LocalRenewables <- function(input, output, session) {
         coord_flip() +
         ylim(-115, max(ComCapTech$Capacity))+
         scale_x_discrete(limits = rev(levels(ComCapTech$Tech)))+ 
-        labs (subtitle = "Scotland, June 2020")
+        labs (subtitle = "Scotland, June 2021")
       
       ComCapTechChart
       
@@ -1298,7 +1298,7 @@ LocalRenewables <- function(input, output, session) {
         coord_flip() +
         ylim(-125, max(ComCapType$Capacity))+
         scale_x_discrete(limits = rev(levels(ComCapType$Tech)))+ 
-        labs (subtitle = "Scotland, June 2020")
+        labs (subtitle = "Scotland, June 2021")
       
       ComCapTypeChart
       
@@ -1495,7 +1495,7 @@ LocalRenewables <- function(input, output, session) {
         coord_flip() +
         ylim(-92, max(ComCapOwnership$Capacity))+
         scale_x_discrete(limits = rev(levels(ComCapOwnership$Tech)))+ 
-        labs (subtitle = "Scotland, June 2020")
+        labs (subtitle = "Scotland, June 2021")
       
       ComCapOwnershipChart
       
@@ -1706,7 +1706,7 @@ LocalRenewables <- function(input, output, session) {
         coord_flip() +
         ylim(-250, max(ComCapType$Generation))+
         scale_x_discrete(limits = rev(levels(ComCapType$Tech)))+ 
-        labs (subtitle = "Scotland, June 2020")
+        labs (subtitle = "Scotland, June 2021")
       
       ComCapTypeChart
       
