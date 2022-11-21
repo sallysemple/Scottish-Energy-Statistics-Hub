@@ -80,7 +80,7 @@ RenElecPipelineOutput <- function(id) {
              tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;")),
     tabPanel("Pipeline capacity time series",
              fluidRow(
-               column(10, h3("Data - Pipeline capacity time series (GW)", style = "color: #39ab2c;  font-weight:bold")),
+               column(10, h3("Data - Pipeline capacity time series (MW)", style = "color: #39ab2c;  font-weight:bold")),
                column(2, style = "padding:15px",  actionButton(ns("ToggleTable5"), "Show/Hide Table", style = "float:right; "))
              ),
              fluidRow(
