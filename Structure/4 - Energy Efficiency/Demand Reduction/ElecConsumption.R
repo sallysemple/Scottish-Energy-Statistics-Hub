@@ -25,9 +25,9 @@ ElecConsumptionOutput <- function(id) {
     #dygraphOutput(ns("ElecConsumptionPlot")),
     plotlyOutput(ns("ElecConsumptionPlot"), height =  "900px")%>% withSpinner(color="#34d1a3"),
     tags$hr(style = "height:3px;border:none;color:#34d1a3;background-color:#34d1a3;")),
-    tabPanel("Households",
+    tabPanel("Average domestic electricity consumption",
              fluidRow(column(8,
-                             h3("Average domestic electricity consumption", style = "color: #34d1a3;  font-weight:bold"),
+                             h3("Average domestic electricity consumption (KWh per meter)", style = "color: #34d1a3;  font-weight:bold"),
                              h4(textOutput(ns('ElecConsumptionHHoldSubtitle')), style = "color: #34d1a3;")
              ),
              column(
@@ -72,9 +72,9 @@ ElecConsumptionOutput <- function(id) {
     fluidRow(
       column(12, dataTableOutput(ns("ElecConsumptionTable"))%>% withSpinner(color="#34d1a3"))),
     tags$hr(style = "height:3px;border:none;color:#34d1a3;background-color:#34d1a3;")),
-    tabPanel("Data Households",
+    tabPanel("Data Average Domestic energy consumption",
              fluidRow(
-               column(10, h3("Data - Average domestic electricity consumption (kWh)", style = "color: #34d1a3;  font-weight:bold")),
+               column(10, h3("Data - Average domestic electricity consumption (KWh per meter)", style = "color: #34d1a3;  font-weight:bold")),
                column(2, style = "padding:15px",  actionButton(ns("ToggleTable2"), "Show/Hide Table", style = "float:right; "))
              ),
              fluidRow(
@@ -83,7 +83,7 @@ ElecConsumptionOutput <- function(id) {
              ),
     tabPanel("Data LA",
              fluidRow(
-               column(10, h3("Data - Average annual household consumption of electricity by local authority, 2019", style = "color: #34d1a3;  font-weight:bold")),
+               column(10, h3("Data - Average annual household consumption of electricity by local authority, 2020", style = "color: #34d1a3;  font-weight:bold")),
                column(2, style = "padding:15px",  actionButton(ns("ToggleTable3"), "Show/Hide Table", style = "float:right; "))
              ),
              fluidRow(
@@ -882,17 +882,17 @@ ElecConsumption <- function(input, output, session) {
         autoWidth = TRUE,
         ordering = TRUE,
         order = list(list(0, 'desc')),
-        title = "Average domestic electricity consumption (kWh)",
+        title = "Average domestic electricity consumption (kWh per meter)",
         dom = 'ltBp',
         buttons = list(
           list(extend = 'copy'),
           list(
             extend = 'excel',
-            title = 'Average domestic electricity consumption (kWh)',
+            title = 'Average domestic electricity consumption (kWh per meter)',
             header = TRUE
           ),
           list(extend = 'csv',
-               title = 'Average domestic electricity consumption (kWh)')
+               title = 'Average domestic electricity consumption (kWh per meter)')
         ),
         
         # customize the length menu
@@ -987,7 +987,7 @@ ElecConsumption <- function(input, output, session) {
         mutate(top = sum(value))
       
       plottitle <-
-        "Average domestic electricity consumption"
+        "Average domestic electricity consumption (kwh per meter)"
       sourcecaption <- "Source: BEIS"
       
       ChartColours <- c("#34d1a3", "#FF8500")
@@ -1161,17 +1161,17 @@ ElecConsumption <- function(input, output, session) {
         searching = TRUE,
         fixedColumns = FALSE,
         autoWidth = TRUE,
-        title = "Average annual household consumption of electricity by local authority, 2019",
+        title = "Average annual household consumption of electricity by local authority, 2020",
         dom = 'ltBp',
         buttons = list(
           list(extend = 'copy'),
           list(
             extend = 'excel',
-            title = 'Average annual household consumption of electricity by local authority, 2019',
+            title = 'Average annual household consumption of electricity by local authority, 2020',
             header = TRUE
           ),
           list(extend = 'csv',
-               title = 'Average annual household consumption of electricity by local authority, 2019')
+               title = 'Average annual household consumption of electricity by local authority, 2020')
         ),
         
         # customize the length menu
