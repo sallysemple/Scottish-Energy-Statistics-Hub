@@ -1877,7 +1877,7 @@ RenElecSources <- function(input, output, session) {
     
     TechTableOutput <- head(TechTable, -1)
     
-    names(TechTableOutput)[2] <- "Generation - 2020 (GWh)"
+    names(TechTableOutput)[2] <- "Generation - 2021 (GWh)"
     
     TechTableOutput[2:7] %<>% lapply(function(x)
       as.numeric(as.character(x)))
