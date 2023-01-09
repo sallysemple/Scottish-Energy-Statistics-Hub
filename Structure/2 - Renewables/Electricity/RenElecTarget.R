@@ -18,7 +18,7 @@ RenElecTargetOutput <- function(id) {
     ),
              column(
                4, style = 'padding:15px;',
-               downloadButton(ns('RenElecTarget.svg'), 'Download Graph', style="float:right")
+               downloadButton(ns('RenElecTarget.png'), 'Download Graph', style="float:right")
              )),
     
     tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"),
@@ -32,7 +32,7 @@ RenElecTargetOutput <- function(id) {
              ),
              column(
                4, style = 'padding:15px;',
-               downloadButton(ns('GrossConsumption.svg'), 'Download Graph', style="float:right")
+               downloadButton(ns('GrossConsumption.png'), 'Download Graph', style="float:right")
              )),
              
              tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"),
@@ -361,8 +361,8 @@ RenElecTarget <- function(input, output, session) {
   })
   
   
-  output$RenElecTarget.svg <- downloadHandler(
-    filename = "RenElecTarget.png",
+  output$RenElecTarget.png <- downloadHandler(
+    filename = "RenElecTarget.svg",
     content = function(file) {
 
       RenElec <- read_csv("Processed Data/Output/Renewable Generation/RenElecTgt.csv")[c(1,4)]
@@ -870,7 +870,7 @@ RenElecTarget <- function(input, output, session) {
       formatStyle(11, fontStyle = "italic")
   })
   
-  output$GrossConsumption.svg <- downloadHandler(
+  output$GrossConsumption.png <- downloadHandler(
     filename = "GrossConsumption.png",
     content = function(file) {
       

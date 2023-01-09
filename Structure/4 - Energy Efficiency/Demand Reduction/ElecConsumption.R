@@ -83,7 +83,7 @@ ElecConsumptionOutput <- function(id) {
              ),
     tabPanel("Data LA",
              fluidRow(
-               column(10, h3("Data - Average annual household consumption of electricity by local authority, 2020", style = "color: #34d1a3;  font-weight:bold")),
+               column(10, h3("Data - Average annual household consumption of electricity by local authority, 2021", style = "color: #34d1a3;  font-weight:bold")),
                column(2, style = "padding:15px",  actionButton(ns("ToggleTable3"), "Show/Hide Table", style = "float:right; "))
              ),
              fluidRow(
@@ -1161,17 +1161,17 @@ ElecConsumption <- function(input, output, session) {
         searching = TRUE,
         fixedColumns = FALSE,
         autoWidth = TRUE,
-        title = "Average annual household consumption of electricity by local authority, 2020",
+        title = "Average annual household consumption of electricity by local authority, 2021",
         dom = 'ltBp',
         buttons = list(
           list(extend = 'copy'),
           list(
             extend = 'excel',
-            title = 'Average annual household consumption of electricity by local authority, 2020',
+            title = 'Average annual household consumption of electricity by local authority, 2021',
             header = TRUE
           ),
           list(extend = 'csv',
-               title = 'Average annual household consumption of electricity by local authority, 2020')
+               title = 'Average annual household consumption of electricity by local authority, 2021')
         ),
         
         # customize the length menu

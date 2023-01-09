@@ -1039,7 +1039,7 @@ RenElecCapacity <- function(input, output, session) {
   })
   
   output$RenElecOperational.png <- downloadHandler(
-    filename = "RenElecOperational.png",
+    filename = "RenElecOperational.svg",
     content = function(file) {
       
       

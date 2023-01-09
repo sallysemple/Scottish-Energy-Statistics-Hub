@@ -705,7 +705,7 @@ RenElecPipeline <- function(input, output, session) {
           tickformat = "%",
           showgrid = FALSE,
           showticklabels = FALSE,
-          range = c(0,18000),
+          range = c(0,20000),
           zeroline = FALSE,
           zerolinecolor = ChartColours[1],
           zerolinewidth = 2,
