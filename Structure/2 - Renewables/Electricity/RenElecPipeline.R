@@ -346,7 +346,7 @@ RenElecPipeline <- function(input, output, session) {
     
     RenElecPipeline <- merge(RenElecPipeline, RenElecPipelineTotal, all = TRUE)
     
-    names(RenElecPipeline) <- c("Tech", "Number of projects", "Number of wind turbines", "Estimated pipeline generation (GWh)")
+    names(RenElecPipeline) <- c("Tech", "Number of projects", "Number of wind turbines", "Estimated pipeline generation (MW)")
     
     datatable(
       RenElecPipeline,
