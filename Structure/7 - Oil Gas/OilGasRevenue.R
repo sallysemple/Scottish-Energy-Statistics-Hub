@@ -179,10 +179,17 @@ OilGasRevenue <- function(input, output, session) {
   output$OilGasRevenueTable = renderDataTable({
     
     Data <- read_excel("Structure/CurrentWorking.xlsx", 
-                       sheet = "Oil and gas sales revenue", skip = 13, col_names = TRUE)[1:3]
+                       sheet = "Oil and gas sales revenue", skip = 13, col_names = TRUE)[1:15]
     
     
-    names(Data) <- c("Financial Year", "Sales Revenue (\u00A3 Billion)", "Proportion of UK Total")
+    names(Data) <- c("Financial Year", "Sales Revenue (\u00A3 Billion)", "Proportion of UK Total",
+                     "of which: crude oil & NGL sales",	"Proportion of UK total", 	
+                     "of which: natural gas sales",	"Proportion of UK total", 	
+                     "Other Income",	"Proportion of UK total", 	
+                     "Operating Expenditure", 	"Proportion of UK total", 	
+                     "Capital Expenditure inc decommissioning", 	"Proportion of UK total", 
+                     "Of which: Decommissioning Expenditure",	"Proportion of UK total" 
+)
     
     Data$`Financial Year` <- factor(Data$`Financial Year`, ordered = TRUE)
     
@@ -221,8 +228,8 @@ OilGasRevenue <- function(input, output, session) {
         pageLength = 10
       )
     ) %>%
-      formatRound(c(2), 3) %>% 
-      formatPercentage(3,0)
+      formatRound(c(2,4,6,8,10,12,14), 3) %>% 
+      formatPercentage(c(3,5,7,9,11,13,15),0)
   })
   
 
