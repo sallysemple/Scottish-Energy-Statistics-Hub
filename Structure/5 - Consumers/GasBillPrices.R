@@ -176,7 +176,7 @@ GasBillPrices <- function(input, output, session) {
                      tickformat = "",
                      tickprefix = "\u00A3",
                      showgrid = TRUE,
-                     range = c(-0.01, 800),
+                     range = c(-0.01, 1400),
                      x = 0.5
                      
                      ),

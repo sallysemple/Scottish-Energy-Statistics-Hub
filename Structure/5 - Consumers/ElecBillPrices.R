@@ -176,7 +176,7 @@ ElecBillPrices <- function(input, output, session) {
                      tickformat = "",
                      tickprefix = "\u00A3",
                      showgrid = TRUE,
-                     range = c(-0.01, 900),
+                     range = c(-0.01, 1400),
                      x = 0.5
                      
                      ),
@@ -589,7 +589,7 @@ ElecBillPrices <- function(input, output, session) {
       
       AvgElecBillsChart <- AvgElecBillsChart +
         labs(subtitle = paste("Scotland,", ChartYear)) +
-        ylim(-100, 900)+
+        ylim(-100, 1300)+
         coord_flip()
       
       AvgElecBillsChart

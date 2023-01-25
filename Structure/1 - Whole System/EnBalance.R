@@ -114,7 +114,7 @@ EnBalanceOutput <- function(id) {
   fluidRow(
     column(2, HTML("<p><strong>Last Updated:</strong></p>")),
     column(2,
-           "April 2021"),
+           "January 2023"),
     column(1, align = "right",
            HTML("<p><strong>Reason:</strong></p>")),
     column(7, align = "right", 
@@ -204,7 +204,7 @@ EnBalance <- function(input, output, session) {
   
   output$EnBalanceSubtitle <- renderText({
     
-    paste("Scotland, 2019")
+    paste("Scotland, 2020")
   })
   
   output$EnBalancePlot <- renderPlotly  ({
@@ -498,7 +498,7 @@ EnBalance <- function(input, output, session) {
   
   output$SimplifiedFlowSubtitle <- renderText({
     
-    paste("Scotland, 2019")
+    paste("Scotland, 2020")
   })
   
   output$SimplifiedFlow.png <- downloadHandler(

@@ -47,38 +47,54 @@ Southern,2019,Prepayment,697.8508673565029
 West Midlands,2019,Prepayment,701.0724878330315
 Yorkshire,2019,Prepayment,687.4238686423181
 United Kingdom,2019,Prepayment,699.3055378520957
-East Midlands,2020,Prepayment,712.2913115561447
-Eastern,2020,Prepayment,736.1971076903425
-London,2020,Prepayment,718.0544024491564
-Merseyside & North Wales,2020,Prepayment,772.2990754282106
-North East,2020,Prepayment,718.6853097030735
-North Scotland,2020,Prepayment,747.6835105559989
-North West,2020,Prepayment,718.9352581418799
-Northern Ireland,2020,Prepayment,653.4119070115909
-South East,2020,Prepayment,749.4577845775506
-South Scotland,2020,Prepayment,722.5744426975917
-South Wales,2020,Prepayment,738.4403273302311
-South West,2020,Prepayment,753.8804402685729
-Southern,2020,Prepayment,718.5290784468175
-West Midlands,2020,Prepayment,722.0963462514646
-Yorkshire,2020,Prepayment,714.3339432878686
-United Kingdom,2020,Prepayment,724.2809252037636
-East Midlands,2021,Prepayment,747
-Eastern,2021,Prepayment,772
-London,2021,Prepayment,775
-Merseyside & North Wales,2021,Prepayment,809
-North East,2021,Prepayment,735
-North Scotland,2021,Prepayment,791
-North West,2021,Prepayment,742
+East Midlands,2020,Prepayment,703
+Eastern,2020,Prepayment,724
+London,2020,Prepayment,712
+Merseyside & North Wales,2020,Prepayment,763
+North East,2020,Prepayment,715
+North Scotland,2020,Prepayment,742
+North West,2020,Prepayment,713
+Northern Ireland,2020,Prepayment,676
+South East,2020,Prepayment,741
+South Scotland,2020,Prepayment,714
+South Wales,2020,Prepayment,736
+South West,2020,Prepayment,746
+Southern,2020,Prepayment,713
+West Midlands,2020,Prepayment,714
+Yorkshire,2020,Prepayment,709
+United Kingdom,2020,Prepayment,721
+East Midlands,2021,Prepayment,767
+Eastern,2021,Prepayment,789
+London,2021,Prepayment,783
+Merseyside & North Wales,2021,Prepayment,828
+North East,2021,Prepayment,770
+North Scotland,2021,Prepayment,801
+North West,2021,Prepayment,766
 Northern Ireland,2021,Prepayment,699
-South East,2021,Prepayment,789
-South Scotland,2021,Prepayment,750
-South Wales,2021,Prepayment,777
-South West,2021,Prepayment,799
-Southern,2021,Prepayment,762
-West Midlands,2021,Prepayment,764
-Yorkshire,2021,Prepayment,746
-United Kingdom,2021,Prepayment,761
+South East,2021,Prepayment,809
+South Scotland,2021,Prepayment,772
+South Wales,2021,Prepayment,794
+South West,2021,Prepayment,815
+Southern,2021,Prepayment,777
+West Midlands,2021,Prepayment,782
+Yorkshire,2021,Prepayment,773
+United Kingdom,2021,Prepayment,779
+East Midlands,2022p,Prepayment,1206
+Eastern,2022p,Prepayment,1247
+London,2022p,Prepayment,1216
+Merseyside & North Wales,2022p,Prepayment,1306
+North East,2022p,Prepayment,1195
+North Scotland,2022p,Prepayment,1243
+North West,2022p,Prepayment,1216
+Northern Ireland,2022p,Prepayment,1055
+South East,2022p,Prepayment,1254
+South Scotland,2022p,Prepayment,1245
+South Wales,2022p,Prepayment,1259
+South West,2022p,Prepayment,1241
+Southern,2022p,Prepayment,1247
+West Midlands,2022p,Prepayment,1237
+Yorkshire,2022p,Prepayment,1219
+United Kingdom,2022p,Prepayment,1225
 East Midlands,2017,Standard Credit,621.6477099312208
 Eastern,2017,Standard Credit,630.6127398676899
 London,2017,Standard Credit,644.3543924812805
@@ -127,38 +143,54 @@ Southern,2019,Standard Credit,756.0491849303821
 West Midlands,2019,Standard Credit,751.997432957748
 Yorkshire,2019,Standard Credit,736.5309798180189
 United Kingdom,2019,Standard Credit,753.0198171888715
-East Midlands,2020,Standard Credit,745.8115366524837
-Eastern,2020,Standard Credit,768.9616270183903
-London,2020,Standard Credit,755.9359288195961
-Merseyside & North Wales,2020,Standard Credit,808.2293116745901
-North East,2020,Standard Credit,751.8829038260131
-North Scotland,2020,Standard Credit,788.5852121585225
-North West,2020,Standard Credit,754.6527399671709
-Northern Ireland,2020,Standard Credit,659.7808726640292
-South East,2020,Standard Credit,786.006464418106
-South Scotland,2020,Standard Credit,757.4119737778191
-South Wales,2020,Standard Credit,778.5979810822024
-South West,2020,Standard Credit,791.3831388377946
-Southern,2020,Standard Credit,757.6968140872729
-West Midlands,2020,Standard Credit,755.5320059013695
-Yorkshire,2020,Standard Credit,746.099748581215
-United Kingdom,2020,Standard Credit,760.6856216512377
+East Midlands,2020,Standard Credit,739
+Eastern,2020,Standard Credit,761
+London,2020,Standard Credit,752
+Merseyside & North Wales,2020,Standard Credit,799
+North East,2020,Standard Credit,747
+North Scotland,2020,Standard Credit,784
+North West,2020,Standard Credit,746
+Northern Ireland,2020,Standard Credit,660
+South East,2020,Standard Credit,782
+South Scotland,2020,Standard Credit,749
+South Wales,2020,Standard Credit,775
+South West,2020,Standard Credit,787
+Southern,2020,Standard Credit,754
+West Midlands,2020,Standard Credit,749
+Yorkshire,2020,Standard Credit,742
+United Kingdom,2020,Standard Credit,755
 East Midlands,2021,Standard Credit,802
-Eastern,2021,Standard Credit,826
-London,2021,Standard Credit,820
-Merseyside & North Wales,2021,Standard Credit,866
-North East,2021,Standard Credit,809
-North Scotland,2021,Standard Credit,842
-North West,2021,Standard Credit,806
+Eastern,2021,Standard Credit,827
+London,2021,Standard Credit,821
+Merseyside & North Wales,2021,Standard Credit,868
+North East,2021,Standard Credit,811
+North Scotland,2021,Standard Credit,844
+North West,2021,Standard Credit,808
 Northern Ireland,2021,Standard Credit,707
-South East,2021,Standard Credit,848
-South Scotland,2021,Standard Credit,808
+South East,2021,Standard Credit,849
+South Scotland,2021,Standard Credit,810
 South Wales,2021,Standard Credit,846
 South West,2021,Standard Credit,852
 Southern,2021,Standard Credit,820
-West Midlands,2021,Standard Credit,821
-Yorkshire,2021,Standard Credit,810
-United Kingdom,2021,Standard Credit,820
+West Midlands,2021,Standard Credit,822
+Yorkshire,2021,Standard Credit,811
+United Kingdom,2021,Standard Credit,821
+East Midlands,2022p,Standard Credit,1302
+Eastern,2022p,Standard Credit,1342
+London,2022p,Standard Credit,1298
+Merseyside & North Wales,2022p,Standard Credit,1397
+North East,2022p,Standard Credit,1285
+North Scotland,2022p,Standard Credit,1323
+North West,2022p,Standard Credit,1310
+Northern Ireland,2022p,Standard Credit,1099
+South East,2022p,Standard Credit,1328
+South Scotland,2022p,Standard Credit,1335
+South Wales,2022p,Standard Credit,1336
+South West,2022p,Standard Credit,1316
+Southern,2022p,Standard Credit,1323
+West Midlands,2022p,Standard Credit,1323
+Yorkshire,2022p,Standard Credit,1303
+United Kingdom,2022p,Standard Credit,1314
 East Midlands,2017,Direct Debit,557.0569042740894
 Eastern,2017,Direct Debit,563.2601772696296
 London,2017,Direct Debit,581.3459086297212
@@ -207,28 +239,28 @@ Southern,2019,Direct Debit,678.296929708829
 West Midlands,2019,Direct Debit,677.2053732585722
 Yorkshire,2019,Direct Debit,665.3642334378742
 United Kingdom,2019,Direct Debit,681.9878474890983
-East Midlands,2020,Direct Debit,669.9805554236208
-Eastern,2020,Direct Debit,691.8426653333019
-London,2020,Direct Debit,689.3380831547934
-Merseyside & North Wales,2020,Direct Debit,730.0521410084505
-North East,2020,Direct Debit,679.8744295968947
-North Scotland,2020,Direct Debit,718.7831048346995
-North West,2020,Direct Debit,679.5563332399039
-Northern Ireland,2020,Direct Debit,626.6870362687031
-South East,2020,Direct Debit,710.4314663712067
-South Scotland,2020,Direct Debit,688.9248853665173
-South Wales,2020,Direct Debit,705.5678813934767
-South West,2020,Direct Debit,718.4485270408411
-Southern,2020,Direct Debit,683.0301745670795
-West Midlands,2020,Direct Debit,680.7244216676689
-Yorkshire,2020,Direct Debit,674.1687219738959
-United Kingdom,2020,Direct Debit,689.6346839813319
+East Midlands,2020,Direct Debit,667
+Eastern,2020,Direct Debit,688
+London,2020,Direct Debit,687
+Merseyside & North Wales,2020,Direct Debit,726
+North East,2020,Direct Debit,677
+North Scotland,2020,Direct Debit,716
+North West,2020,Direct Debit,676
+Northern Ireland,2020,Direct Debit,650
+South East,2020,Direct Debit,708
+South Scotland,2020,Direct Debit,686
+South Wales,2020,Direct Debit,703
+South West,2020,Direct Debit,716
+Southern,2020,Direct Debit,681
+West Midlands,2020,Direct Debit,678
+Yorkshire,2020,Direct Debit,675
+United Kingdom,2020,Direct Debit,688
 East Midlands,2021,Direct Debit,735
 Eastern,2021,Direct Debit,757
 London,2021,Direct Debit,755
 Merseyside & North Wales,2021,Direct Debit,794
-North East,2021,Direct Debit,742
-North Scotland,2021,Direct Debit,780
+North East,2021,Direct Debit,743
+North Scotland,2021,Direct Debit,781
 North West,2021,Direct Debit,736
 Northern Ireland,2021,Direct Debit,697
 South East,2021,Direct Debit,777
@@ -236,9 +268,25 @@ South Scotland,2021,Direct Debit,747
 South Wales,2021,Direct Debit,775
 South West,2021,Direct Debit,784
 Southern,2021,Direct Debit,751
-West Midlands,2021,Direct Debit,750
-Yorkshire,2021,Direct Debit,738
+West Midlands,2021,Direct Debit,751
+Yorkshire,2021,Direct Debit,739
 United Kingdom,2021,Direct Debit,754
+East Midlands,2022p,Direct Debit,1173
+Eastern,2022p,Direct Debit,1206
+London,2022p,Direct Debit,1189
+Merseyside & North Wales,2022p,Direct Debit,1269
+North East,2022p,Direct Debit,1151
+North Scotland,2022p,Direct Debit,1183
+North West,2022p,Direct Debit,1186
+Northern Ireland,2022p,Direct Debit,1039
+South East,2022p,Direct Debit,1229
+South Scotland,2022p,Direct Debit,1190
+South Wales,2022p,Direct Debit,1212
+South West,2022p,Direct Debit,1215
+Southern,2022p,Direct Debit,1197
+West Midlands,2022p,Direct Debit,1198
+Yorkshire,2022p,Direct Debit,1181
+United Kingdom,2022p,Direct Debit,1194
 East Midlands,2017,Total,575.0858648725867
 Eastern,2017,Total,582.4732639218915
 London,2017,Total,601.2624111543315
@@ -287,35 +335,51 @@ Southern,2019,Total,693.7467322275038
 West Midlands,2019,Total,694.9487488642125
 Yorkshire,2019,Total,682.6013415018167
 United Kingdom,2019,Total,698.1701915854924
-East Midlands,2020,Total,687.8797756312962
-Eastern,2020,Total,710.036361961243
-London,2020,Total,711.4499850634301
-Merseyside & North Wales,2020,Total,749.4397187294963
-North East,2020,Total,697.396510655854
-North Scotland,2020,Total,735.5065762286157
-North West,2020,Total,698.1915511199135
-Northern Ireland,2020,Total,641.5893069623921
-South East,2020,Total,726.4189232753369
-South Scotland,2020,Total,706.3573410704707
-South Wales,2020,Total,723.3019152076166
-South West,2020,Total,733.6998993039542
-Southern,2020,Total,698.1003304982705
-West Midlands,2020,Total,699.5008052277163
-Yorkshire,2020,Total,692.8924730379027
-United Kingdom,2020,Total,706.8796618520579
-East Midlands,2021,Total,747
-Eastern,2021,Total,770
-London,2021,Total,776
-Merseyside & North Wales,2021,Total,807
-North East,2021,Total,751
-North Scotland,2021,Total,793
-North West,2021,Total,748
+East Midlands,2020,Total,684
+Eastern,2020,Total,706
+London,2020,Total,709
+Merseyside & North Wales,2020,Total,745
+North East,2020,Total,695
+North Scotland,2020,Total,733
+North West,2020,Total,695
+Northern Ireland,2020,Total,656
+South East,2020,Total,724
+South Scotland,2020,Total,702
+South Wales,2020,Total,722
+South West,2020,Total,731
+Southern,2020,Total,697
+West Midlands,2020,Total,696
+Yorkshire,2020,Total,694
+United Kingdom,2020,Total,705
+East Midlands,2021,Total,750
+Eastern,2021,Total,772
+London,2021,Total,777
+Merseyside & North Wales,2021,Total,811
+North East,2021,Total,757
+North Scotland,2021,Total,795
+North West,2021,Total,753
 Northern Ireland,2021,Total,699
-South East,2021,Total,789
-South Scotland,2021,Total,757
-South Wales,2021,Total,787
-South West,2021,Total,796
-Southern,2021,Total,762
-West Midlands,2021,Total,763
-Yorkshire,2021,Total,751
-United Kingdom,2021,Total,766
+South East,2021,Total,791
+South Scotland,2021,Total,762
+South Wales,2021,Total,790
+South West,2021,Total,798
+Southern,2021,Total,764
+West Midlands,2021,Total,766
+Yorkshire,2021,Total,756
+United Kingdom,2021,Total,769
+East Midlands,2022p,Total,1198
+Eastern,2022p,Total,1234
+London,2022p,Total,1222
+Merseyside & North Wales,2022p,Total,1296
+North East,2022p,Total,1179
+North Scotland,2022p,Total,1215
+North West,2022p,Total,1212
+Northern Ireland,2022p,Total,1054
+South East,2022p,Total,1248
+South Scotland,2022p,Total,1224
+South Wales,2022p,Total,1239
+South West,2022p,Total,1234
+Southern,2022p,Total,1221
+West Midlands,2022p,Total,1225
+Yorkshire,2022p,Total,1208
+United Kingdom,2022p,Total,1219
