@@ -15,7 +15,7 @@ EnBalanceOutput <- function(id) {
                fluidRow(column(8,
                                h3("Scottish energy balance", style = "color: #1A5D38;  font-weight:bold"),
                                h4(textOutput(ns('EnBalanceSubtitle')), style = "color: #1A5D38;"),
-                               selectInput(ns("UnitSelect"), "Unit:", BalanceMultipliers$Unit, selected = BalanceMultipliers$Unit[1], multiple = FALSE,
+                               selectInput(ns("UnitSelect"), "Unit:", BalanceMultipliers$Unit, selected = BalanceMultipliers$Unit[2], multiple = FALSE,
                              selectize = TRUE, width = NULL, size = NULL)
                ),
                column(
@@ -33,7 +33,7 @@ EnBalanceOutput <- function(id) {
                fluidRow(column(8,
                                h3("Simplified energy flow chart", style = "color: #1A5D38;  font-weight:bold"),
                                h4(textOutput(ns('SimplifiedFlowSubtitle')), style = "color: #1A5D38;"),
-                               selectInput(ns("UnitSelect2"), "Unit:", BalanceMultipliers$Unit, selected = BalanceMultipliers$Unit[1], multiple = FALSE,
+                               selectInput(ns("UnitSelect2"), "Unit:", BalanceMultipliers$Unit, selected = BalanceMultipliers$Unit[2], multiple = FALSE,
                                            selectize = TRUE, width = NULL, size = NULL)
                ),
                column(
@@ -68,7 +68,7 @@ EnBalanceOutput <- function(id) {
       column(2, style = "padding:15px",  downloadButton(ns('EnBalanceData.xlsx'), 'Download Full Data', style="float:right")),
       column(2, style = "padding:15px",  actionButton(ns("ToggleTable1"), "Show/Hide Tables", style = "float:right; "))
     ),
-    fluidRow(column(12,selectInput(ns("UnitSelect3"), "Unit:", BalanceMultipliers$Unit, selected = BalanceMultipliers$Unit[1], multiple = FALSE,
+    fluidRow(column(12,selectInput(ns("UnitSelect3"), "Unit:", BalanceMultipliers$Unit, selected = BalanceMultipliers$Unit[2], multiple = FALSE,
                   selectize = TRUE, width = NULL, size = NULL))),
     fluidRow(
       column(12, DTOutput(ns("EnBalanceTable1"))%>% withSpinner(color="#1A5D38"))),
@@ -89,7 +89,7 @@ EnBalanceOutput <- function(id) {
                
                column(2, style = "padding:15px",  actionButton(ns("ToggleTable2"), "Show/Hide Tables", style = "float:right; "))
              ),
-             fluidRow(column(12,selectInput(ns("UnitSelect4"), "Unit:", BalanceMultipliers$Unit, selected = BalanceMultipliers$Unit[1], multiple = FALSE,
+             fluidRow(column(12,selectInput(ns("UnitSelect4"), "Unit:", BalanceMultipliers$Unit, selected = BalanceMultipliers$Unit[2], multiple = FALSE,
                                   selectize = TRUE, width = NULL, size = NULL))),
              fluidRow(
                column(12, DTOutput(ns("EnFlowTable1"))%>% withSpinner(color="#1A5D38"))),
