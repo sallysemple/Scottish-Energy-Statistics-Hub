@@ -283,7 +283,7 @@ file)
     
     EnConsumptionDomNonDom <- read_csv("Processed Data/Output/Consumption/TotalFinalConsumption.csv")
     
-    if(ExcludeMostRecentYear == 1){
+    if(ExcludeMostRecentYear == 0){
       EnConsumptionDomNonDom <-  EnConsumptionDomNonDom[which(EnConsumptionDomNonDom$Year < max(EnConsumptionDomNonDom$Year)),]
     }
     
