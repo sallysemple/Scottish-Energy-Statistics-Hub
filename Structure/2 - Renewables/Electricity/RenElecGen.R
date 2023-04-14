@@ -434,7 +434,7 @@ RenElecGen <- function(input, output, session) {
         xaxis = list(
           title = "",
           tickformat = "",
-          range = c(0, 35500),
+          range = c(0, 40000),
           showgrid = TRUE,
           zeroline = TRUE,
           zerolinecolor = ChartColours[1],
@@ -453,7 +453,7 @@ RenElecGen <- function(input, output, session) {
   })
   
   output$RenElecFuelGen.svg <- downloadHandler(
-    filename = "RenElecFuelGen.svg",
+    filename = "RenElecFuelGen.png",
     content = function(file) {
       
       RenElecGenFuel <- read_csv("Processed Data/Output/Renewable Generation/Annual.csv")
@@ -947,7 +947,7 @@ RenElecGen <- function(input, output, session) {
   
   
   output$ScotRenGen.svg <- downloadHandler(
-    filename = "ScotRenGen.svg",
+    filename = "ScotRenGen.png",
     content = function(file) {
       
       Data <- read_csv("Processed Data/Output/Renewable Generation/ScotPropofUKRenGen.csv")
@@ -1447,7 +1447,7 @@ RenElecGen <- function(input, output, session) {
 
   
   output$EUComparison.svg <- downloadHandler(
-    filename = "EUComparison.svg",
+    filename = "EUComparison.png",
     content = function(file) {
       
       ### Load Packages and Functions
@@ -1964,7 +1964,7 @@ RenElecGen <- function(input, output, session) {
   })
   
   output$RenElecQuarterGeneration.svg <- downloadHandler(
-    filename = "RenElecQuarterGeneration.svg",
+    filename = "RenElecQuarterGeneration.png",
     content = function(file) {
       
       ### Load Packages and Functions
@@ -2304,7 +2304,7 @@ RenElecGen <- function(input, output, session) {
   
   
   output$LAGenMap.svg <- downloadHandler(
-    filename = "LAGenMap.svg",
+    filename = "LAGenMap.png",
     content = function(file) {
       writePNG(readPNG("Structure/2 - Renewables/Electricity/LARenGen.svg"), file) 
     }

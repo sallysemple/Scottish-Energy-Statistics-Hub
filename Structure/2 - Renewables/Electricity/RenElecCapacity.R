@@ -178,7 +178,7 @@ RenElecCapacity <- function(input, output, session) {
     
     Data <- read_delim("Processed Data/Output/Quarter Capacity/QTRCapacityScotland.txt", 
                        "\t", escape_double = FALSE, trim_ws = TRUE)
-    Data <- Data[c(1,14)]
+    Data <- Data[c(1,15)]
     
     names(Data) <- c("Year", "Capacity")
     
@@ -195,7 +195,7 @@ RenElecCapacity <- function(input, output, session) {
     
     Data <- read_delim("Processed Data/Output/Quarter Capacity/QTRCapacityScotland.txt", 
                           "\t", escape_double = FALSE, trim_ws = TRUE)
-    Data <- Data[c(1,14)]
+    Data <- Data[c(1,15)]
     
     names(Data) <- c("Year", "Capacity")
     
@@ -282,9 +282,9 @@ RenElecCapacity <- function(input, output, session) {
     Data <- read_delim("Processed Data/Output/Quarter Capacity/QTRCapacityScotland.txt", 
                             "\t", escape_double = FALSE, trim_ws = TRUE)
     
-    names(Data) <- c("Date", "Wind Onshore", "Wind Offshore", "Shoreline wave / tidal", "Solar P.V.", "Small Hydro", "Large Hydro", "Landfill Gas", "Sewage", "Waste", "Animal Biomass", "Anaerobic Digestion", "Plant", "Total")
+    names(Data) <- c("Date", "Wind Onshore", "Wind Offshore - Seabed", "Wind Offshore - Floating",  "Shoreline wave / tidal", "Solar P.V.", "Small Hydro", "Large Hydro", "Landfill Gas", "Sewage", "Waste", "Animal Biomass", "Anaerobic Digestion", "Plant", "Total")
     
-    Data[2:14]%<>% lapply(function(x)
+    Data[2:15]%<>% lapply(function(x)
       as.numeric(as.character(x)))
     
     Data$`Bioenergy and Waste` <- Data$`Landfill Gas` + Data$Waste + Data$`Anaerobic Digestion` + Data$`Animal Biomass` + Data$Plant + Data$Sewage
@@ -304,7 +304,7 @@ RenElecCapacity <- function(input, output, session) {
     names(Data)[1] <- "Quarter"
     
     datatable(
-      Data[c(1:7,9,8)],
+      Data[c(1:8,10,9)],
       extensions = 'Buttons',
       
       rownames = FALSE,
@@ -381,7 +381,7 @@ RenElecCapacity <- function(input, output, session) {
   Date <-     {Data <- read_delim("Processed Data/Output/Quarter Capacity/QTRCapacityScotland.txt", 
                                "\t", escape_double = FALSE, trim_ws = TRUE)
   
-  names(Data) <- c("Date", "Wind Onshore", "Wind Offshore", "Shoreline wave / tidal", "Solar Photovoltaics", "Small Hydro", "Large Hydro", "Landfill Gas", "Sewage", "Waste", "Animal Biomass", "Anaerobic Digestion", "Plant", "Total")
+  names(Data) <- c("Date", "Wind Onshore", "Wind Offshore - Seabed", "Wind Offshore - Floating", "Shoreline wave / tidal", "Solar Photovoltaics", "Small Hydro", "Large Hydro", "Landfill Gas", "Sewage", "Waste", "Animal Biomass", "Anaerobic Digestion", "Plant", "Total")
   
   Data <- tail(Data, 1)
   
@@ -1039,7 +1039,7 @@ RenElecCapacity <- function(input, output, session) {
   })
   
   output$RenElecOperational.png <- downloadHandler(
-    filename = "RenElecOperational.png",
+    filename = "RenElecOperational.svg",
     content = function(file) {
       
       
@@ -1047,7 +1047,7 @@ RenElecCapacity <- function(input, output, session) {
                                        "\t", escape_double = FALSE, trim_ws = TRUE)
       
       
-      RenElecOperational <- RenElecOperational[c(1, 14)]
+      RenElecOperational <- RenElecOperational[c(1, 15)]
       
       names(RenElecOperational) <- c("Year", "Total")
       

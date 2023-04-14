@@ -79,22 +79,22 @@ Southern,2021,Prepayment,777
 West Midlands,2021,Prepayment,782
 Yorkshire,2021,Prepayment,773
 United Kingdom,2021,Prepayment,779
-East Midlands,2022p,Prepayment,1206
-Eastern,2022p,Prepayment,1247
-London,2022p,Prepayment,1216
-Merseyside & North Wales,2022p,Prepayment,1306
-North East,2022p,Prepayment,1195
-North Scotland,2022p,Prepayment,1243
-North West,2022p,Prepayment,1216
-Northern Ireland,2022p,Prepayment,1055
-South East,2022p,Prepayment,1254
-South Scotland,2022p,Prepayment,1245
-South Wales,2022p,Prepayment,1259
-South West,2022p,Prepayment,1241
-Southern,2022p,Prepayment,1247
-West Midlands,2022p,Prepayment,1237
-Yorkshire,2022p,Prepayment,1219
-United Kingdom,2022p,Prepayment,1225
+East Midlands,2022p,Prepayment,1123
+Eastern,2022p,Prepayment,1152
+London,2022p,Prepayment,1166
+Merseyside & North Wales,2022p,Prepayment,1228
+North East,2022p,Prepayment,1116
+North Scotland,2022p,Prepayment,1016
+North West,2022p,Prepayment,1149
+Northern Ireland,2022p,Prepayment,922
+South East,2022p,Prepayment,1172
+South Scotland,2022p,Prepayment,1152
+South Wales,2022p,Prepayment,1031
+South West,2022p,Prepayment,1160
+Southern,2022p,Prepayment,1076
+West Midlands,2022p,Prepayment,1148
+Yorkshire,2022p,Prepayment,1098
+United Kingdom,2022p,Prepayment,1122
 East Midlands,2017,Standard Credit,621.6477099312208
 Eastern,2017,Standard Credit,630.6127398676899
 London,2017,Standard Credit,644.3543924812805
@@ -175,22 +175,22 @@ Southern,2021,Standard Credit,820
 West Midlands,2021,Standard Credit,822
 Yorkshire,2021,Standard Credit,811
 United Kingdom,2021,Standard Credit,821
-East Midlands,2022p,Standard Credit,1302
-Eastern,2022p,Standard Credit,1342
-London,2022p,Standard Credit,1298
-Merseyside & North Wales,2022p,Standard Credit,1397
-North East,2022p,Standard Credit,1285
-North Scotland,2022p,Standard Credit,1323
-North West,2022p,Standard Credit,1310
-Northern Ireland,2022p,Standard Credit,1099
-South East,2022p,Standard Credit,1328
-South Scotland,2022p,Standard Credit,1335
-South Wales,2022p,Standard Credit,1336
-South West,2022p,Standard Credit,1316
-Southern,2022p,Standard Credit,1323
-West Midlands,2022p,Standard Credit,1323
-Yorkshire,2022p,Standard Credit,1303
-United Kingdom,2022p,Standard Credit,1314
+East Midlands,2022p,Standard Credit,1218
+Eastern,2022p,Standard Credit,1252
+London,2022p,Standard Credit,1245
+Merseyside & North Wales,2022p,Standard Credit,1308
+North East,2022p,Standard Credit,1203
+North Scotland,2022p,Standard Credit,1174
+North West,2022p,Standard Credit,1232
+Northern Ireland,2022p,Standard Credit,895
+South East,2022p,Standard Credit,1261
+South Scotland,2022p,Standard Credit,1255
+South Wales,2022p,Standard Credit,1199
+South West,2022p,Standard Credit,1258
+Southern,2022p,Standard Credit,1209
+West Midlands,2022p,Standard Credit,1241
+Yorkshire,2022p,Standard Credit,1226
+United Kingdom,2022p,Standard Credit,1226
 East Midlands,2017,Direct Debit,557.0569042740894
 Eastern,2017,Direct Debit,563.2601772696296
 London,2017,Direct Debit,581.3459086297212
@@ -271,22 +271,22 @@ Southern,2021,Direct Debit,751
 West Midlands,2021,Direct Debit,751
 Yorkshire,2021,Direct Debit,739
 United Kingdom,2021,Direct Debit,754
-East Midlands,2022p,Direct Debit,1173
-Eastern,2022p,Direct Debit,1206
-London,2022p,Direct Debit,1189
-Merseyside & North Wales,2022p,Direct Debit,1269
-North East,2022p,Direct Debit,1151
-North Scotland,2022p,Direct Debit,1183
-North West,2022p,Direct Debit,1186
-Northern Ireland,2022p,Direct Debit,1039
-South East,2022p,Direct Debit,1229
-South Scotland,2022p,Direct Debit,1190
-South Wales,2022p,Direct Debit,1212
-South West,2022p,Direct Debit,1215
-Southern,2022p,Direct Debit,1197
-West Midlands,2022p,Direct Debit,1198
-Yorkshire,2022p,Direct Debit,1181
-United Kingdom,2022p,Direct Debit,1194
+East Midlands,2022p,Direct Debit,1135
+Eastern,2022p,Direct Debit,1168
+London,2022p,Direct Debit,1159
+Merseyside & North Wales,2022p,Direct Debit,1229
+North East,2022p,Direct Debit,1118
+North Scotland,2022p,Direct Debit,1131
+North West,2022p,Direct Debit,1152
+Northern Ireland,2022p,Direct Debit,842
+South East,2022p,Direct Debit,1188
+South Scotland,2022p,Direct Debit,1155
+South Wales,2022p,Direct Debit,1164
+South West,2022p,Direct Debit,1181
+Southern,2022p,Direct Debit,1152
+West Midlands,2022p,Direct Debit,1160
+Yorkshire,2022p,Direct Debit,1130
+United Kingdom,2022p,Direct Debit,1151
 East Midlands,2017,Total,575.0858648725867
 Eastern,2017,Total,582.4732639218915
 London,2017,Total,601.2624111543315
@@ -367,19 +367,19 @@ Southern,2021,Total,764
 West Midlands,2021,Total,766
 Yorkshire,2021,Total,756
 United Kingdom,2021,Total,769
-East Midlands,2022p,Total,1198
-Eastern,2022p,Total,1234
-London,2022p,Total,1222
-Merseyside & North Wales,2022p,Total,1296
-North East,2022p,Total,1179
-North Scotland,2022p,Total,1215
-North West,2022p,Total,1212
-Northern Ireland,2022p,Total,1054
-South East,2022p,Total,1248
-South Scotland,2022p,Total,1224
-South Wales,2022p,Total,1239
-South West,2022p,Total,1234
-Southern,2022p,Total,1221
-West Midlands,2022p,Total,1225
-Yorkshire,2022p,Total,1208
-United Kingdom,2022p,Total,1219
+East Midlands,2022p,Total,1147
+Eastern,2022p,Total,1181
+London,2022p,Total,1182
+Merseyside & North Wales,2022p,Total,1241
+North East,2022p,Total,1131
+North Scotland,2022p,Total,1122
+North West,2022p,Total,1165
+Northern Ireland,2022p,Total,875
+South East,2022p,Total,1199
+South Scotland,2022p,Total,1171
+South Wales,2022p,Total,1148
+South West,2022p,Total,1190
+Southern,2022p,Total,1153
+West Midlands,2022p,Total,1172
+Yorkshire,2022p,Total,1147
+United Kingdom,2022p,Total,1160

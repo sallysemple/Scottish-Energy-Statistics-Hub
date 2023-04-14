@@ -13,11 +13,11 @@ SourcesListOutput <- function(id) {
     
     
     fluidRow(column(12,
-                    h3("Department for Business, Energy & Industrial Strategy", style = "color: #4d4d4d;  font-weight:bold"),
-                    h4("BEIS", style = "color: #4d4d4d;")
+                    h3("Department for Energy Security and Net Zero", style = "color: #4d4d4d;  font-weight:bold"),
+                    h4("DESNZ", style = "color: #4d4d4d;")
     )),
     #dygraphOutput(ns("SchedulePlot")),
-    htmlOutput(ns("BEIS"))%>% withSpinner(color="#4d4d4d"),
+    htmlOutput(ns("DESNZ"))%>% withSpinner(color="#4d4d4d"),
     tags$hr(style = "height:3px;border:none;color:#4d4d4d;background-color:#4d4d4d;"),
     
     #################################################################################
@@ -79,7 +79,7 @@ SourcesListOutput <- function(id) {
 SourcesList <- function(input, output, session, parent_session) {
   
   
-  output$BEIS <-    output$mtcars_kable <- function() {
+  output$DESNZ <-    output$mtcars_kable <- function() {
     require("readxl")
     
     d <- readxl::read_xlsx(path="Structure/Sources.xlsx")

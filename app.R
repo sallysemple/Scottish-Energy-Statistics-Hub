@@ -1,6 +1,8 @@
 source("packages.R")
 
 
+
+
 ### Create List of Scripts, including filepath ###
 SourceList <-
   list.files(
@@ -445,6 +447,10 @@ output$HomeTab <- renderUI({
 
 
 ui <- shinyUI(fluidPage(
+  
+  # Include tracking code ----
+  tags$head(includeHTML(("google-analytics.html"))),
+  
   theme = shinytheme("cosmo"),
   includeCSS("style.css"),
   useShinyjs(),
@@ -851,7 +857,10 @@ ui <- shinyUI(fluidPage(
                                                   TargetTrackerOutput("TargetTracker")),
                                          tabPanel(title = "Sources",
                                                   value = "SourcesList",
-                                                  SourcesListOutput("SourcesList"))
+                                                  SourcesListOutput("SourcesList")),
+                                         tabPanel(title = "Glossary",
+                                                  value = "Glossary",
+                                                  GlossaryOutput ("Glossary"))
                                          )
                             
                           
@@ -892,7 +901,12 @@ ui <- shinyUI(fluidPage(
                    "The future of energy in Scotland: Scottish energy strategy",
                    href = "https://www.gov.scot/publications/scottish-energy-strategy-future-energy-scotland-9781788515276/",
                    ""
-                 )
+                 ),
+                 p(
+                 a(
+                   
+                   "Draft Energy Strategy and Just Transition Plan",href="https://www.gov.scot/publications/draft-energy-strategy-transition-plan/",""
+                 ))
                ),
                
                # FOOTER - CONTACT DETAILS

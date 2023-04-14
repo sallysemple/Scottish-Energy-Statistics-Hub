@@ -281,7 +281,7 @@ LowCarbonEconomy <- function(input, output, session) {
                          sheet = "Employees", col_names = TRUE)
       
       
-      for (i in 2:8){
+      for (i in 2:9){
         Data[2,i] <- percent(as.numeric(Data[2,i]),0.1)
       }
     
@@ -333,7 +333,7 @@ LowCarbonEconomy <- function(input, output, session) {
       Data <- read_csv("Structure/2 - Renewables/Economy/EconomyTablesTurnover.csv")
       
       
-      for (i in 2:8){
+      for (i in 2:9){
         Data[2,i] <- percent(as.numeric(Data[2,i]),0.1)
       }
       
@@ -384,7 +384,7 @@ LowCarbonEconomy <- function(input, output, session) {
                          sheet = "Exports", col_names = TRUE)
       
       
-      for (i in 2:8){
+      for (i in 2:9){
         Data[2,i] <- percent(as.numeric(Data[2,i]),0.1)
       }
       
@@ -434,7 +434,7 @@ LowCarbonEconomy <- function(input, output, session) {
                          sheet = "Number of Businesses", col_names = TRUE)
       
       
-      for (i in 2:8){
+      for (i in 2:9){
         Data[2,i] <- percent(as.numeric(Data[2,i]),0.1)
       }
       

@@ -1,0 +1,70 @@
+<p><strong>Watts</strong> &ndash; including Mega, Giga and Terra Watts: Watts are a unit of power used to quantify the rate of energy transfer. A Kilowatt (<abbr title="Kilowatt">KW</abbr>) is equal to one thousand Watts. A Megawatt (<abbr title="Mega Watt">MW</abbr>) is equal to one million Watts. A Gigawatt is equal to one billion Watts. A Terawatt is equal to one trillion watts.</p>
+<p><strong>Watt hours</strong> &ndash; incl, Mega, Giga and Terawatt-hours: A Watt-hour is a unit of work or energy equivalent to the power of one watt operating for one hour. A kilowatt-hour is equal to one thousand watt-hours. A Megawatt-hour is equal to one million watt-hours. A Gigawatt-hour is equal to one billion watt-hours. A Terawatt-hour is equal to one trillion watt-hours.</p>
+<p><strong>Mt Co<sub>2</sub>e</strong>: <strong>MtCO<sub>2</sub>e</strong> means metric tons of carbon dioxide equivalent. This measure is used to compare emissions from different greenhouse gases based on their global warming potential (<abbr title="Global Warming Potential">GWP</abbr>).</p>
+<p><strong>Mtoe</strong>: Million tonnes of oil equivalent.</p>
+<p>&nbsp;</p>
+<p><strong>Prefixes:</strong> These are added to base SI units across the hub to produce multiples of the original unit. All prefixes are multiples of ten. For example, kilo - denotes a multiple of a thousand which means tha 1 kilowatt (KW) is the same as 1,000 watts (W); or mega - denotes a multiple of a million so, 1 (MW) is the same as 1,000,000 (W). The below table sets out the multiple for each prefix:</p>
+<table style="height: 276px; width: 376px; margin-left: auto; margin-right: auto;" border="1" width="376">
+<tbody>
+<tr style="height: 46px;">
+<td style="height: 46px; width: 174.391px;" colspan="2">
+<p><strong>Prefix</strong></p>
+</td>
+<td style="height: 92px; width: 185.609px;" rowspan="2">
+<p style="text-align: center;"><strong><u>Multiple</u></strong></p>
+</td>
+</tr>
+<tr style="height: 46px;">
+<td style="height: 46px; width: 74.1094px;">
+<p><strong>Name</strong></p>
+</td>
+<td style="height: 46px; width: 94.2812px;">
+<p><strong>Symbol</strong></p>
+</td>
+</tr>
+<tr style="height: 46px;">
+<td style="height: 46px; width: 74.1094px;">
+<p>tera</p>
+</td>
+<td style="height: 46px; width: 94.2812px;">
+<p>T</p>
+</td>
+<td style="height: 46px; width: 185.609px;">
+<p>1000000000000</p>
+</td>
+</tr>
+<tr style="height: 46px;">
+<td style="height: 46px; width: 74.1094px;">
+<p>giga</p>
+</td>
+<td style="height: 46px; width: 94.2812px;">
+<p>G</p>
+</td>
+<td style="height: 46px; width: 185.609px;">
+<p>1000000000</p>
+</td>
+</tr>
+<tr style="height: 46px;">
+<td style="height: 46px; width: 74.1094px;">
+<p>mega</p>
+</td>
+<td style="height: 46px; width: 94.2812px;">
+<p>M</p>
+</td>
+<td style="height: 46px; width: 185.609px;">
+<p>1000000</p>
+</td>
+</tr>
+<tr style="height: 46px;">
+<td style="height: 46px; width: 74.1094px;">
+<p>kilo</p>
+</td>
+<td style="height: 46px; width: 94.2812px;">
+<p>k</p>
+</td>
+<td style="height: 46px; width: 185.609px;">
+<p>1000</p>
+</td>
+</tr>
+</tbody>
+</table>

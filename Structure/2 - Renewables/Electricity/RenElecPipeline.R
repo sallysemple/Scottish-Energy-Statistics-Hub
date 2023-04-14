@@ -263,7 +263,7 @@ RenElecPipeline <- function(input, output, session) {
           tickformat = "%",
           showgrid = FALSE,
           showticklabels = FALSE,
-          range = c(0,13000),
+          range = c(0,17000),
           zeroline = FALSE,
           zerolinecolor = ChartColours[1],
           zerolinewidth = 2,
@@ -346,7 +346,7 @@ RenElecPipeline <- function(input, output, session) {
     
     RenElecPipeline <- merge(RenElecPipeline, RenElecPipelineTotal, all = TRUE)
     
-    names(RenElecPipeline) <- c("Tech", "Number of projects", "Number of wind turbines", "Estimated pipeline generation (MW)")
+    names(RenElecPipeline) <- c("Tech", "Number of projects", "Number of wind turbines", "Estimated pipeline generation (TWh)")
     
     datatable(
       RenElecPipeline,
@@ -705,7 +705,7 @@ RenElecPipeline <- function(input, output, session) {
           tickformat = "%",
           showgrid = FALSE,
           showticklabels = FALSE,
-          range = c(0,20000),
+          range = c(0,27000),
           zeroline = FALSE,
           zerolinecolor = ChartColours[1],
           zerolinewidth = 2,
