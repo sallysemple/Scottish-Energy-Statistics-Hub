@@ -11,7 +11,7 @@ RenElecTargetOutput <- function(id) {
   ns <- NS(id)
   tagList(
     tabsetPanel(
-      tabPanel("Target",
+      tabPanel("Monitoring",
     fluidRow(column(8,
                     h3("Share of renewable electricity in gross final consumption", style = "color: #39ab2c;  font-weight:bold"),
                     h4(textOutput(ns('RenElecTargetSubtitle')), style = "color: #39ab2c;")
@@ -27,7 +27,7 @@ RenElecTargetOutput <- function(id) {
     tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;")),
     tabPanel("Calculation",
              fluidRow(column(8,
-                             h3("Renewable electricity target calculation", style = "color: #39ab2c;  font-weight:bold"),
+                             h3("Renewable electricity monitoring calculation", style = "color: #39ab2c;  font-weight:bold"),
                              h4(textOutput(ns('GrossConsumptionSubtitle')), style = "color: #39ab2c;")
              ),
              column(

@@ -40,46 +40,46 @@ TargetTrackerOutput <- function(id) {
     
     ##################################################################################
     
-     fluidRow(column(8,
-                    h3("Renewable electricity target", style = "color: #31a354;  font-weight:bold"),
-                    h4("Gross electricity consumption from renewables", style = "color: #31a354;")
-    ),
-             column(
-               4, style = 'padding:15px;',
-               actionButton(ns('RenElecTgtLink'), 'More Information', style="float:right")
-             )),
-    #dygraphOutput(ns("TargetTrackerPlot")),
-    plotlyOutput(ns("RenElecTgtPlot"), height = "75px")%>% withSpinner(color="#31a354"),
-    tags$hr(style = "height:3px;border:none;color:#31a354;background-color:#31a354;"),
+    #  fluidRow(column(8,
+    #                 h3("Renewable electricity target", style = "color: #31a354;  font-weight:bold"),
+    #                 h4("Gross electricity consumption from renewables", style = "color: #31a354;")
+    # ),
+    #          column(
+    #            4, style = 'padding:15px;',
+    #            actionButton(ns('RenElecTgtLink'), 'More Information', style="float:right")
+    #          )),
+    # #dygraphOutput(ns("TargetTrackerPlot")),
+    # plotlyOutput(ns("RenElecTgtPlot"), height = "75px")%>% withSpinner(color="#31a354"),
+    # tags$hr(style = "height:3px;border:none;color:#31a354;background-color:#31a354;"),
     
     #################################################################################
     
 
-    fluidRow(column(8,
-                    h3("Renewable heat target", style = "color: #ff6600;  font-weight:bold"),
-                    h4("Non-electrical heat demand from renewables", style = "color: #ff6600;")
-    ),
-    column(
-      4, style = 'margin-top: 10px;',
-      actionButton(ns('RenHeatTgtLink'), 'More Information', style="float:right")
-    )),
-    #dygraphOutput(ns("TargetTrackerPlot")),
-    plotlyOutput(ns("RenHeatTgtPlot"), height = "75px")%>% withSpinner(color="#ff6600"),
-    tags$hr(style = "height:3px;border:none;color:#ff6600;background-color:#ff6600;"),
-    
+    # fluidRow(column(8,
+    #                 h3("Renewable heat target", style = "color: #ff6600;  font-weight:bold"),
+    #                 h4("Non-electrical heat demand from renewables", style = "color: #ff6600;")
+    # ),
+    # column(
+    #   4, style = 'margin-top: 10px;',
+    #   actionButton(ns('RenHeatTgtLink'), 'More Information', style="float:right")
+    # )),
+    # #dygraphOutput(ns("TargetTrackerPlot")),
+    # plotlyOutput(ns("RenHeatTgtPlot"), height = "75px")%>% withSpinner(color="#ff6600"),
+    # tags$hr(style = "height:3px;border:none;color:#ff6600;background-color:#ff6600;"),
+    # 
     #################################################################################
     
-    fluidRow(column(8,
-                    h3("Energy consumption target", style = "color: #297fff;  font-weight:bold"),
-                    h4("Reduction in total energy consumption from 2005-07", style = "color: #297fff;")
-    ),
-    column(
-      4, style = 'padding:15px;',
-      actionButton(ns('EnConsTgtLink'), 'More Information', style="float:right")
-    )),
-    #dygraphOutput(ns("TargetTrackerPlot")),
-    plotlyOutput(ns("EnConsTgtPlot"), height = "75px")%>% withSpinner(color="#297fff"),
-    tags$hr(style = "height:3px;border:none;color:#297fff;background-color:#297fff;"),
+    # fluidRow(column(8,
+    #                 h3("Energy consumption target", style = "color: #297fff;  font-weight:bold"),
+    #                 h4("Reduction in total energy consumption from 2005-07", style = "color: #297fff;")
+    # ),
+    # column(
+    #   4, style = 'padding:15px;',
+    #   actionButton(ns('EnConsTgtLink'), 'More Information', style="float:right")
+    # )),
+    # #dygraphOutput(ns("TargetTrackerPlot")),
+    # plotlyOutput(ns("EnConsTgtPlot"), height = "75px")%>% withSpinner(color="#297fff"),
+    # tags$hr(style = "height:3px;border:none;color:#297fff;background-color:#297fff;"),
     
     
     #################################################################################

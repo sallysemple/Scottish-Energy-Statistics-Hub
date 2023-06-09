@@ -68,25 +68,25 @@ LocalRenewablesOutput <- function(id) {
                tags$hr(style = "height:3px;border:none;color:#a3d65c;background-color:#a3d65c;"),
                plotlyOutput(ns("CommunityOperatingTechPlot"))%>% withSpinner(color="#a3d65c"),
                tags$hr(style = "height:3px;border:none;color:#a3d65c;background-color:#a3d65c;")),
-      
-      tabPanel("Operating capacity by output",
-               fluidRow(
-                 column(
-                   8,
-                   h3("Capacity of operational community and locally owned renewable installations by type of output", style = "color: #a3d65c;  font-weight:bold"),
-                   h4(textOutput(ns('CommunityOperatingOutputTypeSubtitle')), style = "color: #a3d65c;")
-                 ),
-                 column(
-                   4,
-                   style = 'padding:15px;',
-                   downloadButton(ns('CommunityOperatingOutputType.png'), 'Download Graph', style =
-                                    "float:right")
-                 )
-               ),
-               
-               tags$hr(style = "height:3px;border:none;color:#a3d65c;background-color:#a3d65c;"),
-               plotlyOutput(ns("CommunityOperatingOutputTypePlot"))%>% withSpinner(color="#a3d65c"),
-               tags$hr(style = "height:3px;border:none;color:#a3d65c;background-color:#a3d65c;")),
+      # 
+      # tabPanel("Operating capacity by output",
+      #          fluidRow(
+      #            column(
+      #              8,
+      #              h3("Capacity of operational community and locally owned renewable installations by type of output", style = "color: #a3d65c;  font-weight:bold"),
+      #              h4(textOutput(ns('CommunityOperatingOutputTypeSubtitle')), style = "color: #a3d65c;")
+      #            ),
+      #            column(
+      #              4,
+      #              style = 'padding:15px;',
+      #              downloadButton(ns('CommunityOperatingOutputType.png'), 'Download Graph', style =
+      #                               "float:right")
+      #            )
+      #          ),
+      #          
+      #          tags$hr(style = "height:3px;border:none;color:#a3d65c;background-color:#a3d65c;"),
+      #          plotlyOutput(ns("CommunityOperatingOutputTypePlot"))%>% withSpinner(color="#a3d65c"),
+      #          tags$hr(style = "height:3px;border:none;color:#a3d65c;background-color:#a3d65c;")),
       
       tabPanel("Estimated generation by output",
                fluidRow(
@@ -178,19 +178,19 @@ LocalRenewablesOutput <- function(id) {
              )%>% withSpinner(color="#a3d65c"))),
              tags$hr(style = "height:3px;border:none;color:#a3d65c;background-color:#a3d65c;")),
     
-    tabPanel("Output",
-             fluidRow(
-               column(10, h3("Data - Estimated capacity of operational community and locally owned renewable installations by type of output", style = "color: #a3d65c;  font-weight:bold")),
-               column(
-                 2,
-                 style = "padding:15px",
-                 actionButton(ns("ToggleTable4"), "Show/Hide Table", style = "float:right; ")
-               )
-             ),
-             fluidRow(column(12, dataTableOutput(
-               ns("CommunityOperatingOutputTypeTable")
-             )%>% withSpinner(color="#a3d65c"))),
-             tags$hr(style = "height:3px;border:none;color:#a3d65c;background-color:#a3d65c;")),
+    # tabPanel("Output",
+    #          fluidRow(
+    #            column(10, h3("Data - Estimated capacity of operational community and locally owned renewable installations by type of output", style = "color: #a3d65c;  font-weight:bold")),
+    #            column(
+    #              2,
+    #              style = "padding:15px",
+    #              actionButton(ns("ToggleTable4"), "Show/Hide Table", style = "float:right; ")
+    #            )
+    #          ),
+    #          fluidRow(column(12, dataTableOutput(
+    #            ns("CommunityOperatingOutputTypeTable")
+    #          )%>% withSpinner(color="#a3d65c"))),
+    #          tags$hr(style = "height:3px;border:none;color:#a3d65c;background-color:#a3d65c;")),
     tabPanel("Output, estimated generation",
              fluidRow(
                column(10, h3("Data - Estimated generation of operational community and locally owned renewable installations by type of output", style = "color: #a3d65c;  font-weight:bold")),
@@ -222,7 +222,7 @@ LocalRenewablesOutput <- function(id) {
     fluidRow(
       column(2, HTML("<p><strong>Last Updated:</strong></p>")),
       column(2,
-             UpdatedLookup(c("SGGrowth"))),
+             UpdatedLookup(c("ESTComm"))),
       column(1, align = "right",
              HTML("<p><strong>Reason:</strong></p>")),
       column(7, align = "right", 
@@ -232,7 +232,7 @@ LocalRenewablesOutput <- function(id) {
     fluidRow(
       column(2, HTML("<p><strong>Update Expected:</strong></p>")),
       column(2,
-             DateLookup(c("SGGrowth"))),
+             DateLookup(c("ESTComm"))),
       column(1, align = "right",
              HTML("<p><strong>Sources:</strong></p>")),
       column(7, align = "right",
@@ -258,12 +258,12 @@ LocalRenewables <- function(input, output, session) {
   
   print("EnEconomy.R")
   
-  QuarterSubtitle <- "Scotland, June 2021"
+  QuarterSubtitle <- "Scotland, June 2022"
   ###### Energy Sector Emplyment ######
   
   output$CommunityCapacitySubtitle <- renderText({
       
-      paste("Scotland, 2021")
+      paste("Scotland, 2022")
   })
   
   output$CommunityCapacityPlot <- renderPlotly  ({
@@ -956,7 +956,7 @@ LocalRenewables <- function(input, output, session) {
     
     CommunityOperatingTech <- read_excel("Structure/CurrentWorking.xlsx", 
                                   sheet = "Comm & locally owned ren", col_names = TRUE, 
-                                  skip = 41, n_max = 8)
+                                  skip = 41, n_max = 9)
     
     CommunityOperatingTech <- CommunityOperatingTech[1:2]
     
@@ -966,11 +966,11 @@ LocalRenewables <- function(input, output, session) {
     
     CommunityOperatingTech[is.na( CommunityOperatingTech)] <- 0.99
     
-    CommunityOperatingTech[2,2] <- CommunityOperatingTech[2,2] + CommunityOperatingTech[5,2]
+    #CommunityOperatingTech[2,2] <- CommunityOperatingTech[2,2] + CommunityOperatingTech[5,2]
         
-    CommunityOperatingTech[2,1] <- "Bioenergy and Waste"
+    #CommunityOperatingTech[2,1] <- "Bioenergy and Waste"
     
-    CommunityOperatingTech <- CommunityOperatingTech[-5,]
+    #CommunityOperatingTech <- CommunityOperatingTech[-5,]
     
     CommunityOperatingTech$Tech <- paste0("<b>", CommunityOperatingTech$Tech, "</b>")
     
@@ -1023,7 +1023,7 @@ LocalRenewables <- function(input, output, session) {
     content = function(file) {
       
       Data <- read_excel("Structure/CurrentWorking.xlsx", 
-                         sheet = "Comm & locally owned ren", skip = 41, n_max = 8)[1:2]
+                         sheet = "Comm & locally owned ren", skip = 41, n_max = 9)[1:2]
       
       names(Data) <- c("Tech", "Capacity")
       
@@ -1033,11 +1033,11 @@ LocalRenewables <- function(input, output, session) {
       
       ComCapTech <- Data
       
-      ComCapTech[2,2] <- ComCapTech[2,2] + ComCapTech[5,2]
+      #ComCapTech[2,2] <- ComCapTech[2,2] + ComCapTech[5,2]
       
-      ComCapTech[2,1] <- "Bioenergy and Waste"
+      #ComCapTech[2,1] <- "Bioenergy and Waste"
       
-      ComCapTech <- ComCapTech[-5,]
+      #ComCapTech <- ComCapTech[-5,]
       
       ComCapTech$Tech <-
         factor(ComCapTech$Tech, levels = ComCapTech$Tech, ordered = TRUE)
@@ -1112,15 +1112,15 @@ LocalRenewables <- function(input, output, session) {
   output$CommunityOperatingTechTable = renderDataTable({
     CommunityOperatingOutputType <- read_excel("Structure/CurrentWorking.xlsx", 
                                  sheet = "Comm & locally owned ren", col_names = TRUE, 
-                                 skip = 41, n_max = 8)[1:5]
+                                 skip = 41, n_max = 9)[1:5]
     
     CommunityOperatingOutputType <- CommunityOperatingOutputType[1:5]
     
-    CommunityOperatingOutputType[8,1] <- "Total"
+    CommunityOperatingOutputType[9,1] <- "Total"
     
 
     
-    CommunityOperatingOutputType[2,1] <- "Bioenergy and Waste"
+    #CommunityOperatingOutputType[2,1] <- "Bioenergy and Waste"
     
     CommunityOperatingOutputType <- CommunityOperatingOutputType[-5,]
     
@@ -1298,7 +1298,7 @@ LocalRenewables <- function(input, output, session) {
         coord_flip() +
         ylim(-125, max(ComCapType$Capacity))+
         scale_x_discrete(limits = rev(levels(ComCapType$Tech)))+ 
-        labs (subtitle = "Scotland, June 2021")
+        labs (subtitle = "Scotland, June 2022")
       
       ComCapTypeChart
       
@@ -1316,11 +1316,11 @@ LocalRenewables <- function(input, output, session) {
   output$CommunityOperatingOutputTypeTable = renderDataTable({
     CommunityOperatingOutputType <- read_excel("Structure/CurrentWorking.xlsx", 
                                  sheet = "Comm & locally owned ren", col_names = TRUE, 
-                                 skip = 46, n_max = 5)
+                                 skip = 46, n_max = 4)
     
     CommunityOperatingOutputType <- CommunityOperatingOutputType[11:13]
     
-    CommunityOperatingOutputType[5,1] <- "Total"
+    #CommunityOperatingOutputType[5,1] <- "Total"
     
     names(CommunityOperatingOutputType) <- c("Output", "Capacity (MW)", "%")
     
@@ -1724,11 +1724,11 @@ LocalRenewables <- function(input, output, session) {
   output$CommunityOperatingOutputTypeGenTable = renderDataTable({
     CommunityOperatingOutputType <- read_excel("Structure/CurrentWorking.xlsx", 
                                                sheet = "Comm & locally owned ren", col_names = TRUE, 
-                                               skip = 46, n_max = 5)
+                                               skip = 46, n_max = 4)
     
     CommunityOperatingOutputType <- CommunityOperatingOutputType[c(11,14,15)]
     
-    CommunityOperatingOutputType[5,1] <- "Total"
+    #CommunityOperatingOutputType[5,1] <- "Total"
     
     names(CommunityOperatingOutputType) <- c("Output", "Estimated generation (GWh)", "%")
     

@@ -85,22 +85,24 @@ RenHeat <- function(input, output, session) {
     
     RenHeat <- read_csv("Processed Data/Output/Consumption/RenHeatTgt.csv")
     
-    paste("Scotland,", min(RenHeat$Year),"-", max(RenHeat$Year[which(RenHeat$`Renewable Heat Generation` != 0)]))
+    paste("Scotland,", min(RenHeat$Year),"-", max(RenHeat$Year[which(RenHeat$`Non-electrical heat demand (GWh)` != 0)]))
   })
   
   output$RenHeatPlot <- renderPlotly  ({
     
     RenHeat <- read_csv("Processed Data/Output/Consumption/RenHeatTgt.csv")
-    RenHeat <- RenHeat[c(1,4)]
+    RenHeat <- RenHeat[c(1,7:9)]
     
-    names(RenHeat) <- c("Year", "Renewables")
+    names(RenHeat) <- c("Year", "Renewables","Max non-industrial renewables", "Min non-industrial renewables")
     RenHeat$Year <- substr(RenHeat$Year,1,4)
-    RenHeat <- merge(RenHeat, data.frame(Year = 2020, Renewables = NA, Tgt = .11), all = T)
+    # RenHeat <- merge(RenHeat, data.frame(Year = 2020,  Tgt = .11), all = T)
     RenHeat %<>% lapply(function(x) as.numeric(as.character(x)))
     RenHeat <- as.data.frame(RenHeat)
-    RenHeat <- RenHeat[-2,] 
+    #RenHeat <- as_tibble(RenHeat)
+    #RenHeat <- RenHeat[-2,] 
     ### variables
-    ChartColours <- c("#39ab2c", "#FF8500")
+    ChartColours <- c("#1A5D38", "#FF8500")
+    LineColours <- c( "#39ab2c","#006837", "#41ab5d", "#addd8e")
     sourcecaption = "Source: BEIS, EST"
     plottitle = "Share of renewable heat in\nnon-electrical heat demand"
     
@@ -109,12 +111,16 @@ RenHeat <- function(input, output, session) {
     RenHeat$Year <- dmy(RenHeat$Year)
     
     
-    p <-  plot_ly(RenHeat,x = ~ Year ) %>% 
-      add_trace(y = ~ Renewables,
-                name = "Renewable Heat",
+    p <-  plot_ly(data = RenHeat,
+                  x = ~ Year ) %>% 
+     
+       add_trace(data = RenHeat, 
+                 x = ~ Year,
+                 y = ~ Renewables,
+                name = "Renewable Heat inc industrial",
                 type = 'scatter',
                 mode = 'lines',
-                legendgroup = "1",
+                legendgroup = "2",
                 text = paste0(
                   "Progress: ",
                   percent(RenHeat$Renewables, accuracy = 0.1),
@@ -122,14 +128,14 @@ RenHeat <- function(input, output, session) {
                   format(RenHeat$Year, "%Y")
                 ),
                 hoverinfo = 'text',
-                line = list(width = 6, color = ChartColours[1], dash = "none")
+                line = list(width = 6, color = LineColours[1], dash = "dot")
       ) %>% 
       add_trace(
         data = tail(RenHeat[which(RenHeat$Renewables > 0 | RenHeat$Renewables < 0),], 1),
         x = ~ Year,
         y = ~ `Renewables`,
-        name = "Renewable Heat",
-        legendgroup = "1",
+        name = "Renewable Heat inc industrial",
+        legendgroup = "2",
         text = paste0(
           "Progress: ",
           percent(RenHeat[which(RenHeat$Renewables > 0 | RenHeat$Renewables < 0),][-1,]$Renewables, accuracy = 0.1),
@@ -141,26 +147,102 @@ RenHeat <- function(input, output, session) {
         type = "scatter",
         mode = 'markers',
         marker = list(size = 18, 
-                      color = ChartColours[1])
+                      color = LineColours[1])
+        
       ) %>% 
       add_trace(
         data = RenHeat,
         x = ~ Year,
-        y = ~ Tgt,
-        name = "Target",
+        y = ~ `Max.non.industrial.renewables`,
+                name = "Maximum non-industrial Renewable Heat",
+                type = 'scatter',
+                mode = 'lines',
+                legendgroup = "2",
+                text = paste0(
+                  "Progress: ",
+                  percent(RenHeat$Max.non.industrial.renewables, accuracy = 0.1),
+                  "\nYear: ",
+                  format(RenHeat$Year, "%Y")
+                ),
+                hoverinfo = 'text',
+                line = list(width = 6, color = LineColours[2], dash = "none")
+      ) %>% 
+      add_trace(
+        data = tail(RenHeat[which(RenHeat$Max.non.industrial.renewables > 0 | RenHeat$Max.non.industrial.renewables < 0),], 1),
+        x = ~ Year,
+        y = ~ `Max.non.industrial.renewables`,
+        name = "Maximum non-industrial Renewable Heat",
         legendgroup = "2",
         text = paste0(
-          "Target: ",
-          percent(RenHeat$Tgt, accuracy = 0.1),
+          "Progress: ",
+          percent(RenHeat[which(RenHeat$Max.non.industrial.renewables > 0 | RenHeat$Max.non.industrial.renewables < 0),][-1,]$Max.non.industrial.renewables, accuracy = 0.1),
           "\nYear: ",
-          format(RenHeat$Year, "%Y")
+          format(RenHeat[which(RenHeat$Max.non.industrial.renewables > 0 | RenHeat$Max.non.industrial.renewables < 0),][-1,]$Year, "%Y")
         ),
         hoverinfo = 'text',
+        showlegend = FALSE ,
+        type = "scatter",
         mode = 'markers',
-        marker = list(size = 25,
-                      symbol = "diamond",
-                      color = ChartColours[2])
+        marker = list(size = 18, 
+                      color = LineColours[2])
+        
       ) %>% 
+      add_trace(data=RenHeat,
+        x = ~ Year,
+        y = ~ `Min.non.industrial.renewables`,
+                name = "Minimum non-industrial Renewable Heat",
+                type = 'scatter',
+                mode = 'lines',
+                legendgroup = "2",
+                text = paste0(
+                  "Progress: ",
+                  percent(RenHeat$Min.non.industrial.renewables, accuracy = 0.1),
+                  "\nYear: ",
+                  format(RenHeat$Year, "%Y")
+                ),
+                hoverinfo = 'text',
+                line = list(width = 6, color = LineColours[3], dash = "none")
+      ) %>% 
+      add_trace(
+        data = tail(RenHeat[which(RenHeat$Min.non.industrial.renewables > 0 | RenHeat$Min.non.industrial.renewables < 0),], 1),
+        x = ~ Year,
+        y = ~ `Min.non.industrial.renewables`,
+        name = "Minimum non-industrial Renewable Heat",
+        legendgroup = "2",
+        text = paste0(
+          "Progress: ",
+          percent(RenHeat[which(RenHeat$Min.non.industrial.renewables > 0 | RenHeat$Min.non.industrial.renewables < 0),][-1,]$Min.non.industrial.renewables, accuracy = 0.1),
+          "\nYear: ",
+          format(RenHeat[which(RenHeat$Min.non.industrial.renewables > 0 | RenHeat$Min.non.industrial.renewables < 0),][-1,]$Year, "%Y")
+        ),
+        hoverinfo = 'text',
+        showlegend = FALSE ,
+        type = "scatter",
+        mode = 'markers',
+        marker = list(size = 18, 
+                      color = LineColours[3])
+        
+      # ) %>% 
+      # add_trace(
+      #   data = RenHeat,
+      #   x = ~ Year,
+      #   y = ~ Tgt,
+      #   name = "Target",
+      #   legendgroup = "2",
+      #   text = paste0(
+      #     "Target: ",
+      #     percent(RenHeat$Tgt, accuracy = 0.1),
+      #     "\nYear: ",
+      #     format(RenHeat$Year, "%Y")
+      #   ),
+      #   hoverinfo = 'text',
+      #   mode = 'markers',
+      #   marker = list(size = 25,
+      #                 symbol = "diamond",
+      #                 color = ChartColours[2])
+        
+      ) %>%
+      
       layout(
         barmode = 'stack',
         bargap = 0.66,
@@ -194,8 +276,10 @@ RenHeat <- function(input, output, session) {
     
     RenHeat <- read_csv("Processed Data/Output/Consumption/RenHeatTgt.csv")
     
+    RenHeat <- RenHeat[c(1,2,6,7,8,9,10)]
     
-    names(RenHeat) <- c("Year", "Renewable Heat (GWh)", "Heat Demand (GWh)", "% Renewable Heat", "Renewable Heat Capacity")
+    names(RenHeat) <- c("Year", "Renewable Heat (GWh)", "Non-electrical, non-industrial, heat demand (GWh)",
+                        "Renewable heat target (including industrial) (%)","Maximum non-industrial renewable heat (%)","Minimum non-industrial renewable heat (%)", "Renewable Heat Capacity")
     
     datatable(
       RenHeat,
@@ -230,9 +314,9 @@ RenHeat <- function(input, output, session) {
         pageLength = 10
       )
     ) %>%
-      formatPercentage(4, 1) %>% 
+      formatPercentage(4:6, 1) %>% 
       formatRound(2:3, 0) %>% 
-      formatRound(5,3)
+      formatRound(7,3)
   })
   
   

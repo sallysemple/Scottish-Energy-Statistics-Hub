@@ -181,7 +181,7 @@ RenHeatTech <- function(input, output, session) {
     
     Data <- dcast(Data, Year ~ Technology)
     
-    names(Data) <- c("Year", "Biomass", "CHP", "Biomethane", "Waste", "Pumps", "Solar", "Total")
+    names(Data) <- c("Year", "Biogas", "Bioliquid", "Biomass", "Biomethane", "Total", "Heat Pump", "Solar Thermal","Waste")
     Data %<>% lapply(function(x) as.numeric(as.character(x)))
     Data <- distinct(as_tibble(Data), Year, .keep_all = TRUE)
     Data <- Data[complete.cases(Data),]
@@ -203,6 +203,30 @@ RenHeatTech <- function(input, output, session) {
       
       add_trace(
         data = Data,
+        x = ~ `Biogas`,
+        type = 'bar',
+        width = 0.7,
+        orientation = 'h',
+        name = "Biogas",
+        text = paste0("Biogas: ", format(round(Data$`Biogas`, 3), big.mark = ","), unit),
+        hoverinfo = 'text',
+        marker = list(color = BarColours[1]),
+        legendgroup = 1
+      ) %>%
+      add_trace(
+        data = Data,
+        x = ~ `Bioliquid`,
+        type = 'bar',
+        width = 0.7,
+        orientation = 'h',
+        name = "Bioliquid",
+        text = paste0("Bioliquid: ", format(round(Data$`Bioliquid`, 3), big.mark = ","), unit),
+        hoverinfo = 'text',
+        marker = list(color = BarColours[2]),
+        legendgroup = 2
+      ) %>%
+      add_trace(
+        data = Data,
         x = ~ `Biomass`,
         type = 'bar',
         width = 0.7,
@@ -210,20 +234,8 @@ RenHeatTech <- function(input, output, session) {
         name = "Biomass",
         text = paste0("Biomass: ", format(round(Data$`Biomass`, 3), big.mark = ","), unit),
         hoverinfo = 'text',
-        marker = list(color = BarColours[1]),
-        legendgroup = 1
-      ) %>%
-      add_trace(
-        data = Data,
-        x = ~ `CHP`,
-        type = 'bar',
-        width = 0.7,
-        orientation = 'h',
-        name = "Biomass CHP",
-        text = paste0("Biomass CHP: ", format(round(Data$`CHP`, 3), big.mark = ","), unit),
-        hoverinfo = 'text',
-        marker = list(color = BarColours[2]),
-        legendgroup = 2
+        marker = list(color = BarColours[3]),
+        legendgroup = 3
       ) %>%
       add_trace(
         data = Data,
@@ -234,51 +246,51 @@ RenHeatTech <- function(input, output, session) {
         name = "Biomethane",
         text = paste0("Biomethane: ", format(round(Data$`Biomethane`, 3), big.mark = ","), unit),
         hoverinfo = 'text',
-        marker = list(color = BarColours[3]),
-        legendgroup = 3
-      ) %>%
-      add_trace(
-        data = Data,
-        x = ~ `Waste`,
-        type = 'bar',
-        width = 0.7,
-        orientation = 'h',
-        name = "Energy from waste",
-        text = paste0("Energy from waste: ", format(round(Data$`Waste`, 3), big.mark = ","), unit),
-        hoverinfo = 'text',
         marker = list(color = BarColours[4]),
         legendgroup = 4
       ) %>%
       add_trace(
         data = Data,
-        x = ~ `Pumps`,
+        x = ~ `Heat Pump`,
         type = 'bar',
         width = 0.7,
         orientation = 'h',
-        name = "Heat pumps",
-        text = paste0("Heat pumps: ", format(round(Data$`Pumps`, 3), big.mark = ","), unit),
+        name = "Heat Pump",
+        text = paste0("Heat Pump: ", format(round(Data$`Heat Pump`, 3), big.mark = ","), unit),
         hoverinfo = 'text',
         marker = list(color = BarColours[5]),
         legendgroup = 5
       ) %>%
       add_trace(
         data = Data,
-        x = ~ `Solar`,
+        x = ~ `Solar Thermal`,
         type = 'bar',
         width = 0.7,
         orientation = 'h',
-        name = "Solar thermal",
-        text = paste0("Solar thermal: ", format(round(Data$`Solar`, 3), big.mark = ","), unit),
+        name = "Solar Thermal",
+        text = paste0("Solar Thermall: ", format(round(Data$`Solar Thermal`, 3), big.mark = ","), unit),
         hoverinfo = 'text',
         marker = list(color = BarColours[6]),
         legendgroup = 6
       ) %>%
+    add_trace(
+      data = Data,
+      x = ~ `Waste`,
+      type = 'bar',
+      width = 0.7,
+      orientation = 'h',
+      name = "Waste",
+      text = paste0("Waste: ", format(round(Data$`Waste`, 3), big.mark = ","), unit),
+      hoverinfo = 'text',
+      marker = list(color = BarColours[6]),
+      legendgroup = 7
+    ) %>%
       add_trace(
         x = (Data$Total) * 1.01,
         showlegend = FALSE,
         type = 'scatter',
         mode = 'text',
-        text = paste0("<b>",format(round((Data$Total), digits = 3), big.mark = ","), unit, "</b>"),
+        text = paste0("<b>",format(round((Data$Total), digits = 1), big.mark = ","), unit, "</b>"),
         textposition = 'middle right',
         textfont = list(color = ChartColours[1]),
         hoverinfo = 'skip',
@@ -296,7 +308,7 @@ RenHeatTech <- function(input, output, session) {
         textfont = list(color = ChartColours[1]),
         hoverinfo = 'skip',
         marker = list(
-          size = 0.00001
+          size = 0.1
         )
       ) %>%
       layout(
@@ -344,6 +356,8 @@ RenHeatTech <- function(input, output, session) {
     
     RenHeatCapOutput <- dcast(RenHeatCapOutput, Technology ~ variable)
     
+    RenHeatCapOutput <- RenHeatCapOutput[c(1:4,6:8,5),]
+    
     datatable(
       RenHeatCapOutput[c(1,13,12,09,08,11,10)],
       extensions = 'Buttons',
@@ -375,6 +389,7 @@ RenHeatTech <- function(input, output, session) {
         pageLength = 10
       )
     ) %>%
+      formatRound(c(2,3),2) %>% 
       formatRound(c(4:7), 0)
   }) 
   
@@ -681,13 +696,13 @@ RenHeatTech <- function(input, output, session) {
   
   Data <- Data[c(1,2,x)]
   
-  Data <- dcast(Data, Year ~ Technology)
+  Data <- dcast(Data, Year ~ Size)
   
-  names(Data) <- c("Year", "Bioenergy","Large", "Micro", "Small to medium", "Total", "Unknown")
+  names(Data) <- c("Year", "Biomethane","Total","Large", "Micro", "Small to medium" )
   
   Data %<>% lapply(function(x) as.numeric(as.character(x)))
   
-  Data <- Data[c(1, 3, 5, 4, 2, 7 ,6)]
+  Data <- Data[c(1,2,6, 5, 4, 3)]
   
   Data <- as_tibble(Data)
   
@@ -719,7 +734,7 @@ RenHeatTech <- function(input, output, session) {
       width = 0.7,
       orientation = 'h',
       name = "Large",
-      text = paste0("Large: ", format(round(Data$`Large`, 3), big.mark = ","), unit),
+      text = paste0("Large: ", format(round(Data$`Large`, 1), big.mark = ","), unit),
       hoverinfo = 'text',
       marker = list(color = BarColours[1]),
       legendgroup = 1
@@ -731,7 +746,7 @@ RenHeatTech <- function(input, output, session) {
       width = 0.7,
       orientation = 'h',
       name = "Small to medium",
-      text = paste0("Small to medium: ", format(round(Data$`Small to medium`, 3), big.mark = ","), unit),
+      text = paste0("Small to medium: ", format(round(Data$`Small to medium`, 1), big.mark = ","), unit),
       hoverinfo = 'text',
       marker = list(color = BarColours[2]),
       legendgroup = 2
@@ -743,41 +758,41 @@ RenHeatTech <- function(input, output, session) {
       width = 0.7,
       orientation = 'h',
       name = "Micro",
-      text = paste0("Micro: ", format(round(Data$`Micro`, 3), big.mark = ","), unit),
+      text = paste0("Micro: ", format(round(Data$`Micro`, 1), big.mark = ","), unit),
       hoverinfo = 'text',
       marker = list(color = BarColours[3]),
       legendgroup = 3
     ) %>%
     add_trace(
       data = Data,
-      x = ~ `Bioenergy`,
+      x = ~ `Biomethane`,
       type = 'bar',
       width = 0.7,
       orientation = 'h',
-      name = "Bioenergy",
-      text = paste0("Bioenergy: ", format(round(Data$`Bioenergy`, 3), big.mark = ","), unit),
+      name = "Biomethane",
+      text = paste0("Biomethane: ", format(round(Data$`Biomethane`, 1), big.mark = ","), unit),
       hoverinfo = 'text',
       marker = list(color = BarColours[4]),
       legendgroup = 4
-    ) %>%
-    add_trace(
-      data = Data,
-      x = ~ `Unknown`,
-      type = 'bar',
-      width = 0.7,
-      orientation = 'h',
-      name = "Unknown",
-      text = paste0("Unknown: ", format(round(Data$`Unknown`, 3), big.mark = ","), unit),
-      hoverinfo = 'text',
-      marker = list(color = BarColours[5]),
-      legendgroup = 5
+    # ) %>%
+    # add_trace(
+    #   data = Data,
+    #   x = ~ `Unknown`,
+    #   type = 'bar',
+    #   width = 0.7,
+    #   orientation = 'h',
+    #   name = "Unknown",
+    #   text = paste0("Unknown: ", format(round(Data$`Unknown`, 1), big.mark = ","), unit),
+    #   hoverinfo = 'text',
+    #   marker = list(color = BarColours[5]),
+    #   legendgroup = 5
     ) %>%
     add_trace(
       x = (Data$Total) * 1.01,
       showlegend = FALSE,
       type = 'scatter',
       mode = 'text',
-      text = paste0("<b>",format(round((Data$Total), digits = 3), big.mark = ","), unit, "</b>"),
+      text = paste0("<b>",format(round((Data$Total), digits = 1), big.mark = ","), unit, "</b>"),
       textposition = 'middle right',
       textfont = list(color = ChartColours[1]),
       hoverinfo = 'skip',
@@ -867,17 +882,21 @@ RenHeatTech <- function(input, output, session) {
     
     Data <- Data[c(1,2,x)]
     
-    Data <- dcast(Data, Year ~ Technology)
+    Data <- dcast(Data, Year ~ Size)
     
-    names(Data) <- c("Year", "Bioenergy","Large", "Micro", "Small to medium", "Total", "Unknown")
+    names(Data) <- c("Year", "Biomethane","Total","Large", "Micro", "Small to medium" )
     
-    TotalData <- Data[c(1,6)]
+    Data %<>% lapply(function(x) as.numeric(as.character(x)))
+    
+    
+    TotalData <- Data[c(1,3)]
     
     
     
     Data %<>% lapply(function(x) as.numeric(as.character(x)))
     
-    Data <- Data[c(1, 3, 5, 4, 2, 7 ,6)]
+    
+    Data <- Data[c(1,2,6, 5, 4, 3)]
     
     Data[7] <- NULL
     
@@ -1001,16 +1020,16 @@ RenHeatTech <- function(input, output, session) {
         family = "Century Gothic",
         hjust = 0.5
       ) +
-      geom_text(
-        aes(x = height * 1.3,
-            y = length * (4.5 / 5)*.95,
-            label = "Unknown"),
-        fontface = 2,
-        colour = BarColours[5],
-        family = "Century Gothic",
-        hjust = 0.5
-        
-      ) +
+      # geom_text(
+      #   aes(x = height * 1.3,
+      #       y = length * (4.5 / 5)*.95,
+      #       label = "Unknown"),
+      #   fontface = 2,
+      #   colour = BarColours[5],
+      #   family = "Century Gothic",
+      #   hjust = 0.5
+      #   
+      # ) +
       annotate(
         "text",
         x = DomesticEPC$Year,
@@ -1084,15 +1103,17 @@ RenHeatTech <- function(input, output, session) {
   RenHeatSize <- read_delim("Processed Data/Output/Renewable Heat/RenHeatSize.txt", 
                             "\t", escape_double = FALSE, trim_ws = TRUE)
   
-  RenHeatSize <- melt(RenHeatSize, id.vars = c("Year", "Technology"))
+  RenHeatSize <- melt(RenHeatSize, id.vars = c("Year", "Size"))
   
   RenHeatSize$variable <- paste0(RenHeatSize$variable, " - ", RenHeatSize$Year)
   
   RenHeatSize$Year <- NULL
   
-  RenHeatSize <- dcast(RenHeatSize, Technology ~ variable)
+  RenHeatSize <- dcast(RenHeatSize, Size ~ variable)
   
   RenHeatSize[RenHeatSize <= 0.01] <- "< 0.1"
+  
+  RenHeatSize <- RenHeatSize[c(1,3,4,5,2),]
   
   datatable(
     RenHeatSize[c(1,13,12,09,08,11,10)],
@@ -1125,7 +1146,7 @@ RenHeatTech <- function(input, output, session) {
       pageLength = 10
     )
   ) %>%
-    
+    formatRound(c(2:3),2)  %>%
     formatRound(c(4:7), 0)
 })
   
