@@ -11,10 +11,10 @@
    version="1.1"
    id="svg74"
    sodipodi:docname="EnergyBalanceChart.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    width="667.88837"
    height="395.22357"
-   inkscape:export-filename="C:\Users\ische\GitHub\Scottish-Energy-Statistics-Hub\Structure\1 - Whole System\EnBalanceTWh.png"
+   inkscape:export-filename="C:\Users\Energy Stats\Documents\Github\Scottish-Energy-Statistics-Hub\Structure\1 - Whole System\EnBalanceTWh.png"
    inkscape:export-xdpi="300.71082"
    inkscape:export-ydpi="300.71082">
   <metadata
@@ -38,15 +38,15 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="3840"
-     inkscape:window-height="2066"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      id="namedview76"
      showgrid="false"
-     inkscape:zoom="2.68112"
-     inkscape:cx="351.69937"
-     inkscape:cy="99.465466"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:zoom="1.8847266"
+     inkscape:cx="291.09037"
+     inkscape:cy="188.9803"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg74"
      fit-margin-top="5"
@@ -148,8 +148,7 @@
          y="-66.533241"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
        id="flowPara1118"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:12.2079px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic'" /></flowRoot>
-  <flowRoot
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:12.2079px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic'" /></flowRoot>  <flowRoot
      xml:space="preserve"
      id="flowRoot4827"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -162,8 +161,7 @@
          x="-309.9451"
          y="-75.484726"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
-       id="flowPara4833" /></flowRoot>
-  <path
+       id="flowPara4833" /></flowRoot>  <path
      style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#1a5d38;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.20000005;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
      d="m 8.2207031,43.369141 v 3.201171 H 618.14062 v -3.201171 z"
      clip-path="url(#cpOC4yMnw2MTguMTR8MjQ1LjIyfDQ0Ljk3)"
@@ -190,8 +188,7 @@
          y="-218.56583"
          style="fill:#1a5d38;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
        id="flowPara907-9"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#1a5d38;fill-opacity:1">2019</flowPara></flowRoot>
-  <flowRoot
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#1a5d38;fill-opacity:1">2020</flowPara></flowRoot>  <flowRoot
      xml:space="preserve"
      id="flowRoot901-8-4"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a5d38;fill-opacity:1;stroke:none"
@@ -208,8 +205,7 @@
          y="-218.56583"
          style="fill:#1a5d38;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
        id="flowPara907-9-7"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';text-align:end;text-anchor:end;fill:#1a5d38;fill-opacity:1">Source: BEIS, SG, HMRC</flowPara></flowRoot>
-  <path
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';text-align:end;text-anchor:end;fill:#1a5d38;fill-opacity:1">Source: BEIS, SG, HMRC</flowPara></flowRoot>  <path
      style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#1a5d38;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.20000005;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
      d="m 8.2207031,43.369141 v 3.201171 H 618.14062 v -3.201171 z"
      clip-path="url(#cpOC4yMnw2MTguMTR8MjQ1LjIyfDQ0Ljk3-1)"
@@ -235,8 +231,7 @@
          x="1755.4242"
          y="-226.71194"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#1a5d38;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
-       id="flowPara4851">Scottish energy balance</flowPara></flowRoot>
-  <g
+       id="flowPara4851">Scottish energy balance</flowPara></flowRoot>  <g
      transform="matrix(4.9770294,0,0,4.9770294,-3744.3238,-1100.5155)"
      id="g869"
      class="bglayer" />
@@ -1347,8 +1342,7 @@
        style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:0.8"
        id="flowPara6676">Indigenous Production</flowPara><flowPara
        style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:0.8"
-       id="flowPara6678">932 TWh</flowPara></flowRoot>
-  <flowRoot
+       id="flowPara6678">978 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,36.196036,196.57482)"
      style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      id="flowRoot6670-4"
@@ -1367,8 +1361,7 @@
        style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
        id="flowPara6676-1">Imports</flowPara><flowPara
        style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
-       id="flowPara6678-7">227 TWh</flowPara></flowRoot>
-  <flowRoot
+       id="flowPara6678-7">194 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,36.319656,242.54432)"
      style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      id="flowRoot6670-4-8"
@@ -1389,8 +1382,7 @@
        id="flowPara7012"
        style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start">Transformation In</flowPara><flowPara
        style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
-       id="flowPara6678-7-7">177 TWh</flowPara></flowRoot>
-  <flowRoot
+       id="flowPara6678-7-7">165 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,217.30275,-1.6945907)"
      style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      id="flowRoot6670-9"
@@ -1409,8 +1401,7 @@
        style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
        id="flowPara6676-7">Primary Oils</flowPara><flowPara
        style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
-       id="flowPara6678-2">709 TWh</flowPara></flowRoot>
-  <flowRoot
+       id="flowPara6678-2">656 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,217.29738,103.7451)"
      style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      id="flowRoot6670-3"
@@ -1429,8 +1420,7 @@
        style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
        id="flowPara6676-8">Natural Gas</flowPara><flowPara
        style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
-       id="flowPara6678-4">342 TWh</flowPara></flowRoot>
-  <flowRoot
+       id="flowPara6678-4">407 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,217.39232,154.17597)"
      style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      id="flowRoot6670-2"
@@ -1449,8 +1439,7 @@
        style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
        id="flowPara6676-9">Coal</flowPara><flowPara
        style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
-       id="flowPara6678-9">3 TWh</flowPara></flowRoot>
-  <flowRoot
+       id="flowPara6678-9">1 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,217.1845,171.27021)"
      style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      id="flowRoot6670-0"
@@ -1469,8 +1458,7 @@
        style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
        id="flowPara6676-0">Primary Electricity</flowPara><flowPara
        style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
-       id="flowPara6678-97">62 TWh</flowPara></flowRoot>
-  <flowRoot
+       id="flowPara6678-97">66 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,217.30095,190.35978)"
      style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      id="flowRoot6670-33"
@@ -1489,8 +1477,7 @@
        style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
        id="flowPara6676-6">Bioenergy &amp; Wastes</flowPara><flowPara
        style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
-       id="flowPara6678-1">13 TWh</flowPara></flowRoot>
-  <flowRoot
+       id="flowPara6678-1">14 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,217.14509,217.20512)"
      style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      id="flowRoot6670-7"
@@ -1509,8 +1496,7 @@
        style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
        id="flowPara6676-07">Petrol</flowPara><flowPara
        style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
-       id="flowPara6678-28">154 TWh</flowPara></flowRoot>
-  <flowRoot
+       id="flowPara6678-28">139 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,217.30992,243.49942)"
      style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      id="flowRoot6670-20"
@@ -1529,8 +1515,7 @@
        style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
        id="flowPara6676-06">Manufactured Fuels</flowPara><flowPara
        style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
-       id="flowPara6678-94">1 TWh</flowPara></flowRoot>
-  <flowRoot
+       id="flowPara6678-94">1 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,217.20062,261.44838)"
      style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      id="flowRoot6670-1"
@@ -1549,10 +1534,9 @@
        style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
        id="flowPara6676-4">Electricity</flowPara><flowPara
        style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
-       id="flowPara6678-5">51 TWh</flowPara></flowRoot>
-  <flowRoot
+       id="flowPara6678-5">52 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,400.03756,173.05882)"
-     style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
      id="flowRoot6670-1-0"
      xml:space="preserve"
      inkscape:export-filename="J:\ENERGY BRANCH\Statistics\Energy Balance Generator\R Sankey\Test.png"
@@ -1560,19 +1544,18 @@
      inkscape:export-ydpi="172.58127"><flowRegion
        id="flowRegion6672-64-1"
        style="font-family:sans-serif"><rect
-         style="font-family:sans-serif;fill:none;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
+         style="font-family:sans-serif;fill:none;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
          y="495.09543"
          x="-1.7787859"
          height="169.57759"
          width="738.78912"
          id="rect6674-08-4" /></flowRegion><flowPara
-       style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
+       style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
        id="flowPara6676-4-9">Domestic</flowPara><flowPara
-       style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
-       id="flowPara6678-5-1">45 TWh</flowPara></flowRoot>
-  <flowRoot
+       style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
+       id="flowPara6678-5-1">46 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,399.97665,190.43898)"
-     style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
      id="flowRoot6670-1-1"
      xml:space="preserve"
      inkscape:export-filename="J:\ENERGY BRANCH\Statistics\Energy Balance Generator\R Sankey\Test.png"
@@ -1580,19 +1563,18 @@
      inkscape:export-ydpi="172.58127"><flowRegion
        id="flowRegion6672-64-0"
        style="font-family:sans-serif"><rect
-         style="font-family:sans-serif;fill:none;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
+         style="font-family:sans-serif;fill:none;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
          y="495.09543"
          x="-1.7787859"
          height="169.57759"
          width="738.78912"
          id="rect6674-08-3" /></flowRegion><flowPara
-       style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
+       style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
        id="flowPara6676-4-1">Industry</flowPara><flowPara
-       style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
-       id="flowPara6678-5-3">23 TWh</flowPara></flowRoot>
-  <flowRoot
+       style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
+       id="flowPara6678-5-3">20 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,399.97665,206.25116)"
-     style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
      id="flowRoot6670-1-8"
      xml:space="preserve"
      inkscape:export-filename="J:\ENERGY BRANCH\Statistics\Energy Balance Generator\R Sankey\Test.png"
@@ -1600,19 +1582,18 @@
      inkscape:export-ydpi="172.58127"><flowRegion
        id="flowRegion6672-64-2"
        style="font-family:sans-serif"><rect
-         style="font-family:sans-serif;fill:none;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
+         style="font-family:sans-serif;fill:none;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
          y="495.09543"
          x="-1.7787859"
          height="169.57759"
          width="738.78912"
          id="rect6674-08-6" /></flowRegion><flowPara
-       style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
+       style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
        id="flowPara6676-4-19">Other</flowPara><flowPara
-       style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
-       id="flowPara6678-5-7">26 TWh</flowPara></flowRoot>
-  <flowRoot
+       style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
+       id="flowPara6678-5-7">22 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,399.93541,226.054)"
-     style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
      id="flowRoot6670-1-82"
      xml:space="preserve"
      inkscape:export-filename="J:\ENERGY BRANCH\Statistics\Energy Balance Generator\R Sankey\Test.png"
@@ -1620,19 +1601,18 @@
      inkscape:export-ydpi="172.58127"><flowRegion
        id="flowRegion6672-64-24"
        style="font-family:sans-serif"><rect
-         style="font-family:sans-serif;fill:none;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
+         style="font-family:sans-serif;fill:none;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
          y="495.09543"
          x="-1.7787859"
          height="169.57759"
          width="738.78912"
          id="rect6674-08-0" /></flowRegion><flowPara
-       style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
+       style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
        id="flowPara6676-4-2">Transport</flowPara><flowPara
-       style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
-       id="flowPara6678-5-8">54 TWh</flowPara></flowRoot>
-  <flowRoot
+       style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
+       id="flowPara6678-5-8">38 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,399.7957,243.29269)"
-     style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
      id="flowRoot6670-1-7"
      xml:space="preserve"
      inkscape:export-filename="J:\ENERGY BRANCH\Statistics\Energy Balance Generator\R Sankey\Test.png"
@@ -1640,17 +1620,16 @@
      inkscape:export-ydpi="172.58127"><flowRegion
        id="flowRegion6672-64-6"
        style="font-family:sans-serif"><rect
-         style="font-family:sans-serif;fill:none;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
+         style="font-family:sans-serif;fill:none;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
          y="495.09543"
          x="-1.7787859"
          height="169.57759"
          width="738.78912"
          id="rect6674-08-2" /></flowRegion><flowPara
-       style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
+       style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
        id="flowPara6676-4-26">Non-Energy Use</flowPara><flowPara
-       style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.2;stroke-dasharray:none;stroke-opacity:1"
-       id="flowPara6678-5-9">13 TWh</flowPara></flowRoot>
-  <flowRoot
+       style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;stroke:none;stroke-width:0;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-opacity:1"
+       id="flowPara6678-5-9">11 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,587.18339,83.21585)"
      style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      id="flowRoot6670-1-3"
@@ -1669,8 +1648,7 @@
        style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
        id="flowPara6676-4-3">Exports</flowPara><flowPara
        style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
-       id="flowPara6678-5-71">896 TWh</flowPara></flowRoot>
-  <flowRoot
+       id="flowPara6678-5-71">931 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,587.70655,190.58499)"
      style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      id="flowRoot6670-1-6"
@@ -1693,8 +1671,7 @@
        id="flowPara7010"
        style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start">and losses</flowPara><flowPara
        style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
-       id="flowPara6678-5-94">277 TWh</flowPara></flowRoot>
-  <flowRoot
+       id="flowPara6678-5-94">266 TWh</flowPara></flowRoot>  <flowRoot
      transform="matrix(0.18346296,0,0,0.18346296,587.15651,249.13881)"
      style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      id="flowRoot6670-1-64"
@@ -1713,5 +1690,4 @@
        style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
        id="flowPara6676-4-8">Final Consumption</flowPara><flowPara
        style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start"
-       id="flowPara6678-5-0">161 TWh</flowPara></flowRoot>
-</svg>
+       id="flowPara6678-5-0">137 TWh</flowPara></flowRoot></svg>
