@@ -35,16 +35,9 @@ GHGTransportOutput <- function(id) {
       column(2, style = "padding:15px",  actionButton(ns("ToggleTable"), "Show/Hide Table", style = "float:right; "))
     ),
     fluidRow(
-      column(12, dataTableOutput(ns("GHGTable"))%>% withSpinner(color="#39ab2c"))),
-    tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"),
-    fluidRow(
       column(2, HTML("<p><strong>Last Updated:</strong></p>")),
       column(2,
-             UpdatedLookup(c("SGQNAS",
-                             "BEISSubNatEnergy",
-                             "BEISSubNatElec",
-                             "BEISSubNatGas",
-                             "BEISLocalRoad"))),
+             UpdatedLookup(c("SGEmissions"))),
       column(1, align = "right",
              HTML("<p><strong>Reason:</strong></p>")),
       column(7, align = "right", 
@@ -54,20 +47,11 @@ GHGTransportOutput <- function(id) {
     fluidRow(
       column(2, HTML("<p><strong>Update Expected:</strong></p>")),
       column(2,
-             DateLookup(c("SGQNAS",
-                        "BEISSubNatEnergy",
-                        "BEISSubNatElec",
-                        "BEISSubNatGas",
-                        "BEISLocalRoad"))),
+             DateLookup(c("SGEmissions"))),
       column(1, align = "right",
              HTML("<p><strong>Sources:</strong></p>")),
       column(7, align = "right",
-        SourceLookup("SGQNAS"),
-        SourceLookup("BEISSubNatEnergy"),
-        SourceLookup("BEISSubNatElec"),
-        SourceLookup("BEISSubNatGas"),
-        SourceLookup("BEISLocalRoad")
-        
+             SourceLookup("SGEmissions")
         
       )
     )

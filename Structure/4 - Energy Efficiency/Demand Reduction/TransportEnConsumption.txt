@@ -1,7 +1,7 @@
-<p><strong>Consumption has</strong> <strong>increased </strong>slightly in the <strong>transport</strong> sector from the 2005-07 baseline, down by <strong>17.7% </strong>to <strong>32.1 TWh </strong>in <strong>2020.</strong></p>
-<p>The <strong>composition </strong>of Scottish transport energy consumption has changed over time. From the baseline to <strong>2020</strong>:</p>
+<p><strong>Consumption has</strong> <strong>increased </strong>slightly in the <strong>transport</strong> sector from the 2005-07 baseline, down by <strong>17.7% </strong>to <strong>36.3 TWh </strong>in <strong>2021.</strong></p>
+<p>The <strong>composition </strong>of Scottish transport energy consumption has changed over time. From the baseline to <strong>2021</strong>:</p>
 <ul>
-<li>Consumption of fuel for <strong>personal road transport </strong>(buses, cars, motorcycles) has <strong>decreased </strong>by <strong>27.1%</strong>. Conversely <strong>freight </strong>has <strong>increased </strong>by <strong>2.7%</strong>.</li>
-<li>Consumption from <strong>diesel </strong>cars has <strong>increased </strong>by <strong>18.8%</strong>, whereas consumption from <strong>petrol</strong> vehicles&nbsp;<strong>dropped </strong>by <strong>45.8%</strong></li>
-<li>Energy consumption from <strong>buses </strong>has <strong>decreased </strong>by <strong>32.7%.</strong></li>
+<li>Consumption of fuel for <strong>personal road transport </strong>(buses, cars, motorcycles) has <strong>decreased </strong>by <strong>18.6%</strong>. Conversely <strong>freight </strong>has <strong>increased </strong>by <strong>18.9%</strong>.</li>
+<li>Consumption from <strong>diesel </strong>cars has <strong>increased </strong>by <strong>38.3%</strong>, whereas consumption from <strong>petrol</strong> vehicles&nbsp;<strong>dropped </strong>by <strong>40.4%</strong></li>
+<li>Energy consumption from <strong>buses </strong>has <strong>decreased </strong>by <strong>35.9%.</strong></li>
 </ul>

@@ -386,7 +386,7 @@ MarketStructure <- function(input, output, session) {
       
       MarketStructureStaticChart <-
         MarketStructureStaticChart +
-        labs(subtitle = "Scotland, March 2022") +
+        labs(subtitle = "Scotland, December 2022") +
         ylim(-0.1,1) +
         scale_x_discrete(limits = rev(levels(MarketStructureStatic$Region)))+
         coord_flip()

@@ -556,7 +556,7 @@ GHGEmissions <- function(input, output, session) {
     p <- plot_ly(data = SectorInventoryPlotData, y = ~ Type) %>%
       add_trace(
         data = SectorInventoryPlotData,
-        x = ~ `transport-excluding-international`,
+        x = ~ `transport`,
         type = 'bar',
         textinfo = 'text',
         textposition = "inside",
@@ -566,7 +566,7 @@ GHGEmissions <- function(input, output, session) {
         width = 0.3,
         orientation = 'h',
         name = "Domestic Transport",
-        text = paste0("Domestic Transport\n", round(SectorInventoryPlotData$`transport-excluding-international`, digits = 1), " MtCO2e"),
+        text = paste0("Domestic Transport\n", round(SectorInventoryPlotData$`transport`, digits = 1), " MtCO2e"),
         hoverinfo = 'text',
         marker = list(color = BarColours[2]),
         legendgroup = 2
