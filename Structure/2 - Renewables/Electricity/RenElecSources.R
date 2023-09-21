@@ -140,28 +140,28 @@ tabsetPanel(
                ),
                fluidRow(
                  column(12, dataTableOutput(ns("RenSourcesTable"))%>% withSpinner(color="#39ab2c"))),
-               tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;")),
-  tabPanel("Wind Summary",
-           fluidRow(
-             column(10, uiOutput(ns("TurbineDataDate"))),
-             column(2, style = "padding:15px",  actionButton(ns("ToggleTable2"), "Show/Hide Tables", style = "float:right; "))
-           ),
-           fluidRow(
-             column(10, h4("All Wind", style = "color: #39ab2c;  font-weight:bold"))
-           ),
-           fluidRow(
-             column(12, dataTableOutput(ns("AllWindTable"))%>% withSpinner(color="#39ab2c"))),
-           fluidRow(
-             column(10, h4("Onshore Wind", style = "color: #39ab2c;  font-weight:bold"))
-           ),
-           fluidRow(
-             column(12, dataTableOutput(ns("OnshoreWindTable"))%>% withSpinner(color="#39ab2c"))),
-           fluidRow(
-             column(10, h4("Offshore Wind", style = "color: #39ab2c;  font-weight:bold"))
-           ),
-           fluidRow(
-             column(12, dataTableOutput(ns("OffshoreWindTable"))%>% withSpinner(color="#39ab2c"))),
-           tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"))),
+               tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"))),
+  # tabPanel("Wind Summary",
+  #          fluidRow(
+  #            column(10, uiOutput(ns("TurbineDataDate"))),
+  #            column(2, style = "padding:15px",  actionButton(ns("ToggleTable2"), "Show/Hide Tables", style = "float:right; "))
+  #          ),
+  #          fluidRow(
+  #            column(10, h4("All Wind", style = "color: #39ab2c;  font-weight:bold"))
+  #          ),
+  #          fluidRow(
+  #            column(12, dataTableOutput(ns("AllWindTable"))%>% withSpinner(color="#39ab2c"))),
+  #          fluidRow(
+  #            column(10, h4("Onshore Wind", style = "color: #39ab2c;  font-weight:bold"))
+  #          ),
+  #          fluidRow(
+  #            column(12, dataTableOutput(ns("OnshoreWindTable"))%>% withSpinner(color="#39ab2c"))),
+  #          fluidRow(
+  #            column(10, h4("Offshore Wind", style = "color: #39ab2c;  font-weight:bold"))
+  #          ),
+  #          fluidRow(
+  #            column(12, dataTableOutput(ns("OffshoreWindTable"))%>% withSpinner(color="#39ab2c"))),
+  #          tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;"))),
 fluidRow(
   column(2, HTML("<p><strong>Last Updated:</strong></p>")),
   column(2,
@@ -1877,7 +1877,7 @@ RenElecSources <- function(input, output, session) {
     
     TechTableOutput <- head(TechTable, -1)
     
-    names(TechTableOutput)[2] <- "Generation - 2021 (GWh)"
+    names(TechTableOutput)[2] <- "Generation - 2022 (GWh)"
     
     TechTableOutput[2:7] %<>% lapply(function(x)
       as.numeric(as.character(x)))
