@@ -659,7 +659,7 @@ EnProd <- function(input, output, session) {
       EnProdHist <- as.data.frame(EnProdHist)
       
       plottitle <- "Estimated change in energy productivity"
-      sourcecaption <- "Source: BEIS, SG"
+      sourcecaption <- "Source: DESNZ, SG"
       ChartColours <- c("#1a5d38", "#FF8500")
       
       

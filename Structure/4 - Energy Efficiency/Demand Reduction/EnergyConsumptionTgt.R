@@ -307,7 +307,7 @@ EnConsumptionTgt <- function(input, output, session) {
       EnCons <- Data
       ### Variables
       ChartColours <- c("#34d1a3", "#FF8500")
-      sourcecaption = "Source: BEIS"
+      sourcecaption = "Source: DESNZ"
       plottitle = "Final energy consumption against\n2005-07 baseline"
       
       EnConsChart <-

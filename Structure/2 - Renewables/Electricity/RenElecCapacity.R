@@ -94,7 +94,7 @@ RenElecCapacityOutput <- function(id) {
                ),
                fluidRow(
                  column(12, dataTableOutput(ns("RenElecBreakdownCapTable"))%>% withSpinner(color="#39ab2c"))),
-               HTML("<blockquote><p>*due to an administrative error, onshore and offshore wind capacity was overstated and has been revised down for 2020. BEIS will finalise revisions of previous years in June</p></blockquote>"),
+               HTML("<blockquote><p>*due to an administrative error, onshore and offshore wind capacity was overstated and has been revised down for 2020. DESNZ will finalise revisions of previous years in June</p></blockquote>"),
                tags$hr(style = "height:3px;border:none;color:#39ab2c;background-color:#39ab2c;")),
       tabPanel("Capacity by installation size",
                fluidRow(
@@ -178,7 +178,7 @@ RenElecCapacity <- function(input, output, session) {
     
     Data <- read_delim("Processed Data/Output/Quarter Capacity/QTRCapacityScotland.txt", 
                        "\t", escape_double = FALSE, trim_ws = TRUE)
-    Data <- Data[c(1,15)]
+    Data <- Data[c(1,16)]
     
     names(Data) <- c("Year", "Capacity")
     
@@ -195,7 +195,7 @@ RenElecCapacity <- function(input, output, session) {
     
     Data <- read_delim("Processed Data/Output/Quarter Capacity/QTRCapacityScotland.txt", 
                           "\t", escape_double = FALSE, trim_ws = TRUE)
-    Data <- Data[c(1,15)]
+    Data <- Data[c(1,16)]
     
     names(Data) <- c("Year", "Capacity")
     
@@ -210,7 +210,7 @@ RenElecCapacity <- function(input, output, session) {
     ### variables
     ChartColours <- c("#39ab2c", "#238b45", "#a1d99b")
     LineColours <- c("#39ab2c", "#238b45", "#a1d99b")
-    sourcecaption = "Source: BEIS"
+    sourcecaption = "Source: DESNZ"
     plottitle = "Operational renewable capacity"
     
     
@@ -282,9 +282,9 @@ RenElecCapacity <- function(input, output, session) {
     Data <- read_delim("Processed Data/Output/Quarter Capacity/QTRCapacityScotland.txt", 
                             "\t", escape_double = FALSE, trim_ws = TRUE)
     
-    names(Data) <- c("Date", "Wind Onshore", "Wind Offshore - Seabed", "Wind Offshore - Floating",  "Shoreline wave / tidal", "Solar P.V.", "Small Hydro", "Large Hydro", "Landfill Gas", "Sewage", "Waste", "Animal Biomass", "Anaerobic Digestion", "Plant", "Total")
+    names(Data) <- c("Date", "Wind Onshore", "Wind Offshore - Seabed", "Wind Offshore - Floating",  "Shoreline wave / tidal", "Solar P.V.", "Small Hydro", "Large Hydro", "Landfill Gas", "Sewage", "Waste", "Animal Biomass", "Anaerobic Digestion", "Plant", "Liquid Biofuels", "Total")
     
-    Data[2:15]%<>% lapply(function(x)
+    Data[2:16]%<>% lapply(function(x)
       as.numeric(as.character(x)))
     
     Data$`Bioenergy and Waste` <- Data$`Landfill Gas` + Data$Waste + Data$`Anaerobic Digestion` + Data$`Animal Biomass` + Data$Plant + Data$Sewage
@@ -304,7 +304,7 @@ RenElecCapacity <- function(input, output, session) {
     names(Data)[1] <- "Quarter"
     
     datatable(
-      Data[c(1:8,10,9)],
+      Data[c(1:9,11,10)],
       extensions = 'Buttons',
       
       rownames = FALSE,
@@ -381,7 +381,7 @@ RenElecCapacity <- function(input, output, session) {
   Date <-     {Data <- read_delim("Processed Data/Output/Quarter Capacity/QTRCapacityScotland.txt", 
                                "\t", escape_double = FALSE, trim_ws = TRUE)
   
-  names(Data) <- c("Date", "Wind Onshore", "Wind Offshore - Seabed", "Wind Offshore - Floating", "Shoreline wave / tidal", "Solar Photovoltaics", "Small Hydro", "Large Hydro", "Landfill Gas", "Sewage", "Waste", "Animal Biomass", "Anaerobic Digestion", "Plant", "Total")
+  names(Data) <- c("Date", "Wind Onshore", "Wind Offshore - Seabed", "Wind Offshore - Floating", "Shoreline wave / tidal", "Solar Photovoltaics", "Small Hydro", "Large Hydro", "Landfill Gas", "Sewage", "Waste", "Animal Biomass", "Anaerobic Digestion", "Plant","Liquid Biofuels", "Total")
   
   Data <- tail(Data, 1)
   
@@ -1047,7 +1047,7 @@ RenElecCapacity <- function(input, output, session) {
                                        "\t", escape_double = FALSE, trim_ws = TRUE)
       
       
-      RenElecOperational <- RenElecOperational[c(1, 15)]
+      RenElecOperational <- RenElecOperational[c(1, 16)]
       
       names(RenElecOperational) <- c("Year", "Total")
       
@@ -1071,7 +1071,7 @@ RenElecCapacity <- function(input, output, session) {
       ### variables
       ChartColours <- c("#39ab2c", "#238b45", "#a1d99b")
       LineColours <- c("#39ab2c", "#238b45", "#a1d99b")
-      sourcecaption = "Source: BEIS"
+      sourcecaption = "Source: DSNEZ"
       plottitle = "Operational renewable capacity"
       
       #RenElecOperational$CavityPercentage <- PercentLabel(RenElecOperational$Cavity)
