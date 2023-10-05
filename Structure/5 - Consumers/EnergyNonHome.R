@@ -164,12 +164,13 @@ EnergyNonHome <- function(input, output, session) {
     names(ElecNonHome)[1] <- "Quarter"#
     
     ElecNonHome <- ElecNonHome[complete.cases(ElecNonHome),]
-    
-    ElecNonHome$Quarter <- as.Date(as.numeric(ElecNonHome$Quarter), origin = "1899-12-30")
+  
     
     ElecNonHome$Quarter <- as.character(as.yearqtr(ElecNonHome$Quarter))
     
     paste("Scotland,", min(ElecNonHome$Quarter),"-", max(ElecNonHome$Quarter))
+    
+  
   })
   
   output$ElecNonHomePlot <- renderImage({
@@ -253,7 +254,7 @@ EnergyNonHome <- function(input, output, session) {
     
     ElecNonHome <- ElecNonHome[complete.cases(ElecNonHome),]
     
-    ElecNonHome$Quarter <- as.Date(as.numeric(ElecNonHome$Quarter), origin = "1899-12-30")
+
     
     ElecNonHome$Quarter <- as.character(as.yearqtr(ElecNonHome$Quarter))
     

@@ -1,14 +1,14 @@
 <p>It is possible to break down the reduction of Scotland&rsquo;s total energy consumption by <span style="text-decoration: underline;"><strong>sector</strong></span>.</p>
 <ul>
-<li>Energy consumption in <strong>industry </strong>makes up approximately a third of all Scottish consumption (<strong>40.6 TWh</strong>). This is a <strong>24.0% reduction</strong> from the 2005-07 baseline, and <strong>0.8%</strong> up on <strong>2019</strong>.&nbsp;&nbsp;</li>
-<li>Energy consumption in the <strong>domestic sector </strong>is <strong>43.6</strong><strong>&nbsp;TWh</strong>.&nbsp; This is a <strong>decrease</strong> of <strong>15.7%</strong> from <strong>2005-07</strong>, which may reflect improvements in energy efficiency in the domestic building stock in this time.&nbsp;&nbsp;</li>
-<li>Consumption in the <strong>commercial </strong>sector <strong>fell </strong>by <strong>14.3% </strong>from the baseline to <strong>20.0 TWh </strong>in <strong>2020.&nbsp;&nbsp;</strong></li>
+<li>Energy consumption in <strong>industry </strong>makes up approximately a third of all Scottish consumption (<strong>38.6 TWh</strong>). This is a <strong>29.2% reduction</strong> from the 2005-07 baseline, down <strong>4.8%</strong> up on <strong>2020</strong>.&nbsp;&nbsp;</li>
+<li>Energy consumption in the <strong>domestic sector </strong>is <strong>41.8</strong><strong>&nbsp;TWh</strong>.&nbsp; This is a <strong>decrease</strong> of <strong>19.0%</strong> from <strong>2005-07</strong>, which may reflect improvements in energy efficiency in the domestic building stock in this time.&nbsp;&nbsp;</li>
+<li>Consumption in the <strong>commercial </strong>sector <strong>fell </strong>by <strong>12.0% </strong>from the baseline to <strong>20.6 TWh </strong>in <strong>2021.&nbsp;&nbsp;</strong></li>
 </ul>
 <p>The changes in consumption of different <span style="text-decoration: underline;"><strong>fuels</strong></span> in Scotland has also changed over time:&nbsp;</p>
 <ul>
-<li><strong>Petroleum</strong> products continue to make up the biggest proportion of Scotland's energy fuel mix,<strong> 57.3 TWh</strong> in <strong>2020</strong>, <strong>down</strong> <strong>22.6%</strong> from the <strong>2005-07</strong> baseline, and <strong>down 11.8%</strong> on <strong>2019</strong>.</li>
-<li><strong>Gas</strong> comprises about a third of all consumption (<strong>48.6 TWh</strong>), down <strong>18.7%</strong> from <strong>2005-07</strong></li>
-<li>Scotland consumes <strong>22.7 TWh</strong> of <strong>electricity</strong>, <strong>down 22.5%</strong> from the baseline</li>
-<li>Consumption of <strong>coal</strong> decreased the most in comparison to <strong>2005/07</strong>, <strong>dropping 62.1% </strong>to <strong>0.7&nbsp;TWh</strong>.&nbsp;</li>
-<li>The only fuel type where consumption <strong>increased</strong> is <strong>bioenergy</strong> and <strong>energy from waste</strong>, which has more than tripled between 2005-07 and 2020 (<strong>6.9 TWh</strong>).&nbsp;</li>
+<li><strong>Petroleum</strong> products continue to make up the biggest proportion of Scotland's energy fuel mix,<strong> 59.9 TWh</strong> in <strong>2021</strong>, down <strong>19.8%</strong> from the <strong>2005-07</strong> baseline, and <strong>up 7.5%</strong> on <strong>2020</strong>.</li>
+<li><strong>Gas</strong> comprises about a third of all consumption (<strong>47.0 TWh</strong>), down <strong>21.4%</strong> from <strong>2005-07</strong></li>
+<li>Scotland consumes <strong>22.9 TWh</strong> of <strong>electricity</strong>, <strong>down 21.7%</strong> from the baseline</li>
+<li>Consumption of <strong>coal</strong> decreased the most in comparison to <strong>2005/07</strong>, <strong>dropping 55.5% </strong>to <strong>0.8 TWh</strong>.&nbsp;</li>
+<li>The only fuel type where consumption <strong>increased</strong> is <strong>bioenergy</strong> and <strong>energy from waste</strong>, which has almost quadrupled between 2005-07 and 2021 (<strong>6.6 TWh</strong>).&nbsp;</li>
 </ul>
