@@ -371,9 +371,9 @@ HeatConsumption <- function(input, output, session) {
         pageLength = 10
       )
     ) %>%
-      formatRound(2:6, 0)%>% 
-      formatStyle(c(6), fontWeight = 'bold') %>% 
-      formatStyle(c(4:5), fontStyle = 'italic')
+      formatRound(2:5, 0)%>% 
+      formatStyle(c(5), fontWeight = 'bold')
+     
   })
   
   

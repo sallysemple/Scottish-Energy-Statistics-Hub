@@ -1,13 +1,13 @@
 "Tech"	"Urban On-grid"	"Urban Off-grid"	"Rural Off-grid"	"Rural On-grid"	"Total Urban"	"Total Rural"	"Total on-grid"	"Total off-grid"	"Total"
-"Small Solid Biomass Boiler (< 200 kW)"	275	71	1979	229	346	2208	504	2050	2554
-"Medium Solid Biomass Boiler (200-1000 kW)"	151	34	662	101	185	763	252	696	948
-"Large Solid Biomass Boiler (> 1000 kW)"	10	2	16	9	12	25	19	18	37
-"Small Solar Thermal (< 200 kW)"	11	4	23	6	15	29	17	27	44
-"Small Water or Ground Source Heat Pumps (< 100 kW)"	13	75	92	12	88	104	25	167	192
-"Large Water or Ground Source Heat Pumps (>100 kW)"	11	3	37	8	14	45	19	40	59
-"Biomethane"	3	0	10	16	3	26	19	10	29
-"Biogas"	7	2	89	40	9	129	47	91	138
-"Air Source Heat Pumps"	22	7	73	7	29	80	29	80	109
-"CHP"	3	0	7	3	3	10	6	7	13
+"Small Solid Biomass Boiler (< 200 kW)"	280	69	1970	234	349	2204	514	2039	2553
+"Medium Solid Biomass Boiler (200-1000 kW)"	149	33	676	108	182	784	257	709	966
+"Large Solid Biomass Boiler (> 1000 kW)"	10	2	18	10	12	28	20	20	40
+"Small Solar Thermal (< 200 kW)"	11	4	23	8	15	31	19	27	46
+"Small Water or Ground Source Heat Pumps (< 100 kW)"	18	77	122	13	95	135	31	199	230
+"Large Water or Ground Source Heat Pumps (>100 kW)"	11	3	37	9	14	46	20	40	60
+"Biomethane"	3	0	10	17	3	27	20	10	30
+"Biogas"	9	2	88	39	11	127	48	90	138
+"Air Source Heat Pumps"	23	14	83	13	37	96	36	97	133
+"CHP"	3	0	5	3	3	8	6	5	11
 "Deep Geothermal"	0	0	0	0	0	0	0	0	0
-"Total"	506	198	2988	431	704	3419	937	3186	4123
+"Total"	517	204	3032	454	721	3486	971	3236	4207
